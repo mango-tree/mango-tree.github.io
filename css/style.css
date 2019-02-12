@@ -520,7 +520,6 @@ body {
   text-decoration: none;
   font-size: 2em;
   font-weight: 100;
-  overflow: scroll;
   color: #555;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
