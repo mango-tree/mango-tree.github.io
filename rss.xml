@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://mingyu.kim</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 01 May 2023 16:44:55 GMT</lastBuildDate><item><title><![CDATA[Three.js 에서 dispose()는 어떻게 작동할까?]]></title><description><![CDATA[threejs에서 dispose를 안 하면 gc가 제대로 수거하지 못 한다. dispose() 명령어를 이용해서 명시적으로 제거해야 한다.
+링크 기하학은 속성 집합으로 정의된 꼭짓점 정보를 표시하는데, three.js…]]></description><link>https://mingyu.kim/threejs-dispose/</link><guid isPermaLink="false">https://mingyu.kim/threejs-dispose/</guid><pubDate>Fri, 28 Apr 2023 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;threejs에서 dispose를 안 하면 gc가 제대로 수거하지 못 한다. dispose() 명령어를 이용해서 명시적으로 제거해야 한다.
+&lt;a href=&quot;https://threejs.org/docs/#manual/ko/introduction/How-to-dispose-of-objects&quot;&gt;링크&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;기하학은 속성 집합으로 정의된 꼭짓점 정보를 표시하는데, three.js는 속성마다 하나의 WebGLBuffer 유형의 대상을 만들어 내부에 저장합니다. 이러한 개체는 BufferGeometry.dispose를 호출할 때만 폐기됩니다. 만약 애플리케이션에서 기하학을 더이상 사용하지 않는다면, 이 방법을 실행하여 모든 관련 자원을 폐기하세요.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;왜 Three.js에서는 dispose()를 해야만 지울 수 있는걸까? Three.js에서 dispose()를 하면 어떤 일이 일어날까?&lt;/p&gt;
+&lt;h2&gt;dispose()&lt;/h2&gt;
+&lt;p&gt;대부분의 만들어져 있는 Object 코드들을 보면, dispose() 함수에 다음과 같이 오버라이딩을 한다.&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;js&quot;  &gt;
+          &lt;code slot=&quot;code&quot;&gt;// src/helpers/Box3Helper.js
+  dispose() {
+    this.geometry.dispose();
+    this.material.dispose();
+  }&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;각각의 geometry와 material에 dispose()를 실행하는데, geometry부터 확인해 보자.&lt;/p&gt;
+&lt;h2&gt;Geometry&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;src/core/BufferGeometry.js&lt;/code&gt;를 보면,&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;js&quot;  &gt;
+          &lt;code slot=&quot;code&quot;&gt;dispose() {
+  this.dispatchEvent( { type: &amp;#39;dispose&amp;#39; } );
+}&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;다음과 같이 dispose 이벤트를 dispatch한다.
+그럼 어디서 저 이벤트를 받을까?&lt;/p&gt;
+&lt;p&gt;찾아보니 다음과 같은 파일들에서 이벤트를 받고 있다:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;src/renderers/WebGLRenderer.js&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;src/renderers/webgl/WebGLCubeMaps.js&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;src/renderers/webgl/WebGLCubeUVMaps.js&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;src/renderers/webgl/WebGLGeometries.js&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;src/renderers/webgl/WebGLMorphtargets.js&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;src/renderers/webgl/WebGLObjects.js&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;src/renderers/webgl/WebGLTextures.js&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;src/renderers/webgl/WebGLUniformsGroups.js&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;그 중 geometry는 WebGLGeometries.js에서 관리한다:&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;js&quot;  &gt;
+          &lt;code slot=&quot;code&quot;&gt;// src/renderers/webgl/WebGLGeometries.js
+
+function WebGLGeometries( gl, attributes, info, bindingStates ) {
+
+  const geometries = {};
+  const wireframeAttributes = new WeakMap();
+
+  function get( object, geometry ) {
+    if ( geometries[ geometry.id ] === true ) return geometry;
+    geometry.addEventListener( &amp;#39;dispose&amp;#39;, onGeometryDispose );
+    geometries[ geometry.id ] = true;
+    info.memory.geometries ++;
+    return geometry;
+  }
+
+  function onGeometryDispose( event ) {
+    const geometry = event.target;
+    if ( geometry.index !== null ) {
+      attributes.remove( geometry.index );
+    }
+    for ( const name in geometry.attributes ) {
+      attributes.remove( geometry.attributes[ name ] );
+    }
+
+    geometry.removeEventListener( &amp;#39;dispose&amp;#39;, onGeometryDispose );
+
+    delete geometries[ geometry.id ];
+    const attribute = wireframeAttributes.get( geometry );
+    if ( attribute ) {
+      attributes.remove( attribute );
+      wireframeAttributes.delete( geometry );
+    }
+    bindingStates.releaseStatesOfGeometry( geometry );
+    if ( geometry.isInstancedBufferGeometry === true ) {
+      delete geometry._maxInstanceCount;
+    }
+    //
+    info.memory.geometries --;
+  }
+
+...&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;내부 &lt;code&gt;geometries&lt;/code&gt;와 &lt;code&gt;wireframeAttributes&lt;/code&gt;에서 값을 제거하고,
+그리고 &lt;code&gt;bindingStates.releaseStatesOfGeometry()&lt;/code&gt;를 호출한다.&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;js&quot;  &gt;
+          &lt;code slot=&quot;code&quot;&gt;// src/renderers/webgl/WebGLBindingStates.js
+
+  function releaseStatesOfGeometry( geometry ) {
+    if ( bindingStates[ geometry.id ] === undefined ) return;
+    const programMap = bindingStates[ geometry.id ];
+    for ( const programId in programMap ) {
+      const stateMap = programMap[ programId ];
+      for ( const wireframe in stateMap ) {
+        deleteVertexArrayObject( stateMap[ wireframe ].object );
+        delete stateMap[ wireframe ];
+      }
+      delete programMap[ programId ];
+    }
+    delete bindingStates[ geometry.id ];
+  }
+
+  function deleteVertexArrayObject( vao ) {
+    if ( capabilities.isWebGL2 ) return gl.deleteVertexArray( vao );
+    return extension.deleteVertexArrayOES( vao );
+  }&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;&lt;code&gt;releaseStatesOfGeometry()&lt;/code&gt;에서 바인딩 되어있는 &lt;code&gt;programMap&lt;/code&gt;을 제거하고,
+&lt;code&gt;deleteVertexArray()&lt;/code&gt;를 호출해서 vertex를 제거한다(WebGL API이다)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;이 부분이 중요, 크롬 기준으로 &lt;code&gt;delete bindingStates[ geometry.id ];&lt;/code&gt;로 bindingStates 안에서 지우기만 해도 메모리 누수가 생기지 않는다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Material&lt;/h2&gt;
+&lt;p&gt;Material은 어떨까?
+똑같이 dispatchEvent()를 트리거한다.&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;js&quot;  &gt;
+          &lt;code slot=&quot;code&quot;&gt;// src/materials/Material.js
+  dispose() {
+    this.dispatchEvent( { type: &amp;#39;dispose&amp;#39; } );
+  }&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;그리고 &lt;code&gt;src/renderers/WebGLRenderer.js&lt;/code&gt; 에서 받는다.&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;js&quot;  &gt;
+          &lt;code slot=&quot;code&quot;&gt;// src/renderers/WebGLRenderer.js
+  function onMaterialDispose( event ) {
+    const material = event.target;
+    material.removeEventListener( &amp;#39;dispose&amp;#39;, onMaterialDispose );
+    deallocateMaterial( material );
+  }
+
+  // Buffer deallocation
+  function deallocateMaterial( material ) {
+    releaseMaterialProgramReferences( material );
+    properties.remove( material );
+  }
+
+  function releaseMaterialProgramReferences( material ) {
+    const programs = properties.get( material ).programs;
+    if ( programs !== undefined ) {
+      programs.forEach( function ( program ) {
+        programCache.releaseProgram( program );
+      } );
+      if ( material.isShaderMaterial ) {
+        programCache.releaseShaderCache( material );
+      }
+    }
+  }&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;properties: &lt;code&gt;src/renderers/webgl/WebGLProperties.js&lt;/code&gt; 에서 import한 &lt;code&gt;WebGLProperties()&lt;/code&gt;이며, WeakMap이다.&lt;/p&gt;
+&lt;p&gt;WeakMap은 Map처럼 key-value object인데, key에는 객체 또는 등록되지 않은 symbol이어야 한다는 점이 큰 차이점이다.
+그리고 WeakMap에서 참조하고 있는 key는 gc 수집 대상이다.
+따라서 WeakMap에서만 참고하고 있는 객체는 gc한테 수거당한다.&lt;/p&gt;
+&lt;p&gt;해당 material이 있는 program의 캐시를 지우고, shader cache까지 지우는 걸 확인할 수 있다(&lt;code&gt;WebGLShaderCache&lt;/code&gt; 안에서 &lt;code&gt;Map&lt;/code&gt;으로 관리하고 있다).&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;js&quot;  &gt;
+          &lt;code slot=&quot;code&quot;&gt;// src/renderers/webgl/WebGLPrograms.js
+programs = []
+...
+function releaseProgram( program ) {
+  if ( -- program.usedTimes === 0 ) {
+    // Remove from unordered set
+    const i = programs.indexOf( program );
+    programs[ i ] = programs[ programs.length - 1 ];
+    programs.pop();
+
+    // Free WebGL resources
+    program.destroy();
+  }
+}&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;위와 같은 방법으로 리스트에서 제거한다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;splice()&lt;/code&gt; 보다 이 방법이 더 빨라서 해당 방법으로 제거하는 것으로 보인다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;deckgo-highlight-code language=&quot;js&quot;  &gt;
+          &lt;code slot=&quot;code&quot;&gt;// src/renderers/webgl/WebGLProgram.js
+
+this.destroy = function () {
+
+  bindingStates.releaseStatesOfProgram( this );
+
+  gl.deleteProgram( program );
+  this.program = undefined;
+
+};&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;program.destry()에선 gl.deleteProgram()을 호출한다(WebGL API이다).&lt;/p&gt;
+&lt;h2&gt;Object&lt;/h2&gt;
+&lt;deckgo-highlight-code language=&quot;js&quot;  &gt;
+          &lt;code slot=&quot;code&quot;&gt;// src/renderers/webgl/WebGLObjects.js
+function dispose() {
+  updateMap = new WeakMap();
+}
+
+function onInstancedMeshDispose( event ) {
+  const instancedMesh = event.target;
+  instancedMesh.removeEventListener(
+    &amp;#39;dispose&amp;#39;, onInstancedMeshDispose
+  );
+  attributes.remove( instancedMesh.instanceMatrix );
+  if ( instancedMesh.instanceColor !== null ) {
+    attributes.remove( instancedMesh.instanceColor );
+  }
+}&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;h2&gt;Control&lt;/h2&gt;
+&lt;deckgo-highlight-code language=&quot;js&quot;  &gt;
+          &lt;code slot=&quot;code&quot;&gt;// OrbitControls.js
+this.dispose = function () {
+  scope.domElement.removeEventListener( &amp;#39;contextmenu&amp;#39;, onContextMenu );
+
+  scope.domElement.removeEventListener( &amp;#39;pointerdown&amp;#39;, onPointerDown );
+  scope.domElement.removeEventListener( &amp;#39;pointercancel&amp;#39;, onPointerUp );
+  scope.domElement.removeEventListener( &amp;#39;wheel&amp;#39;, onMouseWheel );
+
+  scope.domElement.removeEventListener( &amp;#39;pointermove&amp;#39;, onPointerMove );
+  scope.domElement.removeEventListener( &amp;#39;pointerup&amp;#39;, onPointerUp );
+
+
+  if ( scope._domElementKeyEvents !== null ) {
+
+    scope._domElementKeyEvents.removeEventListener( &amp;#39;keydown&amp;#39;, onKeyDown );
+    scope._domElementKeyEvents = null;
+
+  }
+
+  //scope.dispatchEvent( { type: &amp;#39;dispose&amp;#39; } ); // should this be added here?
+
+};&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;control 관련 코드들에서는 추가적으로 removeEventListener()를 호출해서 정리한다.&lt;/p&gt;
+&lt;h2&gt;결론&lt;/h2&gt;
+&lt;p&gt;geometry의 경우 내부 &lt;code&gt;geometries&lt;/code&gt; array와, &lt;code&gt;WebGLBindingStates&lt;/code&gt;의 내부 프로퍼티 &lt;code&gt;bindingStates&lt;/code&gt;에 있는 &lt;code&gt;programMap&lt;/code&gt;을 지우고,&lt;/p&gt;
+&lt;p&gt;material의 경우 관련 정보는 다 WeakMap()에 저장되어 있고, dispose를 할 때도 program cache와 shader cache에서 값을 삭제한다.&lt;/p&gt;
+&lt;p&gt;따라서 dispose()를 한 뒤 다시 사용해도 런타임 에러는 발생하지 않는다(캐시에 없기 때문에 다시 만들 뿐).&lt;/p&gt;
+&lt;p&gt;Spector.js 등으로 찍어보면 geometry, texture를 dispose 안 한 경우 어떤 일이 일어나는지 쉽게 확인 가능하다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 519px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/03a1f09b9defd398d5c9e9e18c275989/b23ad/spector.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 123.41772151898734%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAYAAAAxFw7TAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACGUlEQVR42qVU2XLiMBD0hwTQLcvG+HY2sAkJmDXXxuQols3//0dvWQae9iXiYcrSaKqlnum2J/wAwoSQ4QTCjMG1sXsbl7U2/bkfQgRdjW9r7bkfQnY5qUApgSfDGDrOoZMSpniAmmTQaQk/u4eKUuikgI4L+MW0X6dlX5MU9lzFua2VYQShfHiMc4gohxgnGA6HoITYm/ov7dd2P/pPnl5zjFIwxuEJzhDHMaqfc8ye5lBB2FPq6Hw7fHiaEZRG4Nd6g6+vvzDGB+luZMwpPEkJslBjs9uhfX2FUvIK2FP6XniSERRjje3+N3a7LYLA3PjCjnKgsFzWOBxalGWB4XB0G2BulKV8Op1wX5V22s6AqqNsJFZNg/f3N2RZitFodO3htwE1p5jqEep6ic/jES/P8yug0wsFowjoAGk8QVXkiKLIipU5TNhOmTIOPk5BTQQaxCBc9Ldx7hTWKZM4wcNzjeliBdUZXWmrepewTikMx7pp8Pl2QJFn5ylTd2GnRmK5qtG2B1RVedtQOtnkgcJ6s8Of49ECXnToJBtrvc7Lmx32+z1ms+ltL7w4ZVmv8PH5gbpegJAbKXdebpo1Doc3rOr6xh5yih+aYLFYoG1bbLdbCMGd+nemTBGx3inz+RMenx4hpXAH7JxCgwmIDjEgDIO7Oyf9XXVonZJkqF4aJNXD2SXG3SndzyGUDFmWIYrGII5UL5T/AcW71ifM7fUJAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;spector.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/03a1f09b9defd398d5c9e9e18c275989/b23ad/spector.png&quot;
+        srcset=&quot;/static/03a1f09b9defd398d5c9e9e18c275989/c26ae/spector.png 158w,
+/static/03a1f09b9defd398d5c9e9e18c275989/6bdcf/spector.png 315w,
+/static/03a1f09b9defd398d5c9e9e18c275989/b23ad/spector.png 519w&quot;
+        sizes=&quot;(max-width: 519px) 100vw, 519px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;의문이 하나 드는데, scene에서 없어진 material은 weakmap 외의 어느 곳에서도 참조되고 있지 않기 때문에, gc가 수거해가지 않나? 하는 점이다.
+실제로 three.js example 중 memory test를 돌릴 때, geometry만 dispose()해 줘도
+chrome expector에서 메모리 누수가 발생하는 것으로 보이지 않았다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/68b5ee69bbcb588e0215ebecdefdf4ba/29114/no_dispose_material_.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.139240506329116%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABR0lEQVR42m2SW08CMRSE+f//wgffTYw3RNEXA0SiYAIoGgV2uS1sF9ql7fYypiULC2GS5qRt+mV65pSkMlBKwVoLJ1eLKz9zklIijglWlCGhKUiSIooZ4hUFoQxLkqCEgoqQY7gTFwL94Rg/QYhw9IfBYohwOcB0EmI2ixCROUonHZk1rCEHYKcNF7hp9nH12kOtVsd1p45K5wWNZguN91+0g2DrsAgz+huSn0PyM+iscQDkXODpY4T7ToByb4Jqd4q79hSPX2NUPkd47BaA20qhZNmDtHpDJm9h9HDnVAiB+SIGZQyMUWz4BkJwcM79ndsfAI2JoOQDtGpBqzaUfIbW/fzj/tFkFoEka1CW+ha4vrJ044MiK3rs0HpIJi6QiUvv0FqGPCchpE/6WO6dMQbG2H3Ke6iEympQsroLpjg2UmYnJyDXPyDAZ9B7rwiZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;no_dispose_material.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/68b5ee69bbcb588e0215ebecdefdf4ba/f058b/no_dispose_material_.png&quot;
+        srcset=&quot;/static/68b5ee69bbcb588e0215ebecdefdf4ba/c26ae/no_dispose_material_.png 158w,
+/static/68b5ee69bbcb588e0215ebecdefdf4ba/6bdcf/no_dispose_material_.png 315w,
+/static/68b5ee69bbcb588e0215ebecdefdf4ba/f058b/no_dispose_material_.png 630w,
+/static/68b5ee69bbcb588e0215ebecdefdf4ba/40601/no_dispose_material_.png 945w,
+/static/68b5ee69bbcb588e0215ebecdefdf4ba/78612/no_dispose_material_.png 1260w,
+/static/68b5ee69bbcb588e0215ebecdefdf4ba/29114/no_dispose_material_.png 1920w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a6b0bdea2b4fa6d18b3856335f541c3a/29114/no_dispose.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 44.30379746835443%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABOUlEQVR42nWSC2uDMBzE/f5fq4ONsYJbO2i3UfAVtGoexkcSG2+k1j5se/AnIZBfjst5yhxgjIHTMAx3M507aa1RFgWEqMCrGoxJZHmFggqUvEJeMng4aX55/oCTUgq7OMWOEERJgLCMENMIaZ4gzffYsxTeIyfHMzvcQCfg8ucXH5stkvUKfvAFP/CxWX1jvUzw+ZeNDq8vWRdBIWFyCduZm4cc0A9DvEUhFkGMxY7gNSB4CWK8kxh+mlyA09rzFqas0bMGPW0w9BZTCJ1SCEmBPeUgNEPZlKgURWMYGsMhNZ0BezuCRItedMe91f05U/cpJM1AGUctG7StQttqSNmBixqUyQcOxehwcjnYi0MH7Dp1jshOq7U4nOb+lw92BBbymOe8NsbouzZcy3tWmXl1JqCbZ5118w8iDbvG/fy5GQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;no_dispose.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/a6b0bdea2b4fa6d18b3856335f541c3a/f058b/no_dispose.png&quot;
+        srcset=&quot;/static/a6b0bdea2b4fa6d18b3856335f541c3a/c26ae/no_dispose.png 158w,
+/static/a6b0bdea2b4fa6d18b3856335f541c3a/6bdcf/no_dispose.png 315w,
+/static/a6b0bdea2b4fa6d18b3856335f541c3a/f058b/no_dispose.png 630w,
+/static/a6b0bdea2b4fa6d18b3856335f541c3a/40601/no_dispose.png 945w,
+/static/a6b0bdea2b4fa6d18b3856335f541c3a/78612/no_dispose.png 1260w,
+/static/a6b0bdea2b4fa6d18b3856335f541c3a/29114/no_dispose.png 1920w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt; (비교용 - dispose를 하지 않았을 때)&lt;/p&gt;
+&lt;p&gt;WebGL spector 등으로 찍어봐도 &lt;code&gt;material.dispose();&lt;/code&gt; 만 주석처리 한 경우에는 메모리에 별 다른 변화를 확인할 수 없었다. BasicMaterial이라 그런가 싶다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 520px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0a5e920cb16b9a538b5c017806731dc7/69902/spector_no_dispose_material.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 124.0506329113924%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAYAAAAxFw7TAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABr0lEQVR42q1VyXajMBDkQyZBS2sBJEAotvEyp7nM//9QzWsZj5OXl4vwoWg2lVrq6lJjQoJfVrjlBH+4woQZLh3g8wo3Zbh0hJ0yfL7ApVP5147LFtP2bQX5HkprNOQ8TBdA3fCE759xg+kjyA93uO4ZH2NcB20sGqUUXD6XTPgFz6I0fYr06Vn/8F1DEUGTQUNKIsceYV6gyEBbV4hr0ZBscRws5jmhfX+HkhJyBxotBXJvMU4T2rYFb8EeNEa2OEeHOS3/CXmmakItJVavMMYAKcQuskLIF7IWxMWwbstQ1O8hExRxsrjTsWiKy19dZSMF1rHD5fYbUuldkimEjyqv6wohxC7JlCWTFDgEh/PlUghfIBuBc7C43m67K3yXDbeeaZHnCXwvtyxryRvJg/0A6e6OwhV+kNW1npIYU0Y43eDmD5g+gC2tWFMFyh4eesIYI9q3X1BqZ6ewbD6G771cLZuS4eAwTvNrzIF1eA0WKS2v0SEb6kgC3trNXNUuk20knwdxgY4Z2vXFaXZlyGfKFCOuf/4iHVcosiDf1cuGdei0RAgDvPdfOqVmyf8AwgjGvhUsiLsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;spector_no_dispose_material.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/0a5e920cb16b9a538b5c017806731dc7/69902/spector_no_dispose_material.png&quot;
+        srcset=&quot;/static/0a5e920cb16b9a538b5c017806731dc7/c26ae/spector_no_dispose_material.png 158w,
+/static/0a5e920cb16b9a538b5c017806731dc7/6bdcf/spector_no_dispose_material.png 315w,
+/static/0a5e920cb16b9a538b5c017806731dc7/69902/spector_no_dispose_material.png 520w&quot;
+        sizes=&quot;(max-width: 520px) 100vw, 520px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Reference&lt;/h2&gt;
+&lt;p&gt;WeakMap이 알고 싶다 - &lt;a href=&quot;https://ui.toast.com/posts/ko_20210901&quot;&gt;https://ui.toast.com/posts/ko_20210901&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Spector.js - &lt;a href=&quot;https://spector.babylonjs.com/&quot;&gt;https://spector.babylonjs.com/&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
