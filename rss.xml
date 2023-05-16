@@ -1,4 +1,82 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://mingyu.kim</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 14 May 2023 15:07:23 GMT</lastBuildDate><item><title><![CDATA[Three.js 에서 dispose()는 어떻게 작동할까?]]></title><description><![CDATA[threejs에서 dispose를 안 하면 gc가 제대로 수거하지 못 한다. dispose() 명령어를 이용해서 명시적으로 제거해야 한다.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://mingyu.kim</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 16 May 2023 16:25:41 GMT</lastBuildDate><item><title><![CDATA[Vite에서 entrypoint html 다루기]]></title><description><![CDATA[기존 레포를 vite로 마이그레이션 할 일이 있어서 vite를 처음 써 봤는데, 기존 방식과 달라서 헤맸었다. 관련된 내용 정리. vite? 번들러(bundler) 툴이다. 디펜던시들을 사전 번들링(esbuild…]]></description><link>https://mingyu.kim/vite-starter/</link><guid isPermaLink="false">https://mingyu.kim/vite-starter/</guid><pubDate>Tue, 16 May 2023 02:55:21 GMT</pubDate><content:encoded>&lt;p&gt;기존 레포를 vite로 마이그레이션 할 일이 있어서 vite를 처음 써 봤는데, 기존 방식과 달라서 헤맸었다. 관련된 내용 정리.&lt;/p&gt;
+&lt;h2&gt;vite?&lt;/h2&gt;
+&lt;p&gt;번들러(bundler) 툴이다. 디펜던시들을 사전 번들링(esbuild로 한다) 하고, 소스코드들은 rollup으로 번들링한다.
+그래서 webpack 같은 기존 툴보다 훨씬 빠르다고 주장하는데, 반대로 esbuild만 쓰다 vite를 쓰게 되면 훨씬 느려진 것을 체감할 수 있다...&lt;/p&gt;
+&lt;p&gt;vite 측에선 rollup의 유연성을 위해 채택했다고 하는데, 사실 개인적으로도 맞는 판단이라고 생각한다.
+esbuild는 진짜 뭐 없다. code spliting, TS type check 등의 기능들도 지원하지 않는다. 걍 빠르고 끝.
+물론 esbuild 또한 점점 이것저것 개발하고 있다고 하는데, 아직은 기능들이 빈약한 것은 어쩔 수 없는 듯.&lt;/p&gt;
+&lt;h2&gt;vite 기본 구조&lt;/h2&gt;
+&lt;p&gt;vite.config.ts에서 build.input 파라미터 안에 entrypoint 가 될 &lt;code&gt;index.html&lt;/code&gt; 파일 위치를 넣고,
+html 파일엔 import할 js/css path를 넣으면, vite가 알아서 번들링을 착착 해 준다.&lt;/p&gt;
+&lt;p&gt;나머지 asset들도 잘 정리해주고,
+chunk split(라이브러리 등을 다른 파일로 분리해서 배포하는 방법 - 라이브러리들을 따로 캐싱하고 싶을 때 주로 사용함)도
+잘 지원해줘서 생각보다 사용하기 편하다.&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;html&quot;  &gt;
+          &lt;code slot=&quot;code&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+  &amp;lt;head&amp;gt;
+    &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot; /&amp;gt;
+    &amp;lt;link rel=&amp;quot;icon&amp;quot; type=&amp;quot;image/svg+xml&amp;quot; href=&amp;quot;/vite.svg&amp;quot; /&amp;gt;
+    &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1.0&amp;quot; /&amp;gt;
+    &amp;lt;title&amp;gt;Vite + TS&amp;lt;/title&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;div id=&amp;quot;app&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+    &amp;lt;script type=&amp;quot;module&amp;quot; src=&amp;quot;./src/main.ts&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;여러 html 파일들을 entrypoint로 쓸 경우엔&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;typescript&quot;  &gt;
+          &lt;code slot=&quot;code&quot;&gt;  build: {
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, &amp;#39;index.html&amp;#39;),
+        sub: path.resolve(__dirname, &amp;#39;sub/index.html&amp;#39;),
+      },
+      ...
+    },
+  }&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;이런 식으로 정리할 수 있다.&lt;/p&gt;
+&lt;h2&gt;문제&lt;/h2&gt;
+&lt;p&gt;문제는 entrypoint html 파일들이 생성되는 path를 각각 파일들마다 커스텀 할 수 없다는 것이다.
+무조건 해당 html file path를 따라 dist에 번들된다.
+그래서 처음부터 vite를 쓴다면 상관 없겠지만, 기존 프로젝트에서 번들러를 바꾸려 할 때 문제가 생겼다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 364px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dbe8c221f8d6d8a4bd15e1cdefc855d5/e45a9/structure.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 116.45569620253164%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAIAAACEf/j0AAAACXBIWXMAAA7DAAAOwwHHb6hkAAACQklEQVR42o2U646bMBCF9w02BHs8Q4yBEBwwFxuyCZCLWnUr9fKrUlWp7/8kFURVpWqTzfz/dI5nzvETEcVxfOiH0hSe5yESPjxPiChluNlsTFkWeU70H0zvwEEQbDZp23bOOgAQQlwx4gwB7vBPiELKUGc6yzJTlq+vr+k6ASEIGGsGEWcI/Bb/NEtQFEXGmK7r0jQV0yBxBrr2Pvwk5iPdhpEoVmFZFNY6Oc9qtUIKaPnsD1+4eSG2fJOfYIG0JtjGcveyPwzDeDp1ziEhsSXo2h++0vIZKbi5sFCpvCiNKWAeIWBWXjB3Yu2FfO+mMhKtVViZom7qKIrWaRrHMQoQYeR9+j1j4u03EyKgiJDrOHRd1+12+763dUNsydoLN929hTHwG32w5lA1dV3XOsu8xYJzfnX0zp0FinW0qfLG2sZaV1VVprMkSR5KGBGpSOV57qwzxjjn+mEwpnww21Mx6qo6jietM8YY53za9oPKcZxUVa21llIiin/dAHg326iU2uZ5KFcAf09CRNxn7QXSYqrHrWwLIaSUmd6Ox2NZGs75rEwIDNLC+/jrHnwVStbrummstUEQgAAxRXbO9uEza473EkYUqFCaIndtq5QKgmAuxuQcssofv92E5+xRSpAn4W6/Pwz98XzeufZaDJ5bv/9C/uJuMaJI54UpimsrYCo0kb9Yjt/5tiHu37FNUSgrY8qqXK1WSikZKuKMb+3y8oOYd+8zmGwHYNKoH8Z+HI/nc+fcdKp6EImev6G37/wHwNKbeyXESbQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;structure.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/dbe8c221f8d6d8a4bd15e1cdefc855d5/e45a9/structure.png&quot;
+        srcset=&quot;/static/dbe8c221f8d6d8a4bd15e1cdefc855d5/c26ae/structure.png 158w,
+/static/dbe8c221f8d6d8a4bd15e1cdefc855d5/6bdcf/structure.png 315w,
+/static/dbe8c221f8d6d8a4bd15e1cdefc855d5/e45a9/structure.png 364w&quot;
+        sizes=&quot;(max-width: 364px) 100vw, 364px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;html plugin들을 싹 다 살펴봤지만, 대부분 특정 html 파일들을 각각 원하는 path로 보낼 수 있는 기능을 지원하거나 하지는 않았다.
+&lt;code&gt;@open-wc/rollup-plugin-html&lt;/code&gt; 플러그인을 사용하면 억지로 가능하긴 한데 중복으로 번들링을 한다던지 하는 문제가 있어서 패스.
+애초에 이럴 때 쓰라고 있는 플러그인이 아니라 그런 듯 하다.&lt;/p&gt;
+&lt;p&gt;결국 포기하고 html 파일 구조를 변경하는 것으로 마무리. 더 좋은 방법을 찾지 못했다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Three.js 에서 dispose()는 어떻게 작동할까?]]></title><description><![CDATA[threejs에서 dispose를 안 하면 gc가 제대로 수거하지 못 한다. dispose() 명령어를 이용해서 명시적으로 제거해야 한다.
 링크 기하학은 속성 집합으로 정의된 꼭짓점 정보를 표시하는데, three.js…]]></description><link>https://mingyu.kim/threejs-dispose/</link><guid isPermaLink="false">https://mingyu.kim/threejs-dispose/</guid><pubDate>Fri, 28 Apr 2023 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;threejs에서 dispose를 안 하면 gc가 제대로 수거하지 못 한다. dispose() 명령어를 이용해서 명시적으로 제거해야 한다.
 &lt;a href=&quot;https://threejs.org/docs/#manual/ko/introduction/How-to-dispose-of-objects&quot;&gt;링크&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
