@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://mingyu.kim</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 16 May 2023 16:25:41 GMT</lastBuildDate><item><title><![CDATA[Vite에서 entrypoint html 다루기]]></title><description><![CDATA[기존 레포를 vite로 마이그레이션 할 일이 있어서 vite를 처음 써 봤는데, 기존 방식과 달라서 헤맸었다. 관련된 내용 정리. vite? 번들러(bundler) 툴이다. 디펜던시들을 사전 번들링(esbuild…]]></description><link>https://mingyu.kim/vite-starter/</link><guid isPermaLink="false">https://mingyu.kim/vite-starter/</guid><pubDate>Tue, 16 May 2023 02:55:21 GMT</pubDate><content:encoded>&lt;p&gt;기존 레포를 vite로 마이그레이션 할 일이 있어서 vite를 처음 써 봤는데, 기존 방식과 달라서 헤맸었다. 관련된 내용 정리.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://mingyu.kim</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 22 May 2023 18:20:20 GMT</lastBuildDate><item><title><![CDATA[About]]></title><description><![CDATA[Profile Profile
+Undergraduate in Computer Science in UNIST UNIST School of Electrical & Computer Engineering (2013 ~) UNIST Computer…]]></description><link>https://mingyu.kim/about/</link><guid isPermaLink="false">https://mingyu.kim/about/</guid><content:encoded>&lt;h3&gt;Profile&lt;/h3&gt;
+&lt;p&gt;Profile
+Undergraduate in Computer Science in &lt;a href=&quot;https://www.unist.ac.kr/&quot;&gt;UNIST&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;UNIST School of &lt;a href=&quot;https://ib.unist.ac.kr/&quot;&gt;Electrical &amp;#x26; Computer Engineering&lt;/a&gt; (2013 ~)&lt;/p&gt;
+&lt;p&gt;UNIST Computer Security Club, &lt;a href=&quot;https://hexa-unist.github.io/about/&quot;&gt;HeXA&lt;/a&gt; (2013 ~)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;3000won.com&quot;&gt;3000Won (삼천원)&lt;/a&gt; - Web Developer (2017 ~)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.recobell.com/&quot;&gt;Recobell&lt;/a&gt; - Web development intern (2017.05 ~ 2018.01)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.rocketpunch.com/companies/voost&quot;&gt;Voost&lt;/a&gt; - Web Front Engineer (2019.01 ~ 2019.05)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.prestolabs.io/&quot;&gt;Presto Labs&lt;/a&gt; - Web Developer (2019.06 ~ 2021.07)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.sketchsoft3d.com/&quot;&gt;Sketchsoft&lt;/a&gt; - Software Engineer (2021.07 ~ )&lt;/p&gt;
+&lt;h3&gt;Contact&lt;/h3&gt;
+&lt;p&gt;Email: &lt;a href=&quot;mailto:contact@mingyu.kim&quot;&gt;contact@mingyu.kim&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/mango-tree&quot;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/mingyu-kim-162a06165/&quot;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Award&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2018. 08. 2018 Rotman-UNIST Trading Competition 1st Prize &lt;a href=&quot;https://news.unist.ac.kr/unist-announces-successful-completion-of-2018-rotman-unist-trading-competition/&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2018. 07. 제 26회 중소벤처기업 지원 아이디어 공모전 장려상 (공격적 스톡옵션 및 구주증여 활용을 통한 벤처기업 인력난 해소 및 고용다각화 - 장동현, 유재인, 김민규) &lt;a href=&quot;http://news.heraldcorp.com/view.php?ud=20180726000374&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2015. 12. 화봉고 동아리 연계 - 진로 설계 게임 &quot;찾job&quot; 제작 &lt;a href=&quot;http://www.readingnews.kr/news/articleView.html?idxno=3109&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2014. 06. International Supercomputing Conference 14 Student Cluster Challenge (ISC 14) &lt;a href=&quot;https://news.unist.ac.kr/kor/20140624-01/&quot;&gt;Finalist&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2014. 04. Asia student Supercomputing Challenge 14 (ASC 14) &lt;a href=&quot;https://news.unist.ac.kr/kor/20140624-01/&quot;&gt;Finalist&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2013. 11. 화봉고 동아리 - 진로 탐색 애플리케이션 제작 &lt;a href=&quot;https://www.nocutnews.co.kr/news/1127142&quot;&gt;link&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Vite에서 entrypoint html 다루기]]></title><description><![CDATA[기존 레포를 vite로 마이그레이션 할 일이 있어서 vite를 처음 써 봤는데, 기존 방식과 달라서 헤맸었다. 관련된 내용 정리. vite? 번들러(bundler) 툴이다. 디펜던시들을 사전 번들링(esbuild…]]></description><link>https://mingyu.kim/vite-starter/</link><guid isPermaLink="false">https://mingyu.kim/vite-starter/</guid><pubDate>Tue, 16 May 2023 02:55:21 GMT</pubDate><content:encoded>&lt;p&gt;기존 레포를 vite로 마이그레이션 할 일이 있어서 vite를 처음 써 봤는데, 기존 방식과 달라서 헤맸었다. 관련된 내용 정리.&lt;/p&gt;
 &lt;h2&gt;vite?&lt;/h2&gt;
 &lt;p&gt;번들러(bundler) 툴이다. 디펜던시들을 사전 번들링(esbuild로 한다) 하고, 소스코드들은 rollup으로 번들링한다.
 그래서 webpack 같은 기존 툴보다 훨씬 빠르다고 주장하는데, 반대로 esbuild만 쓰다 vite를 쓰게 되면 훨씬 느려진 것을 체감할 수 있다...&lt;/p&gt;
