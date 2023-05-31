@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://mingyu.kim</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 22 May 2023 18:20:20 GMT</lastBuildDate><item><title><![CDATA[About]]></title><description><![CDATA[Profile Profile
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://mingyu.kim</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 31 May 2023 17:52:16 GMT</lastBuildDate><item><title><![CDATA[About]]></title><description><![CDATA[Profile Profile
 Undergraduate in Computer Science in UNIST UNIST School of Electrical & Computer Engineering (2013 ~) UNIST Computer…]]></description><link>https://mingyu.kim/about/</link><guid isPermaLink="false">https://mingyu.kim/about/</guid><content:encoded>&lt;h3&gt;Profile&lt;/h3&gt;
 &lt;p&gt;Profile
 Undergraduate in Computer Science in &lt;a href=&quot;https://www.unist.ac.kr/&quot;&gt;UNIST&lt;/a&gt;&lt;/p&gt;
@@ -19,7 +19,324 @@ Undergraduate in Computer Science in &lt;a href=&quot;https://www.unist.ac.kr/&q
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2015. 12. 화봉고 동아리 연계 - 진로 설계 게임 &quot;찾job&quot; 제작 &lt;a href=&quot;http://www.readingnews.kr/news/articleView.html?idxno=3109&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2014. 06. International Supercomputing Conference 14 Student Cluster Challenge (ISC 14) &lt;a href=&quot;https://news.unist.ac.kr/kor/20140624-01/&quot;&gt;Finalist&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2014. 04. Asia student Supercomputing Challenge 14 (ASC 14) &lt;a href=&quot;https://news.unist.ac.kr/kor/20140624-01/&quot;&gt;Finalist&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2013. 11. 화봉고 동아리 - 진로 탐색 애플리케이션 제작 &lt;a href=&quot;https://www.nocutnews.co.kr/news/1127142&quot;&gt;link&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Vite에서 entrypoint html 다루기]]></title><description><![CDATA[기존 레포를 vite로 마이그레이션 할 일이 있어서 vite를 처음 써 봤는데, 기존 방식과 달라서 헤맸었다. 관련된 내용 정리. vite? 번들러(bundler) 툴이다. 디펜던시들을 사전 번들링(esbuild…]]></description><link>https://mingyu.kim/vite-starter/</link><guid isPermaLink="false">https://mingyu.kim/vite-starter/</guid><pubDate>Tue, 16 May 2023 02:55:21 GMT</pubDate><content:encoded>&lt;p&gt;기존 레포를 vite로 마이그레이션 할 일이 있어서 vite를 처음 써 봤는데, 기존 방식과 달라서 헤맸었다. 관련된 내용 정리.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2013. 11. 화봉고 동아리 - 진로 탐색 애플리케이션 제작 &lt;a href=&quot;https://www.nocutnews.co.kr/news/1127142&quot;&gt;link&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[svgo에서 viewBox를 지우는 이유]]></title><description><![CDATA[react로 svg를 다룰 때 겪을 가능성이 큰 문제에 대해 정리하였다.
+분명 넣을 때는 멀쩡했는데, 빌드 완료한 코드의 svg가 좀 이상한 문제가 발생하는 경우가 있다.
+그건 svgo 때문에 발생했을 가능성이 크다. svgo? SVG…]]></description><link>https://mingyu.kim/svgo-viewbox/</link><guid isPermaLink="false">https://mingyu.kim/svgo-viewbox/</guid><pubDate>Thu, 01 Jun 2023 02:35:21 GMT</pubDate><content:encoded>&lt;p&gt;react로 svg를 다룰 때 겪을 가능성이 큰 문제에 대해 정리하였다.
+분명 넣을 때는 멀쩡했는데, 빌드 완료한 코드의 svg가 좀 이상한 문제가 발생하는 경우가 있다.
+그건 svgo 때문에 발생했을 가능성이 크다.&lt;/p&gt;
+&lt;h2&gt;svgo?&lt;/h2&gt;
+&lt;p&gt;SVG Optimizer의 약자로, svg 최적화 도구다. 보통 &lt;a href=&quot;https://github.com/gregberge/svgr&quot;&gt;svgr&lt;/a&gt;을 사용하게 되면 기본적으로 켜져 있기 때문에 접하기 쉽다.&lt;/p&gt;
+&lt;h2&gt;svgr?&lt;/h2&gt;
+&lt;p&gt;react에서 svg를 사용할 때 많이 쓰는 방법 중 하나가 &lt;a href=&quot;https://github.com/gregberge/svgr&quot;&gt;svgr&lt;/a&gt;을 이용하는 것이다.
+svgr은 svg 파일을 React component로 바꿔줘서 쓰기 쉽게 해 주는 툴이다. 그리고 svgr에서는 기본적으로 &lt;a href=&quot;https://github.com/svg/svgo&quot;&gt;svgo&lt;/a&gt;를 이용해 svg 최적화를 진행한다.&lt;/p&gt;
+&lt;h2&gt;viewBox?&lt;/h2&gt;
+&lt;p&gt;svg를 그릴 때, svg viewport의 위치와 크기를 정할 수 있다. 이 값이 바뀜에 따라 svg가 그려지는 위치가 바뀐다.
+viewBox의 설정 없이 svg의 width와 height를 바꾸면 잘려 나오는 svg를 볼 수 있다.&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;xml&quot;  &gt;
+          &lt;code slot=&quot;code&quot;&gt;&amp;lt;svg viewBox=&amp;quot;0 0 100 100&amp;quot; xmlns=&amp;quot;http://www.w3.org/2000/svg&amp;quot;&amp;gt;
+  &amp;lt;rect x=&amp;quot;0&amp;quot; y=&amp;quot;0&amp;quot; width=&amp;quot;100%&amp;quot; height=&amp;quot;100%&amp;quot; /&amp;gt;
+  &amp;lt;circle cx=&amp;quot;50%&amp;quot; cy=&amp;quot;50%&amp;quot; r=&amp;quot;4&amp;quot; fill=&amp;quot;white&amp;quot; /&amp;gt;
+&amp;lt;/svg&amp;gt;
+
+&amp;lt;svg viewBox=&amp;quot;0 0 10 10&amp;quot; xmlns=&amp;quot;http://www.w3.org/2000/svg&amp;quot;&amp;gt;
+  &amp;lt;rect x=&amp;quot;0&amp;quot; y=&amp;quot;0&amp;quot; width=&amp;quot;100%&amp;quot; height=&amp;quot;100%&amp;quot; /&amp;gt;
+  &amp;lt;circle cx=&amp;quot;50%&amp;quot; cy=&amp;quot;50%&amp;quot; r=&amp;quot;4&amp;quot; fill=&amp;quot;white&amp;quot; /&amp;gt;
+&amp;lt;/svg&amp;gt;&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 514px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/19e68979e524aceba096ffa497655364/dea13/viewbox.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABRklEQVR42qVSy6qCUBQ91rwysKcpWdmDBjVoKg0iJ/pnJuJnGfQL0Vc0ydZl7YuSBbfBPbDY6+xz9mK/1G63Q7/fh2VZGI1GFdi2jU6ng/1+j+PxiG63K3+bzSam06mAfDAYoNfr4XA4QDFAKfUnHMfBer0WbhgG0jTF5XIRkNPHt9VqBWWaplxqtVppXzntcrkUNBoNXK9XvB/6Wq0WFosF1HA4LDPRNK3CizvF2JLT6SQC9/sdj8dDQM6TJIm0qRQssmHarutWfLPZDJvNBufzWYIp9Hw+BeQ8WZZhu91+CrJXkvp/Bb+VzInHcVyWnOe54KPkYij1el0EaF95IchWcEVut9vHUOjTdf23sna7/XVtOJCiDZxmFEXl2pDTxzfpved5mEwmEjCfzyugj6X6vo8wDDEej2UnucjFH3LG0x8EAX4AMEl0mhJ9SLoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;viewbox.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/19e68979e524aceba096ffa497655364/dea13/viewbox.png&quot;
+        srcset=&quot;/static/19e68979e524aceba096ffa497655364/c26ae/viewbox.png 158w,
+/static/19e68979e524aceba096ffa497655364/6bdcf/viewbox.png 315w,
+/static/19e68979e524aceba096ffa497655364/dea13/viewbox.png 514w&quot;
+        sizes=&quot;(max-width: 514px) 100vw, 514px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+(두 svg의 차이는 viewBox밖에 없다)&lt;/p&gt;
+&lt;h2&gt;svgo에 무슨 문제가 있는가&lt;/h2&gt;
+&lt;p&gt;최적화 과정에서 &lt;strong&gt;viewBox를 제거&lt;/strong&gt;한다(!).&lt;/p&gt;
+&lt;p&gt;그냥 묻지도 따지지도 않고 지우는 건 아니고, &lt;code&gt;width&lt;/code&gt;와 &lt;code&gt;height&lt;/code&gt; 속성이 viewBox와 같은 경우에만 지운다.
+제거를 안 하는 옵션을 따로 제공하고 있지 않고, 관련 plugin을 꺼야 한다.&lt;/p&gt;
+&lt;h2&gt;왜 안 고치고 있나요?&lt;/h2&gt;
+&lt;p&gt;물론 오픈소스기 때문에 사람들은 해당 레포에서 &lt;a href=&quot;https://github.com/svg/svgo/issues/1128&quot;&gt;의문을 제기하기 시작했다.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9e957225f54e5351105559d6c17fe92c/9a1cf/benefit.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.86075949367089%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAA7DAAAOwwHHb6hkAAABjklEQVR42o2T226jMBCGef8X6BP0Wdqr3lRRtdrVbpImEAg0GJ89Nv/KQ8g6aivtSB9jPNiaw0/1+nOD119v6NoOdV1j/37AfrdH27Y4HmvstjvUdcOx7Z8t+r6HlApKa2Sb5/mO6uH5EQ9Pj6BAMNbCWgfvPZzzsM5Ba8N+TgkpJT60XoTrJVgBUDmKCIHgfIAPGWIoRqQ0I95ICzGB4uJX6EZEdZg0JqUxfIy4CIlRSPZCaihjF/QVU/hiXxsHyZV4VDlNYwya5oTTqUVTN+i6jnt1PvcY+gE9k9/PGIaB9/N7GRsvF66gyqV7ZyHECGsttNZw3t81fLVyXVrZV84wRUIk/+mj/6U8U21enlkG8tYbx97mIVGED/e4QBxbcZ64j5MyHKvq9x2XeRkFI8QEISSk0tDGsmwyKqM0N36daCZPOe8Z60AUl5KJPLSaWD4hhCue9bjinGOICN8Zl5wfwS8XLfos+oObXotDYH2muSD9gzM8/HA4/D5CKsmpL9M2PO28zn/IV1P/yv4CBbimEl2ApZwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;benefit.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/9e957225f54e5351105559d6c17fe92c/f058b/benefit.png&quot;
+        srcset=&quot;/static/9e957225f54e5351105559d6c17fe92c/c26ae/benefit.png 158w,
+/static/9e957225f54e5351105559d6c17fe92c/6bdcf/benefit.png 315w,
+/static/9e957225f54e5351105559d6c17fe92c/f058b/benefit.png 630w,
+/static/9e957225f54e5351105559d6c17fe92c/9a1cf/benefit.png 924w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+...그리고 가차없이 닫혔다.&lt;/p&gt;
+&lt;p&gt;svgo에 있는 한 메인테이너가 viewBox 속성 자체도 용량을 가지고 있기 때문에 바이트 수를 줄이기 위해 지웠다고 답한 뒤,
+장장 4년에 걸친 댓글 싸움을 하기에 이르렀다.
+해당 메인테이너는 viewBox는 width랑 height가 각각 같을 때만 지우는데 무슨 문제냐는 입장이다.&lt;/p&gt;
+&lt;p&gt;하지만 &lt;strong&gt;당연히&lt;/strong&gt; 문제가 생긴다.
+scalability 관련해서 문제가 생기는데, viewBox가 없는 svg인 경우 css로 해당 svg의 크기를 변경할 때 짤리는 현상이 발생한다.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b1fc23ebeb5b5e7010cc9c13a0383204/65654/scale.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 80.37974683544303%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACVUlEQVR42nVS207bQBD1P/Cz/Qh+gGcEL5WQeOeJ10olqopUAjghjbGT2Gs7e5v17vpUu3GMadqVjjKazByfmTNJ13UQQkArBSklOBfgnEOKQ7xv9xBSxBq+57FGDDXGdAiv7/sI3/dInPdgdYPNtgSXGoo6SG2gtIHUBKktFPkhNlBkPmqoA3UWZCy0sbDOI7HOoWk5KlaDCwGpaICGVB2kYhAyH2INESCH30kcelwgJCLUrEZTt2gaDa01jDEg0iDTg2gJrWcg7Q85olgTEOIAYwhhdWHsxBBht61Qlmvsdt/AWIOmaVBVDDVjqOsWjHGwGNdgFQNj9YBDLghq2z2cc0jCl3Y7BqUqKPUDSlE0SE0gBYeSKqoac1JCHaEUhJCw1iEJMv/33t/fkec5KiGQ5Tmenn7FfFD2PJ+DtS1KzrFcLpGmKYIfifcfhEQKRVFEeO/H/OL6GqooDififUR4PE2xurnBcDsIXFFhmN1aG8fYbrcRkXBQn93dQZflp5sLT67XKO7vxw/FOwx/VVUVZa9WqzjmZrOJhMdGRzSqnRJ6a6GPyo+HHRqD5X+jdy4WtvM5vn/5gt+3t4dG50bC9PISxWyGfjpyGDXLMiwWC7y8vESV6/UaztqDAY+P+Hp2hp/n56OqI2H+8IDi7Q122GkknJpy8obGcjaDEeJk5OCqqKrRwDgyGYN1liFdpHh9fR0VTk1Jr66gN5sPwoFgP5/j+eLisynBYaMlFBdxd2EFbrInoI87+te9TslHhdZ20GIPI9WnkY6u+WHZvj/FaZ3HH1n90hMRIPMUAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;scale.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/b1fc23ebeb5b5e7010cc9c13a0383204/f058b/scale.png&quot;
+        srcset=&quot;/static/b1fc23ebeb5b5e7010cc9c13a0383204/c26ae/scale.png 158w,
+/static/b1fc23ebeb5b5e7010cc9c13a0383204/6bdcf/scale.png 315w,
+/static/b1fc23ebeb5b5e7010cc9c13a0383204/f058b/scale.png 630w,
+/static/b1fc23ebeb5b5e7010cc9c13a0383204/65654/scale.png 872w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;그렇기 때문에 사람들이 viewBox 제거를 끄자고 계속 주장하지만...&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6a2162bb9aeea108ba729494b3f8d862/6da96/minority.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 22.151898734177216%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAnElEQVR42p2NS27DMAxEff97ddVdbxGRkiLFtUX9XmEZSLsugYcZkJjh9vX5gYoj7wev/bj1++AoRu0Da/2m9l//h9rGylxYbWytdUopPB5uoSI4d+EQEUIIqHpCiMQY8T4Q/L1TVbz3iCgpZfoYbABW6ypSFXJKK/iMT3LK69mFLbW3N7P37TxPWmvMOe/C3ht2vrCy89+ZwBiTH/sFNmEL9k5TAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;minority.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/6a2162bb9aeea108ba729494b3f8d862/f058b/minority.png&quot;
+        srcset=&quot;/static/6a2162bb9aeea108ba729494b3f8d862/c26ae/minority.png 158w,
+/static/6a2162bb9aeea108ba729494b3f8d862/6bdcf/minority.png 315w,
+/static/6a2162bb9aeea108ba729494b3f8d862/f058b/minority.png 630w,
+/static/6a2162bb9aeea108ba729494b3f8d862/6da96/minority.png 922w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;메인테이너는 &quot;아 이해했어. 쓸모가 있을 때가 있구나. 하지만 몇몇 사람들 때문에 default optimization을 끄는건 싫어&quot;라고 하며 의견을 묵살했다.
+많은 사람들이 반론을 제기하지만 결국 다 묵살.&lt;/p&gt;
+&lt;p&gt;시간은 흘러 이슈가 발행됐던 날로부터 몇 년이 지났고, 물론 변한 것은 없었다.
+사람들은 점점 화가 나기 시작했고, 급기야 짤방까지 만들며 비난을 하기에 이르렀으며,
+결국 포크를 해야 한다는 극단적인 주장까지 나오기도 했다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7309de097040f5a91020fe1c5a9847e8/6da96/cat.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 93.0379746835443%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAEfklEQVR42q2U+0/TVxjGvzomSGGgXAYUpCukIFBwaK0i9FtA7git9+kQoyPiFi+4GVycmVG3BE1mpohTcXIZCDinwhzGaXTLjMY4ozOTH3SX7AcG4VJ6pRfgs9AS4h+wN3nyvO9zTj7JOSc5wh9P7mM0mhgYHMZotrplstjcbrHZsTvHsDtdUz6GwzU23bvn6czFqN2JwLiL0dFRDAYDBsMIhhHjtBuNRkwmMyaTiZHJeWgQw7DBnY9MrU/68LDBvc/lGkMAsFpt9P3bR19fv1v9ff309va6s8GBQQYGBujv62NocBCL2YzFYnHLarVO92azGafT5QE6HA53YDaZ3W4cMTJiMGAxW9xrTtc4TteE28fHxnC5XB45ndP9ZE1MTHiAk0ceGBrCaLEy6nBic9ixOhyMOhxY7ZP3OI7dBVbHONZROxabDbPNhtFqndYEnnIDu2/cQFy0iFKtlmJRpEDUUCKK5IsipaKIVtSgETXkT+WFosgKrRZdZiY6rRZ9ZibpKhWdXV0e4Jn6erwFAYUgECsIhAgC8ql50oVXJBMEgl+ZZwgCvlN97alTHmBbRwuCl4C332x8/f2ZJfFmdoAfEbIQAsLn4h8UjFQqRyaVEhH6JhGhoaQnJVKkzSIySY3P3EgkQVKaL3Z4gBfbWpnhJZCcEkd8vJxgqT+p6vnkaRazKlVGZEQ4iSnppCmVJMhjWLM4lU/zsigr1BGbIhISrsBvThTNre0e4NcNF1guqjlRVU7N2hwK0mJIVMrQqxKpW5dGliKCuIS3WapUkqKIQ5esRBUVjcQngEDfQILeCMZ7pg9NDc0e4JWr31K9KYf6bYU0b9WxM1+FLMSX8oXzOFyqJiFEQm5uAXs+qKIkNxelPJb5MjmRYTJC54Yhi4jG39ufpsYp4E+3uqjIieHgChW1a/Oo0WlIiQ7k46I0Gt7TkZMcQ1HRSqr37md35RbiouUUazK4fO44TSePs3mlHom3DxdbvvEAn967yfa8GA4XL6R2VS67xQUcqVjPnc8/pLt6EzsLF7GmZAXa9Ex0+dkkyRXoc7Q0HtzBpdM1lOaXuF+5rbXFA+x5fJ9972bwUaGCfctTaNhexqkKPYd0arZlpTJH8hrLRQ1pqmXEyxUkxCbwjm41R/ftoqX2M/bsqCQxPoG21jYP8FrnVZIVUvTpMmrK87h58H2WxUlJCfXlrbBAJD5eLFUvZOniNCKC57EkXUNhST7rN2azt3ozB/aXcuCTTTx89MQDfPbgF77ctZX95TpuHdnOXn0GPt5eLJGHIQ8PQhbqR1ZGGmpVOuoFqaQmJbMgKZ7ifC3btmykcusG2s8epfefvz3A3+/dpbGqkvaqdZwo06CMCnDfSZRkJgGzBMJeFyjI1rB2g54N6zIoW5/NjorVtNYd4853TXScP8mFLw7xZ89TD/Cvly942H2Fnrtd/NzVwYXzZ/nqdB2N9WdoqD9D67k6rndepvvH61y51k7n95e4ffsHXj7/jZ4nj3jx7FeeP37A8EA/wuQvMT7m5P+q/wABC+fVYKQiZgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;cat.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/7309de097040f5a91020fe1c5a9847e8/f058b/cat.png&quot;
+        srcset=&quot;/static/7309de097040f5a91020fe1c5a9847e8/c26ae/cat.png 158w,
+/static/7309de097040f5a91020fe1c5a9847e8/6bdcf/cat.png 315w,
+/static/7309de097040f5a91020fe1c5a9847e8/f058b/cat.png 630w,
+/static/7309de097040f5a91020fe1c5a9847e8/6da96/cat.png 922w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+(화가 많이 나신 듯)&lt;/p&gt;
+&lt;p&gt;결국 지친 사람들은 다른 방법을 찾게 되는데, 더 이상 관리하고 있지 않는 해당 레포의 초기 메인테이너를 찾아가 컨택을 하기에 이르렀다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7bd813413da2115c6aaceed7a8757a47/0f67e/original.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 37.9746835443038%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABBklEQVR42qWQ4W7DIAyE8/7v2QRoE8CAIdD0JjtLK23/NqRPPhtkc56su2PdAnxMiKkohRv2cWAfT+z9Q9vHb/pAoIyYGHsfmAozHo/1ZF2xbR7eB6ybh3UPhECaC5Qy0kXOIErIuSBEQoyEMZ6YjuMAEYEi6YOUEmKMCCHCh4BEZ55zRt87ej8ZYyiXlvN6vTBJYb4tcM7BuTucdbDWwhoLYwyWZVFtjcF8m5VlMZjnGcZYjXIvQ4+robN3tSw/ba2h1YZaq0bmqpqZ9U70xc9cG4rvy2opjFKK7kX2JFqorYFF5/KucWFUrroK6fGx3Bpo83gehxb+Cr7jNGTRXN8T/oNY/gKqfmyddRlwxQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;original.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/7bd813413da2115c6aaceed7a8757a47/f058b/original.png&quot;
+        srcset=&quot;/static/7bd813413da2115c6aaceed7a8757a47/c26ae/original.png 158w,
+/static/7bd813413da2115c6aaceed7a8757a47/6bdcf/original.png 315w,
+/static/7bd813413da2115c6aaceed7a8757a47/f058b/original.png 630w,
+/static/7bd813413da2115c6aaceed7a8757a47/0f67e/original.png 921w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;그 메인테이너는 현재 svgo가 npm 주간 다운로드 15M이나 되는데,
+breaking change를 제대로 된 확인 없이 자신이 merge할 수는 없다고 하며 대신 viewBox 관련 이슈에 대한 내용을 README.md Troubleshooting 최상단에 올리는 PR을 merge하게 된다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/76dc71d5c19e1da9644c44b7e1efffc3/03914/readme.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 20.253164556962027%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAq0lEQVR42m3Oyw6CMBCFYd7/wXStLgwtQZAqXkJEaJmqgd9IDWri4kvOnJnFRMYfOMmFyjuqm8MhwSCfPPF/uq/7QYhmjyULm6Bdier2JFKiu5L0dsD0p0nRH0chB995x3kUzR8rllYR1xvWdYq2W+JrRtwatC1IbI5qMpJXbgyqyVFthmo2Y6/bsE/FkN9Lop0/cpaaSiyVt9PrbvBvYe4GP/rsf9lecL3wBJVtMEya/JwkAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;readme.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/76dc71d5c19e1da9644c44b7e1efffc3/f058b/readme.png&quot;
+        srcset=&quot;/static/76dc71d5c19e1da9644c44b7e1efffc3/c26ae/readme.png 158w,
+/static/76dc71d5c19e1da9644c44b7e1efffc3/6bdcf/readme.png 315w,
+/static/76dc71d5c19e1da9644c44b7e1efffc3/f058b/readme.png 630w,
+/static/76dc71d5c19e1da9644c44b7e1efffc3/40601/readme.png 945w,
+/static/76dc71d5c19e1da9644c44b7e1efffc3/03914/readme.png 1173w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/48e3d62319d5d8c24092cfe1c3535c39/66caf/troubleshooting.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 25.316455696202528%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAu0lEQVR42o2PyQ7CMAxE+/9/SYFWZG222m1oBsWgHriApZFHifM8GYwxGMcrpmnGZbwihIjvaq3hOH6oNZkbQgjwzgvIOSeKH9+Xdf88DvxTAlQPhXmacb/d0b3WBkYbaKXhrIW1Fikl5JxPpRg/vpxn+74LdPDOQSktaXqqDliWBUQMZsa2bdJpXd+ddxBXEG8golO11jew5CzfSjGBic403gf4JchwKUXuxVNF5oayEvrbXIok7Ys78AVpzIM0JeKPKQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;troubleshooting.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/48e3d62319d5d8c24092cfe1c3535c39/f058b/troubleshooting.png&quot;
+        srcset=&quot;/static/48e3d62319d5d8c24092cfe1c3535c39/c26ae/troubleshooting.png 158w,
+/static/48e3d62319d5d8c24092cfe1c3535c39/6bdcf/troubleshooting.png 315w,
+/static/48e3d62319d5d8c24092cfe1c3535c39/f058b/troubleshooting.png 630w,
+/static/48e3d62319d5d8c24092cfe1c3535c39/66caf/troubleshooting.png 853w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;이렇게 README에 적히게 되었고, 2023-06-01 현재 svgo의 마지막 code merge이다.&lt;/p&gt;
+&lt;h2&gt;결론&lt;/h2&gt;
+&lt;p&gt;오픈소스도 결국 사람이 만드는 프로젝트고, 사람이 운영한다.
+세상에는 수 많은 사람들이 있고, 그 중에서는 별의 별 사람들이 있다는 사실을 항상 기억하며 오픈소스를 사용하는 것이 좋다고 생각한다.
+언제나 오픈소스가 이상적으로 돌아가진 않고, 오히려 예상했던 대로 잘 굴러가는 케이스가 극히 드물지 않을까? 마치 사업처럼.&lt;/p&gt;
+&lt;p&gt;또 오픈소스 관리자의 입장이 이해가 안 가는 것도 아닌 게,
+수 많은 사람들이 이용하고 있는 도구의 기본값이 갑자기 바뀌게 되면 엄청난 파급력을 불러일으킬 것이기 때문에 조심하는 것도 그럴 수 있긴 하다고 생각한다.
+물론 그럼에도 불구하고 해당 이슈는 사실상 버그 아닌가 싶어서 마음에 드는 대처는 아니었다.&lt;/p&gt;
+&lt;p&gt;그리고 svgo로 최적화 시킨 svg는 viewBox 뿐만 아니라 다른 부분들도 높은 확률로 박살이 나 있어서, 그냥 끄는 게 정신건강에 이롭다...&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;js&quot;  &gt;
+          &lt;code slot=&quot;code&quot;&gt;// webpack.config.js
+  {
+    test: /\.svg$/,
+    use: [&amp;#39;@svgr/webpack&amp;#39;],
+    options: {
+      svgo: false
+    }
+  }&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;이렇게 꺼 버리자. svg를 최적화 하려면 js 단에서 하는 게 아니라 svg 파일 단에서 하는게 맞다고 생각한다. 안 그러면 디자이너가 원하는 대로의 모습이 나오지 않는다.&lt;/p&gt;
+&lt;h2&gt;Reference&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/viewBox&quot;&gt;MDN reference - viewBox&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/svg/svgo/issues/1128&quot;&gt;SVGO Github issue - What is the benefit of stripping viewBox?&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Vite에서 entrypoint html 다루기]]></title><description><![CDATA[기존 레포를 vite로 마이그레이션 할 일이 있어서 vite를 처음 써 봤는데, 기존 방식과 달라서 헤맸었다. 관련된 내용 정리. vite? 번들러(bundler) 툴이다. 디펜던시들을 사전 번들링(esbuild…]]></description><link>https://mingyu.kim/vite-starter/</link><guid isPermaLink="false">https://mingyu.kim/vite-starter/</guid><pubDate>Tue, 16 May 2023 02:55:21 GMT</pubDate><content:encoded>&lt;p&gt;기존 레포를 vite로 마이그레이션 할 일이 있어서 vite를 처음 써 봤는데, 기존 방식과 달라서 헤맸었다. 관련된 내용 정리.&lt;/p&gt;
 &lt;h2&gt;vite?&lt;/h2&gt;
 &lt;p&gt;번들러(bundler) 툴이다. 디펜던시들을 사전 번들링(esbuild로 한다) 하고, 소스코드들은 rollup으로 번들링한다.
 그래서 webpack 같은 기존 툴보다 훨씬 빠르다고 주장하는데, 반대로 esbuild만 쓰다 vite를 쓰게 되면 훨씬 느려진 것을 체감할 수 있다...&lt;/p&gt;
