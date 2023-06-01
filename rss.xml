@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://mingyu.kim</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 31 May 2023 17:52:16 GMT</lastBuildDate><item><title><![CDATA[About]]></title><description><![CDATA[Profile Profile
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://mingyu.kim</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 01 Jun 2023 15:37:33 GMT</lastBuildDate><item><title><![CDATA[About]]></title><description><![CDATA[Profile Profile
 Undergraduate in Computer Science in UNIST UNIST School of Electrical & Computer Engineering (2013 ~) UNIST Computer…]]></description><link>https://mingyu.kim/about/</link><guid isPermaLink="false">https://mingyu.kim/about/</guid><content:encoded>&lt;h3&gt;Profile&lt;/h3&gt;
 &lt;p&gt;Profile
 Undergraduate in Computer Science in &lt;a href=&quot;https://www.unist.ac.kr/&quot;&gt;UNIST&lt;/a&gt;&lt;/p&gt;
@@ -78,6 +78,20 @@ viewBox의 설정 없이 svg의 width와 height를 바꾸면 잘려 나오는 sv
 &lt;p&gt;최적화 과정에서 &lt;strong&gt;viewBox를 제거&lt;/strong&gt;한다(!).&lt;/p&gt;
 &lt;p&gt;그냥 묻지도 따지지도 않고 지우는 건 아니고, &lt;code&gt;width&lt;/code&gt;와 &lt;code&gt;height&lt;/code&gt; 속성이 viewBox와 같은 경우에만 지운다.
 제거를 안 하는 옵션을 따로 제공하고 있지 않고, 관련 plugin을 꺼야 한다.&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;js&quot;  &gt;
+          &lt;code slot=&quot;code&quot;&gt;{
+  loader: &amp;#39;@svgr/webpack&amp;#39;,
+  options: {
+    svgoConfig: {
+      plugins: [
+        { removeViewBox: false },
+      ],
+    },
+  },
+}&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;이런 식으로.&lt;/p&gt;
+&lt;p&gt;하지만, 사람들은 왜 이 기능이 default로 켜져 있는지 의아해 했고, 많은 사람들이 기본으로 꺼져 있기를 원했다.&lt;/p&gt;
 &lt;h2&gt;왜 안 고치고 있나요?&lt;/h2&gt;
 &lt;p&gt;물론 오픈소스기 때문에 사람들은 해당 레포에서 &lt;a href=&quot;https://github.com/svg/svgo/issues/1128&quot;&gt;의문을 제기하기 시작했다.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span

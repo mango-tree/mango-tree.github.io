@@ -57,6 +57,20 @@ viewBox의 설정 없이 svg의 width와 height를 바꾸면 잘려 나오는 sv
 <p>최적화 과정에서 <strong>viewBox를 제거</strong>한다(!).</p>
 <p>그냥 묻지도 따지지도 않고 지우는 건 아니고, <code>width</code>와 <code>height</code> 속성이 viewBox와 같은 경우에만 지운다.
 제거를 안 하는 옵션을 따로 제공하고 있지 않고, 관련 plugin을 꺼야 한다.</p>
+<deckgo-highlight-code language="js"  >
+          <code slot="code">{
+  loader: &#39;@svgr/webpack&#39;,
+  options: {
+    svgoConfig: {
+      plugins: [
+        { removeViewBox: false },
+      ],
+    },
+  },
+}</code>
+        </deckgo-highlight-code>
+<p>이런 식으로.</p>
+<p>하지만, 사람들은 왜 이 기능이 default로 켜져 있는지 의아해 했고, 많은 사람들이 기본으로 꺼져 있기를 원했다.</p>
 <h2>왜 안 고치고 있나요?</h2>
 <p>물론 오픈소스기 때문에 사람들은 해당 레포에서 <a href="https://github.com/svg/svgo/issues/1128">의문을 제기하기 시작했다.</a></p>
 <p><span
@@ -331,4 +345,4 @@ breaking change를 제대로 된 확인 없이 자신이 merge할 수는 없다�
           >
             window.___chunkMapping="{\"app\":[\"/app-892fdf479728f4db3808.js\"],\"component---src-pages-404-js\":[\"/component---src-pages-404-js-084ec4f23e95a537f2ea.js\"],\"component---src-pages-about-js\":[\"/component---src-pages-about-js-322d9eee092697f86ec5.js\"],\"component---src-pages-index-js\":[\"/component---src-pages-index-js-e8b8745cd5bb45db3195.js\"],\"component---src-pages-using-typescript-tsx\":[\"/component---src-pages-using-typescript-tsx-e21713db738131020816.js\"],\"component---src-templates-blog-post-js\":[\"/component---src-templates-blog-post-js-f61bdc801a738fe5c331.js\"]}";
           </script>
-        <script>window.___webpackCompilationHash="9a45a38f052a77308fb3";</script><script src="/webpack-runtime-3bbc26d5a9d4201df76d.js" async></script><script src="/framework-2940c05dd5f72bd746ef.js" async></script><script src="/app-892fdf479728f4db3808.js" async></script><!-- slice-end id="_gatsby-scripts-1" --></body></html>
+        <script>window.___webpackCompilationHash="e964dd39e725af572d1e";</script><script src="/webpack-runtime-3bbc26d5a9d4201df76d.js" async></script><script src="/framework-2940c05dd5f72bd746ef.js" async></script><script src="/app-892fdf479728f4db3808.js" async></script><!-- slice-end id="_gatsby-scripts-1" --></body></html>
