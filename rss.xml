@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://mingyu.kim</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 09 Jun 2023 07:38:04 GMT</lastBuildDate><item><title><![CDATA[About]]></title><description><![CDATA[Profile Profile
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://mingyu.kim</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 16 Jun 2023 18:41:30 GMT</lastBuildDate><item><title><![CDATA[About]]></title><description><![CDATA[Profile Profile
 Undergraduate in Computer Science in UNIST UNIST School of Electrical & Computer Engineering (2013 ~) UNIST Computer…]]></description><link>https://mingyu.kim/about/</link><guid isPermaLink="false">https://mingyu.kim/about/</guid><content:encoded>&lt;h3&gt;Profile&lt;/h3&gt;
 &lt;p&gt;Profile
 Undergraduate in Computer Science in &lt;a href=&quot;https://www.unist.ac.kr/&quot;&gt;UNIST&lt;/a&gt;&lt;/p&gt;
@@ -19,7 +19,113 @@ Undergraduate in Computer Science in &lt;a href=&quot;https://www.unist.ac.kr/&q
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2015. 12. 화봉고 동아리 연계 - 진로 설계 게임 &quot;찾job&quot; 제작 &lt;a href=&quot;http://www.readingnews.kr/news/articleView.html?idxno=3109&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2014. 06. International Supercomputing Conference 14 Student Cluster Challenge (ISC 14) &lt;a href=&quot;https://news.unist.ac.kr/kor/20140624-01/&quot;&gt;Finalist&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2014. 04. Asia student Supercomputing Challenge 14 (ASC 14) &lt;a href=&quot;https://news.unist.ac.kr/kor/20140624-01/&quot;&gt;Finalist&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2013. 11. 화봉고 동아리 - 진로 탐색 애플리케이션 제작 &lt;a href=&quot;https://www.nocutnews.co.kr/news/1127142&quot;&gt;link&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Javy를 왜 만든 걸까?]]></title><description><![CDATA[GeekNews를 보던 중 Javy라는 물건을 발견했다. Javy? JS 코드를 웹 어셈블리(이하 WASM)에서 돌릴 수 있도록 만들어 주는 툴 체인이다.
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2013. 11. 화봉고 동아리 - 진로 탐색 애플리케이션 제작 &lt;a href=&quot;https://www.nocutnews.co.kr/news/1127142&quot;&gt;link&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Colorpicker 만들기]]></title><description><![CDATA[색상 선택을 하기 위한 UI를 만들 때, 보통 Color picker를 만드는 경우가 많다.
+널리 알려진 UI기 때문에 여러 다양한 Color picker 라이브러리들과 예제들을 볼 수 있다.
+ 심지어 이젠 브라우저 기본 input…]]></description><link>https://mingyu.kim/color-picker/</link><guid isPermaLink="false">https://mingyu.kim/color-picker/</guid><pubDate>Fri, 16 Jun 2023 02:55:21 GMT</pubDate><content:encoded>&lt;p&gt;색상 선택을 하기 위한 UI를 만들 때, 보통 Color picker를 만드는 경우가 많다.
+널리 알려진 UI기 때문에 여러 다양한 Color picker 라이브러리들과 예제들을 볼 수 있다.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/33a6c1f9f8fa0df92e09ffa482459346/8bd7c/picker.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 83.54430379746836%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAEIElEQVR42n2RfUzUdRzHf7VqunQ92Nqov6y2RpZrztUibS7XZsutTFL/YMjWzLmZNmWoHEXBkvN4OB7uiYfjhHuA4+BQBAQHKA9ygICoQId33AHHg3IPgHBQUb7a71ia2fpu772/n32/n/f3/f5+hLTSPP4PqSW5/1nLLVoyLAWkWwpIteQjs+STas5DOGNQITWokJk0IT5jUK+wUf2gWeS/97ISDTkWHRevt6K5UcOJPgP7+hRsupnEgeo0hMTcNI7LfuCEPBmJIgWJQkpcRhKnsk8/IvgIF6tIzEjh64yT7JAf5u2MaFanfca+gngE8ZLoSnSaatIgM6of1KLrfzoUIcZMVKfy/pYI3vpgM29+uIn1295hbcTrRCV+iyDVK0kqzCRZlxXin4tyOB2CghS98jF3YuSsskIaGxpprcskt+Msp5Ut1KVUUHzOgCA3F6AoL0JZUYTKWkxayLEKmVHzcCAlD4ci/m1ulYk/uY+4gstLBIJBlpZ+pdbWhFBcW059axOXu6/SYGtBXWVEWqImvTT/sYmniw5NGjTnDMzMzRKYnWHa6yW4GGR+YQFLUw3CGZM6FE2mV5Ou15BjyCfTuBJRPJP+CylGFVKjGrlZi7xMi7pST5alkMwyLenmfISKK7V0uPspd7ahcV4iwVWB7JaVHHMhlzvbaO/por27k47uLjp7rtHe3k7T1WbabnTRc7OP1u4OWrpttPV0or1QilB1pZ6ytoucatbyZbOMsJYj7O7KINdchN3tpM/nomq6F/V0M4l3q9k9p0dlK8WpsqKrr8BhH2LY4WTE5cZUV4mgqyzhQOxRdh6LIeLkHp4/to2v8k6SZzWEXi+93kByr5mY6xq29Up5ZvAQB8uN5HxexHN7N2Dr7MLpcHD7tmNFMEur5I3wV1j37npeCA/nqVdf5Isj0RTWlGE5byX5bDaH9VJ26eOJ0H/HS8ZIPi7Ukiy3ozJl0dt3E5fLhdvlwlhrRbhQU0H9JRlJTTp+ktVREJdNVrESzXkTilwV0bGH2CX5hq2SKDYkRLL2+FbeMyaSPzXCzIiHwSE7DocD17ALfU05QmtfF/wG/P4Hy/fnmV9ewu0Zx1Bv5cfkJD7a+QkRe3awce92Xtu3hVWfbmS7JpKyubOM/uJhwD6A2+1mbHSU8oZqhDvOcabsTUxN2Oi2N+C+5iJwe5l7C/fYHxPDE6ueZk3YOp58eQ1C2LMIqwWiDm7G71Qw5LzD4OAtnE5nSHR0bAzBM+GlxzNCv70Hm83GxPgEAX+AmZkZdDodsbGxSL5P4JQknvgECUfj4jApM5m82ojd5Wag/xZDQ0MMDw/j8XgQAgE/c6JAYJbZ2Vn8fj8+nxefzxeqFxcXCS4ECQZXsDA/z7TPz/hdL5OTE0xNTYUwOTmJ1+vlLy+74XcMyNgmAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;picker.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/33a6c1f9f8fa0df92e09ffa482459346/f058b/picker.png&quot;
+        srcset=&quot;/static/33a6c1f9f8fa0df92e09ffa482459346/c26ae/picker.png 158w,
+/static/33a6c1f9f8fa0df92e09ffa482459346/6bdcf/picker.png 315w,
+/static/33a6c1f9f8fa0df92e09ffa482459346/f058b/picker.png 630w,
+/static/33a6c1f9f8fa0df92e09ffa482459346/8bd7c/picker.png 845w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;심지어 이젠 브라우저 기본 input 타입으로도 제공한다.&lt;/p&gt;
+&lt;deckgo-highlight-code   &gt;
+          &lt;code slot=&quot;code&quot;&gt;&amp;lt;input type=&amp;quot;color&amp;quot; value=&amp;quot;#e66465&amp;quot;&amp;gt;&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 250px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/57541aead5f41949f826ac66ae8f8348/63868/input_color_picker.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 119.62025316455697%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAFM0lEQVR42o2VW2hUVxSGd0U0mppRczHOJDFiVAxOVTQyJCheY0QcI8UIBvOiHC1WabTqi0N8EOvlQUSO+KBIIojIKMRYbKiXVse0trFRqGKcqE0yZrxMZjKXM5dz5sxXTi5qig9d8LH3Wvvs/+y9WawlQqEQPV4vb96+xev10tfXh2GpVOojuv7/SKUQnc+f0/pdLe279/D4+72429oGBBluqc/EPmfipdvN7/X1tDU08Mf58zx/+BBdUVADAVS/H9XnQ333Dt68Qe/pQfV4ULu7UTs7UV+9Qn3xArWjA/XZM5KKgvD19hIMBAh1dxN68oTw3buEm5oIX7xI6MwZwsePE3I4+K22lvatW4lu2ECoooJQWRlhq5VwYSHh7GxCQhC7fRvR1dVF+6NHdLS04G5uxn31Ku4LF3CfPo372DE66upw19bSuG0bd6ureWW383zZMtwLF+IuLsZdUEBHdjbtQhA0BNvb2/mluRnXtWu4Ll7EdfYsrpMncR0+jOvAAe7V1uKSJFqqq7lfWcm98nJcZWW45s7FNWMGLosFV2YmvwqBzxBsa2vjUkMDV86dw3nqFM6jR3EePIhz3z6cO3fi3LIF56ZNOCsrca5ahXPRIpwLFuAsLsY5dSrO3FyuTJjAJSHoMQRbWlo4cewYp48cQa6rQ963D3nXLmRJQq6pQa6qQl67FnnlSuRFi5BLSpCtVuTp05Hz8pCzsjhtMnFCCDoNwZs3b7J/927q9uzBsWMHjq1bcWzejKOqCse6dTgqKnAsXYqjtBTH/Pk4rFYcM2bgmDIFR24ujgkTqBs3jv1C0GEINjU1UVNdzfaaGqSNG5HWr0daswapvBxpyRKksjKkkhKkOXOQiouRioqQpkxBmjwZKTMTKSOD7enp1AjBU0Pw8uXLlC9fTuXq1axbvhz74sXYS0uxL1yIfd487FYr9lmzsBcVYS8sxJ6Xh33SJOyZmdhNJuxjx1I5ZgzlQvDYEKyvr2fO7NmUlpRgmzsXm9WKrbgY28yZ2IqKsE2diq2gAJvFgi03F1t2NraJE7GZTNjS07GlpVGalsZXQtB65w5ClmVMGRnkm82Yc3IwT5yIefz4ATIyMH85DnN6OuYxYzCPTsM8ahTmkSMxjxiB+QuBWQjyhcAkBPdv3RoQHG8ykZ+fj8VsJr+wkPxp08ibPBnLpElYcnMHRoOcnEGysWQbZGHJyqIgJ4fxo0dz/949hM/nIx6PE4/FUBIJfK2teJuuEwmFiCSTKIkYUVUhoSmoCQU1qqAqMdSoSkzRUKIaSkIjEo0Si8UQiqIQ7Ovj+o0baP4A3h3f8nr91wRv3SF59BCsb8BfnuTgClixFyo6oZyfsVPFVVbCPyvgUBW886OSQkQiEV57PHhevyaVSNBz+Ac8278h8vcTtMdt6D8+RWnUeNCYovF+iqZgikY6uZ78iQ6uoQcbSf3ZTCoSJaFpiKGCaljSqHmqStznQwPUwdiAaQMkVdAHQ4mPU6NWJhIJRDAYRNd1kskkwT4/D/9q462vl6Sm9dP3/h2tDx7i7wsRT2hoeooXXS958uwZekpD0wzVZH+1/iBoOJqmoUTCeLq7+9uAqqqomkZMieDp9hAxiq6q9v/EH/Dz/r2vf4/BUMsYJmiccGgchq6jpwZ6xqfxoVvpg71kmOCn1tnVRTiifPD1ZJxXnV3DvvG+8fK+t7d//ul+4wYiEAj0588Q0WhsmG9gZMLQPB6LY6SagZG/xvhhLR5HGMfuf69BjDf51P9cbOjt/rtmXP9fPJeneHZH/qgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;input_color_picker.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/57541aead5f41949f826ac66ae8f8348/63868/input_color_picker.png&quot;
+        srcset=&quot;/static/57541aead5f41949f826ac66ae8f8348/c26ae/input_color_picker.png 158w,
+/static/57541aead5f41949f826ac66ae8f8348/63868/input_color_picker.png 250w&quot;
+        sizes=&quot;(max-width: 250px) 100vw, 250px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+생각보다 더 그럴듯하다.&lt;/p&gt;
+&lt;p&gt;만약 JS로 color picker를 직접 구현한다고 결정했다면,
+만드는 방법은 크게 두 가지가 있다&lt;/p&gt;
+&lt;h2&gt;첫 번째&lt;/h2&gt;
+&lt;p&gt;canvas로 그린다.
+색을 선택할 때는 그냥 canvas에서 픽셀로 읽으면 색을 잘 뽑을 수 있다.&lt;/p&gt;
+&lt;deckgo-highlight-code   &gt;
+          &lt;code slot=&quot;code&quot;&gt;const canvas = document.getElementById(&amp;quot;canvas&amp;quot;);
+const gl = canvas.getContext(&amp;quot;webgl&amp;quot;);
+const pixels = new Uint8Array(
+  gl.drawingBufferWidth * gl.drawingBufferHeight * 4
+);
+readPixels(x, y, width, height, format, type, pixels)&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;h2&gt;두 번째&lt;/h2&gt;
+&lt;p&gt;div css로 그린다.
+&lt;code&gt;liner-gradient&lt;/code&gt;를 이용하면 색상의 명암을 줄 수 있다.&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;css&quot;  &gt;
+          &lt;code slot=&quot;code&quot;&gt;background: linear-gradient(
+    to right, 
+    rgb(255, 255, 255), 
+    rgba(255, 255, 255, 0)
+);
+
+background: linear-gradient(
+    to top,
+    rgb(0, 0, 0),
+    rgba(0, 0, 0, 0)
+);&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;이런 식으로 주어진 단색에 하얀색과 검은색을 시작으로 alpha 값을 0으로 끝나게 설정하면, 그라디언트를 구현할 수 있다.
+대신 색을 선택할 땐 좌표를 기반으로 계산한 값을 줘야 한다.&lt;/p&gt;
+&lt;h2&gt;어떤 방법이 더 좋을까?&lt;/h2&gt;
+&lt;p&gt;나는 두 번째 방법(css)을 더 선호한다. 왜냐하면 Hue color에 따라 내부 색을 바꿀 때,
+렌더링이 무거운 페이지의 경우 canvas에 그릴 때 문제가 발생할 수 있기 때문이다.
+색이 휙휙 바뀔 때마다 계속 canvas 페인팅을 하느라 중간중간 깨지는 현상이 발생하는 경우가 있다.
+다른 canvas에서 무거운 작업을 할 때 발생할 확률이 올라간다.&lt;/p&gt;
+&lt;p&gt;하지만 두 번째 방법은 그럴 일이 거의 없다. 다만 색을 선택할 때 이것저것 계산하는게 귀찮긴 한데,
+그래도 잘 작동하니까 사용하지 않을 이유가 없다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Javy를 왜 만든 걸까?]]></title><description><![CDATA[GeekNews를 보던 중 Javy라는 물건을 발견했다. Javy? JS 코드를 웹 어셈블리(이하 WASM)에서 돌릴 수 있도록 만들어 주는 툴 체인이다.
 JS 코드를 가져온 뒤, WASM에 임베드 된 JS 런타임으로 실행을 하며,
 dynamic…]]></description><link>https://mingyu.kim/what-is-javy/</link><guid isPermaLink="false">https://mingyu.kim/what-is-javy/</guid><pubDate>Fri, 09 Jun 2023 15:46:21 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://news.hada.io/topic?id=9289&quot;&gt;GeekNews&lt;/a&gt;를 보던 중 &lt;a href=&quot;https://github.com/bytecodealliance/javy&quot;&gt;Javy&lt;/a&gt;라는 물건을 발견했다.&lt;/p&gt;
 &lt;h2&gt;Javy?&lt;/h2&gt;
