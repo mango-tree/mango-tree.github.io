@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://mingyu.kim</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 16 Jun 2023 18:41:30 GMT</lastBuildDate><item><title><![CDATA[About]]></title><description><![CDATA[Profile Profile
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://mingyu.kim</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 29 Jun 2023 16:28:16 GMT</lastBuildDate><item><title><![CDATA[About]]></title><description><![CDATA[Profile Profile
 Undergraduate in Computer Science in UNIST UNIST School of Electrical & Computer Engineering (2013 ~) UNIST Computer…]]></description><link>https://mingyu.kim/about/</link><guid isPermaLink="false">https://mingyu.kim/about/</guid><content:encoded>&lt;h3&gt;Profile&lt;/h3&gt;
 &lt;p&gt;Profile
 Undergraduate in Computer Science in &lt;a href=&quot;https://www.unist.ac.kr/&quot;&gt;UNIST&lt;/a&gt;&lt;/p&gt;
@@ -19,7 +19,49 @@ Undergraduate in Computer Science in &lt;a href=&quot;https://www.unist.ac.kr/&q
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2015. 12. 화봉고 동아리 연계 - 진로 설계 게임 &quot;찾job&quot; 제작 &lt;a href=&quot;http://www.readingnews.kr/news/articleView.html?idxno=3109&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2014. 06. International Supercomputing Conference 14 Student Cluster Challenge (ISC 14) &lt;a href=&quot;https://news.unist.ac.kr/kor/20140624-01/&quot;&gt;Finalist&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2014. 04. Asia student Supercomputing Challenge 14 (ASC 14) &lt;a href=&quot;https://news.unist.ac.kr/kor/20140624-01/&quot;&gt;Finalist&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2013. 11. 화봉고 동아리 - 진로 탐색 애플리케이션 제작 &lt;a href=&quot;https://www.nocutnews.co.kr/news/1127142&quot;&gt;link&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Colorpicker 만들기]]></title><description><![CDATA[색상 선택을 하기 위한 UI를 만들 때, 보통 Color picker를 만드는 경우가 많다.
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2013. 11. 화봉고 동아리 - 진로 탐색 애플리케이션 제작 &lt;a href=&quot;https://www.nocutnews.co.kr/news/1127142&quot;&gt;link&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[aws s3 sdk와 Node.js의 충돌 문제]]></title><description><![CDATA[개발 중 발생했던 골치 아팠던 이슈 복기용으로 적는다. 발단 Node.js에서 aws sdk를 이용해 S3에 파일을 업로드 할 일이 생겼다.
+적당히 개발 후 돌려보는데 Node.js단에서 자꾸 크래시가 나는 일이 계속되었다. Assertion…]]></description><link>https://mingyu.kim/aws-s3-node/</link><guid isPermaLink="false">https://mingyu.kim/aws-s3-node/</guid><pubDate>Fri, 30 Jun 2023 01:30:21 GMT</pubDate><content:encoded>&lt;p&gt;개발 중 발생했던 골치 아팠던 이슈 복기용으로 적는다.&lt;/p&gt;
+&lt;h2&gt;발단&lt;/h2&gt;
+&lt;p&gt;Node.js에서 aws sdk를 이용해 S3에 파일을 업로드 할 일이 생겼다.
+적당히 개발 후 돌려보는데 Node.js단에서 자꾸 크래시가 나는 일이 계속되었다.&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;log&quot;  &gt;
+          &lt;code slot=&quot;code&quot;&gt;[1] /Users/mango/.nvm/versions/node/v16.9.0/bin/node[56951]: ../src/node_http_parser.cc:517:static void node::(anonymous namespace)::Parser::Execute(const FunctionCallbackInfo&amp;lt;v8::Value&amp;gt; &amp;amp;): Assertion `parser-&amp;gt;current_buffer_.IsEmpty()&amp;#39; failed.&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;&lt;code&gt;Assertion &apos;parser-&gt;current_buffer_.IsEmpty()&apos; failed.&lt;/code&gt; ???&lt;/p&gt;
+&lt;h2&gt;이게 웬 에러야&lt;/h2&gt;
+&lt;p&gt;대체 이게 무슨 에러지 하고 찾아보았는데, 다음과 같은 &lt;a href=&quot;https://github.com/aws/aws-sdk-js-v3/issues/2843&quot;&gt;Opened Issue&lt;/a&gt;가 있었다.
+Opened Issue만 보면 머리가 지끈거리기 시작하면서 어지러워진다.
+심지어 만들어진 지 1년이 넘은 이슈다. 대체 무슨 문제길래?
+여튼 한 번 내용을 보자.&lt;/p&gt;
+&lt;p&gt;S3로 대용량 파일을 올리려다 발생한 에러라고 한다.
+로컬 머신에서는 잘 작동하는데, EKS로 올린 EC2에서는 data size 관계 없이 항상 발생한다고 한다.
+대체 왜 그럴까?&lt;/p&gt;
+&lt;p&gt;밑의 의견들을 보니, 파일 사이즈를 정확히 5MB으로 올렸을 때, Multipart Upload chunk를 2개를 만드는데,
+첫번째 chunk에 데이터가 5MB 다 들어가고 두번째 chunk가 텅텅 빈 채로 body에 들어가게 되면서 문제가 생긴다는 주장이 있다.
+그런데 왜 0 byte body를 받는다고 죽는 걸까?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;더 자세한 문제를 보기 위해 Node.js쪽을 보자. 여기에도 &lt;a href=&quot;https://github.com/nodejs/node/issues/39671&quot;&gt;관련 이슈&lt;/a&gt;가 올라와 있다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Basically the AWS server sends first a HTTP/1.1 100 Continue as requested and then the HTTP 200 OK.&lt;/p&gt;
+&lt;p&gt;If the two messages are received too closely (less than 5ms away) then the execute is somehow called on the same parser before the previous call even returns.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Node.js가 &lt;code&gt;100 Continue&lt;/code&gt;와 &lt;code&gt;200 OK&lt;/code&gt;를 짧은 시간(5ms) 이내에 동시에 받게 되면 제대로 파싱하지 못하고 죽기 때문이다.
+이제 5MB 파일을 업로드하며 테스트했던 사람의 케이스가 이해가 되기 시작한다.
+용량이 0인 chunk라면 처리 속도가 매우 빠를 테니 짧은 시간 내에 두 개 이상의 chunk response를 받게 될 가능성이 올라가고,
+한 번이라도 그런 문제가 발생하는 순간 Assertion crash.
+경험상 어떤 크기의 파일이라도 여러번 시도하다 보면 한 번씩 터졌기 때문에, 무조건 터질 가능성이 있다고 봐야 했다.&lt;/p&gt;
+&lt;h2&gt;고쳐주세요&lt;/h2&gt;
+&lt;p&gt;AWS SDK쪽에선 고칠 생각이 없었고(생각해보면 당연하다. Node.js의 버그인데 AWS쪽에서 고칠 이유가?),
+다행히도 Node.js쪽에서 &lt;a href=&quot;https://github.com/nodejs/node/pull/43369&quot;&gt;패치&lt;/a&gt;를 했기 때문에,
+해당 버전 이상(v18.6.0+, v16.17.0+)의 Node.js에서는 위 버그가 일어나지 않는다.&lt;/p&gt;
+&lt;p&gt;생각해보면 꽤 위험한 서버 취약점이 될 수도 있는 버그같다.
+사용자 입력 주소로 요청을 보내는 서버라면, 그 서버를 죽일 수 있는 것 아닌가?
+지금은 고쳐져서 정말 다행이다.&lt;/p&gt;
+&lt;h2&gt;Reference&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/aws/aws-sdk-js-v3/issues/2843&quot;&gt;https://github.com/aws/aws-sdk-js-v3/issues/2843&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/nodejs/node/issues/39671&quot;&gt;https://github.com/nodejs/node/issues/39671&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/nodejs/node/pull/43369&quot;&gt;https://github.com/nodejs/node/pull/43369&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Colorpicker 만들기]]></title><description><![CDATA[색상 선택을 하기 위한 UI를 만들 때, 보통 Color picker를 만드는 경우가 많다.
 널리 알려진 UI기 때문에 여러 다양한 Color picker 라이브러리들과 예제들을 볼 수 있다.
  심지어 이젠 브라우저 기본 input…]]></description><link>https://mingyu.kim/color-picker/</link><guid isPermaLink="false">https://mingyu.kim/color-picker/</guid><pubDate>Fri, 16 Jun 2023 02:55:21 GMT</pubDate><content:encoded>&lt;p&gt;색상 선택을 하기 위한 UI를 만들 때, 보통 Color picker를 만드는 경우가 많다.
 널리 알려진 UI기 때문에 여러 다양한 Color picker 라이브러리들과 예제들을 볼 수 있다.
