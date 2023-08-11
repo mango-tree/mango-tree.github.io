@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://mingyu.kim</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 07 Jul 2023 18:18:46 GMT</lastBuildDate><item><title><![CDATA[About]]></title><description><![CDATA[Profile Profile
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://mingyu.kim</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 11 Aug 2023 13:46:03 GMT</lastBuildDate><item><title><![CDATA[About]]></title><description><![CDATA[Profile Profile
 Undergraduate in Computer Science in UNIST UNIST School of Electrical & Computer Engineering (2013 ~) UNIST Computer…]]></description><link>https://mingyu.kim/about/</link><guid isPermaLink="false">https://mingyu.kim/about/</guid><content:encoded>&lt;h3&gt;Profile&lt;/h3&gt;
 &lt;p&gt;Profile
 Undergraduate in Computer Science in &lt;a href=&quot;https://www.unist.ac.kr/&quot;&gt;UNIST&lt;/a&gt;&lt;/p&gt;
@@ -19,7 +19,264 @@ Undergraduate in Computer Science in &lt;a href=&quot;https://www.unist.ac.kr/&q
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2015. 12. 화봉고 동아리 연계 - 진로 설계 게임 &quot;찾job&quot; 제작 &lt;a href=&quot;http://www.readingnews.kr/news/articleView.html?idxno=3109&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2014. 06. International Supercomputing Conference 14 Student Cluster Challenge (ISC 14) &lt;a href=&quot;https://news.unist.ac.kr/kor/20140624-01/&quot;&gt;Finalist&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2014. 04. Asia student Supercomputing Challenge 14 (ASC 14) &lt;a href=&quot;https://news.unist.ac.kr/kor/20140624-01/&quot;&gt;Finalist&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2013. 11. 화봉고 동아리 - 진로 탐색 애플리케이션 제작 &lt;a href=&quot;https://www.nocutnews.co.kr/news/1127142&quot;&gt;link&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[이 앱이 웹앱인지 아닌지 어떻게 알 수 있을까?]]></title><description><![CDATA[요즘 웹앱이 엄청나게 많이 늘고 있고, PWA도 많이는 안 쓰지만 사용하는 회사들이 그래도 좀 늘어나고 있는 추세다.
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2013. 11. 화봉고 동아리 - 진로 탐색 애플리케이션 제작 &lt;a href=&quot;https://www.nocutnews.co.kr/news/1127142&quot;&gt;link&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Go로 짜면 리버싱이 어려운 이유]]></title><description><![CDATA[친구들과 잡담을 하던 도중, 이런 흥미로운 이야기를 들었다. go로 짜면 리버싱이 개어렵긴하더라. go…]]></description><link>https://mingyu.kim/golong-calling-convention/</link><guid isPermaLink="false">https://mingyu.kim/golong-calling-convention/</guid><pubDate>Sun, 06 Aug 2023 11:30:21 GMT</pubDate><content:encoded>&lt;p&gt;친구들과 잡담을 하던 도중, 이런 흥미로운 이야기를 들었다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;go로 짜면 리버싱이 개어렵긴하더라. go가 진짜 개악질인게 우리가 아는 표준 콜링컨벤션을 하나도 안 지킴. 레지스터를 지 맘대로 씀. 심지어 버전마다도 조금씩 다르다니까?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;처음 들어보는 재밌는 이야기여서 확인차 적어보고자 한다.&lt;/p&gt;
+&lt;h2&gt;Calling convention이란?&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.16455696202532%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACJUlEQVR42nWT3WvTUBjG+4/6N3gvIt54NUG8EwSHqMgUvZm0rKKIYNtNpHNsa7t+bqZfJ81JTj5O0iTtT3Kcdcp84CXk5Jzfm/fJk1K9XqdWq1Eul8314OCARqNBtVrl8PCQ67Rer6+tQqVkuWSZJKRxTKw1aZqayvOc1WplNhX3y+WSLMvM+v9UQEvtk2NOj4/pHB0xn81Qvo9SyjwsQFovkVIynU4JgoAoipjP5wZQNEnSDK31pnlpOraYjC3GYwsh5ijl4XneJewNQfCKPE+p1xtUKmUWi4VpKhc2s+oLRL1iXqSAGuCgN6Tb7jHonzOZCmzbRUqfNM0IgocodZss0+zvf2V3dxchhDmoPBexfYfFzhatVovRaPQL2Gt/4qhZZTDcx7KaTCZNPO8MrSO63Zv0ejdI05DxeEK/3zM+FuP/uLggevsA/90jXM/b+Fhy5AmO00bKFlK28f02YdQ1/vj+fVzvFkkSms22LRgOhwboOAuSD8+JPr9mLoRZS+KY0mzqIoTCkRHOIsRxIqIoJ89XaP0Yre+R54kBxrGm3+8jbBsdRfjVp6iPOwwGAzqdDnEBbHfqnHW/ICanSDlEyj6ed27isV5nrFbyr5wV8oMAz3WZbN/FerllPkjhuRl5ONrj/GIPKWr4QROlvqHUd/I8+zdlG3AYRgRhiHr/DLfyhPwyMiaHliUQtksQFJ4lmypGvgq5Gt7fytewMpP8+VN+ApgCODpMfSPuAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;calling_convention.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/7e5de6104d5b24d87669ba922dc54931/f058b/calling_convention.png&quot;
+        srcset=&quot;/static/7e5de6104d5b24d87669ba922dc54931/c26ae/calling_convention.png 158w,
+/static/7e5de6104d5b24d87669ba922dc54931/6bdcf/calling_convention.png 315w,
+/static/7e5de6104d5b24d87669ba922dc54931/f058b/calling_convention.png 630w,
+/static/7e5de6104d5b24d87669ba922dc54931/40601/calling_convention.png 945w,
+/static/7e5de6104d5b24d87669ba922dc54931/78612/calling_convention.png 1260w,
+/static/7e5de6104d5b24d87669ba922dc54931/d5eae/calling_convention.png 1407w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;a href=&quot;https://twitter.com/konradkokosa/status/1435142226422779904&quot;&gt;출처&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;말 그대로 &quot;호출 규약&quot;이다. 함수를 호출할 때 어떤 방법으로 진행하는지에 대한 약속들을 정리해 놓은 것.
+매개 변수들을 서브루틴에 어떻게 전달할 지, 호출자(caller)가 레지스터의 내용이 보존되기를 원하는지,
+서브루틴의 로컬 변수는 어디에 저장해야 할 지, 결과 반환은 어떻게 해야 할 지 등의 다양한 결정들을 해야 하는데,
+통일된 호출 규칙을 만들어서 사용하면 훨씬 편하게 서브루틴을 정의하고 사용할 수 있다.&lt;/p&gt;
+&lt;p&gt;통일된 호출 규칙을 사용하면, 각 서브루틴이 어떻게 매개변수를 전달해야 하는지를 일일히 살펴 볼 필요가 없고,
+컴파일러가 해당 규칙을 따르기 때문에 직접 어셈블리를 짜더라도 서로의 루틴을 호출할 수 있다.&lt;/p&gt;
+&lt;h2&gt;직접 알아보자&lt;/h2&gt;
+&lt;p&gt;먼저 c로 간단한 코드를 짜 보자:&lt;/p&gt;
+&lt;deckgo-highlight-code   &gt;
+          &lt;code slot=&quot;code&quot;&gt;#include &amp;lt;stdio.h&amp;gt;
+
+int sum(int a, int b) {
+    return a+b;
+}
+
+
+int main() {
+    int a;
+    a = sum(1, 1);
+    printf(&amp;quot;%d\n&amp;quot;, a);
+    return 0;
+}&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;어셈블리로 분석해 보면 다음과 같은 코드가 나온다.&lt;/p&gt;
+&lt;deckgo-highlight-code   &gt;
+          &lt;code slot=&quot;code&quot;&gt;(gdb) disas main
+Dump of assembler code for function main:
+   0x0000000000001161 &amp;lt;+0&amp;gt;:     endbr64
+   0x0000000000001165 &amp;lt;+4&amp;gt;:     push   %rbp
+   0x0000000000001166 &amp;lt;+5&amp;gt;:     mov    %rsp,%rbp
+   0x0000000000001169 &amp;lt;+8&amp;gt;:     sub    $0x10,%rsp
+   0x000000000000116d &amp;lt;+12&amp;gt;:    mov    $0x1,%esi
+   0x0000000000001172 &amp;lt;+17&amp;gt;:    mov    $0x1,%edi
+   0x0000000000001177 &amp;lt;+22&amp;gt;:    call   0x1149 &amp;lt;sum&amp;gt;
+   0x000000000000117c &amp;lt;+27&amp;gt;:    mov    %eax,-0x4(%rbp)
+   0x000000000000117f &amp;lt;+30&amp;gt;:    mov    -0x4(%rbp),%eax
+   0x0000000000001182 &amp;lt;+33&amp;gt;:    mov    %eax,%esi
+   0x0000000000001184 &amp;lt;+35&amp;gt;:    lea    0xe79(%rip),%rax        # 0x2004
+   0x000000000000118b &amp;lt;+42&amp;gt;:    mov    %rax,%rdi
+   0x000000000000118e &amp;lt;+45&amp;gt;:    mov    $0x0,%eax
+   0x0000000000001193 &amp;lt;+50&amp;gt;:    call   0x1050 &amp;lt;printf@plt&amp;gt;
+   0x0000000000001198 &amp;lt;+55&amp;gt;:    mov    $0x0,%eax
+   0x000000000000119d &amp;lt;+60&amp;gt;:    leave
+   0x000000000000119e &amp;lt;+61&amp;gt;:    ret
+End of assembler dump.
+(gdb) disas sum
+Dump of assembler code for function sum:
+   0x0000000000001149 &amp;lt;+0&amp;gt;:     endbr64
+   0x000000000000114d &amp;lt;+4&amp;gt;:     push   %rbp
+   0x000000000000114e &amp;lt;+5&amp;gt;:     mov    %rsp,%rbp
+   0x0000000000001151 &amp;lt;+8&amp;gt;:     mov    %edi,-0x4(%rbp)
+   0x0000000000001154 &amp;lt;+11&amp;gt;:    mov    %esi,-0x8(%rbp)
+   0x0000000000001157 &amp;lt;+14&amp;gt;:    mov    -0x4(%rbp),%edx
+   0x000000000000115a &amp;lt;+17&amp;gt;:    mov    -0x8(%rbp),%eax
+   0x000000000000115d &amp;lt;+20&amp;gt;:    add    %edx,%eax
+   0x000000000000115f &amp;lt;+22&amp;gt;:    pop    %rbp
+   0x0000000000001160 &amp;lt;+23&amp;gt;:    ret
+End of assembler dump.&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;일반적으로 리눅스에서는 인자를 rdi에 넣는다.
+위 어셈 코드를 보면 esi와 edi(rdi를 반으로 나눈 게 edi다. rdi는 64bit, edi는 32bit)에 각각 값(1)을 넣은 뒤,
+sum 함수를 콜하는 것을 볼 수 있다.&lt;/p&gt;
+&lt;p&gt;그럼 go로 비슷한 코드를 써 보자:&lt;/p&gt;
+&lt;deckgo-highlight-code   &gt;
+          &lt;code slot=&quot;code&quot;&gt;package main
+import (
+    &amp;quot;fmt&amp;quot;
+)
+func sum(a int, b int) int {
+    return a+b
+}
+
+func main() {
+    a := sum(1, 1)
+    fmt.Printf(&amp;quot;%d\n&amp;quot;, a)
+}&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;어셈블리로 분석해 보면?&lt;/p&gt;
+&lt;p&gt;먼저 어떤 함수들이 있는지 보자.&lt;/p&gt;
+&lt;deckgo-highlight-code   &gt;
+          &lt;code slot=&quot;code&quot;&gt;(gdb) info functions
+All defined functions:
+
+File /home/mango/coding/lab/main.go:
+        void main.main(void);
+
+File /usr/lib/go-1.18/src/errors/errors.go:
+        void errors.(*errorString).Error;
+
+File /usr/lib/go-1.18/src/errors/wrap.go:
+        void errors.init(void);
+
+File /usr/lib/go-1.18/src/fmt/format.go:
+        void fmt.(*fmt).fmtBoolean;
+        void fmt.(*fmt).fmtBs;
+...&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;어라? main.go에 함수가 하나밖에 없다. 최적화로 지워진 모양이다.&lt;/p&gt;
+&lt;p&gt;main.main을 들어가 보자.&lt;/p&gt;
+&lt;deckgo-highlight-code   &gt;
+          &lt;code slot=&quot;code&quot;&gt;(gdb) disas main.main
+Dump of assembler code for function main.main:
+   0x000000000047f460 &amp;lt;+0&amp;gt;:     cmp    0x10(%r14),%rsp
+   0x000000000047f464 &amp;lt;+4&amp;gt;:     jbe    0x47f4cf &amp;lt;main.main+111&amp;gt;
+   0x000000000047f466 &amp;lt;+6&amp;gt;:     sub    $0x50,%rsp
+   0x000000000047f46a &amp;lt;+10&amp;gt;:    mov    %rbp,0x48(%rsp)
+   0x000000000047f46f &amp;lt;+15&amp;gt;:    lea    0x48(%rsp),%rbp
+   0x000000000047f474 &amp;lt;+20&amp;gt;:    movups %xmm15,0x38(%rsp)
+   0x000000000047f47a &amp;lt;+26&amp;gt;:    mov    $0x2,%eax
+   0x000000000047f47f &amp;lt;+31&amp;gt;:    nop
+   0x000000000047f480 &amp;lt;+32&amp;gt;:    call   0x409820 &amp;lt;runtime.convT64&amp;gt;
+   0x000000000047f485 &amp;lt;+37&amp;gt;:    lea    0x7394(%rip),%rcx        # 0x486820
+   0x000000000047f48c &amp;lt;+44&amp;gt;:    mov    %rcx,0x38(%rsp)
+   0x000000000047f491 &amp;lt;+49&amp;gt;:    mov    %rax,0x40(%rsp)
+   0x000000000047f496 &amp;lt;+54&amp;gt;:    mov    0xa2ad3(%rip),%rbx        # 0x521f70 &amp;lt;os.Stdout&amp;gt;
+   0x000000000047f49d &amp;lt;+61&amp;gt;:    lea    0x34d94(%rip),%rax        # 0x4b4238 &amp;lt;go.itab.*os.File,io.Writer&amp;gt;
+   0x000000000047f4a4 &amp;lt;+68&amp;gt;:    lea    0x166ef(%rip),%rcx        # 0x495b9a
+   0x000000000047f4ab &amp;lt;+75&amp;gt;:    mov    $0x3,%edi
+   0x000000000047f4b0 &amp;lt;+80&amp;gt;:    lea    0x38(%rsp),%rsi
+   0x000000000047f4b5 &amp;lt;+85&amp;gt;:    mov    $0x1,%r8d
+   0x000000000047f4bb &amp;lt;+91&amp;gt;:    mov    %r8,%r9
+   0x000000000047f4be &amp;lt;+94&amp;gt;:    xchg   %ax,%ax
+   0x000000000047f4c0 &amp;lt;+96&amp;gt;:    call   0x478ca0 &amp;lt;fmt.Fprintf&amp;gt;
+   0x000000000047f4c5 &amp;lt;+101&amp;gt;:   mov    0x48(%rsp),%rbp
+   0x000000000047f4ca &amp;lt;+106&amp;gt;:   add    $0x50,%rsp
+   0x000000000047f4ce &amp;lt;+110&amp;gt;:   ret
+   0x000000000047f4cf &amp;lt;+111&amp;gt;:   call   0x458980 &amp;lt;runtime.morestack_noctxt&amp;gt;
+   0x000000000047f4d4 &amp;lt;+116&amp;gt;:   jmp    0x47f460 &amp;lt;main.main&amp;gt;
+End of assembler dump.&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;...이게 뭐지?&lt;/p&gt;
+&lt;h2&gt;어지럽다&lt;/h2&gt;
+&lt;p&gt;함수가 갑자기 사라진 건 최적화의 영향이라고 생각해서, &lt;code&gt;-gcflags &apos;-N&apos;&lt;/code&gt; 을 사용해서 최적화를 꺼 보았다. 그랬더니...&lt;/p&gt;
+&lt;deckgo-highlight-code   &gt;
+          &lt;code slot=&quot;code&quot;&gt;(gdb) disas main.main
+Dump of assembler code for function main.main:
+   0x000000000047f460 &amp;lt;+0&amp;gt;:     lea    -0x70(%rsp),%r12
+   0x000000000047f465 &amp;lt;+5&amp;gt;:     cmp    0x10(%r14),%r12
+   0x000000000047f469 &amp;lt;+9&amp;gt;:     jbe    0x47f625 &amp;lt;main.main+453&amp;gt;
+   0x000000000047f46f &amp;lt;+15&amp;gt;:    sub    $0xf0,%rsp
+   0x000000000047f476 &amp;lt;+22&amp;gt;:    mov    %rbp,0xe8(%rsp)
+   0x000000000047f47e &amp;lt;+30&amp;gt;:    lea    0xe8(%rsp),%rbp
+   0x000000000047f486 &amp;lt;+38&amp;gt;:    movq   $0x1,0x50(%rsp)
+   0x000000000047f48f &amp;lt;+47&amp;gt;:    movq   $0x1,0x48(%rsp)
+   0x000000000047f498 &amp;lt;+56&amp;gt;:    mov    0x50(%rsp),%rcx
+   0x000000000047f49d &amp;lt;+61&amp;gt;:    inc    %rcx
+   0x000000000047f4a0 &amp;lt;+64&amp;gt;:    mov    %rcx,0x38(%rsp)
+   0x000000000047f4a5 &amp;lt;+69&amp;gt;:    jmp    0x47f4a7 &amp;lt;main.main+71&amp;gt;
+   0x000000000047f4a7 &amp;lt;+71&amp;gt;:    mov    %rcx,0x58(%rsp)
+   0x000000000047f4ac &amp;lt;+76&amp;gt;:    lea    0x166e7(%rip),%rcx        # 0x495b9a
+   0x000000000047f4b3 &amp;lt;+83&amp;gt;:    mov    %rcx,0x80(%rsp)
+   0x000000000047f4bb &amp;lt;+91&amp;gt;:    movq   $0x3,0x88(%rsp)
+   0x000000000047f4c7 &amp;lt;+103&amp;gt;:   movups %xmm15,0xa0(%rsp)
+   0x000000000047f4d0 &amp;lt;+112&amp;gt;:   lea    0xa0(%rsp),%rcx
+   0x000000000047f4d8 &amp;lt;+120&amp;gt;:   mov    %rcx,0x78(%rsp)
+   0x000000000047f4dd &amp;lt;+125&amp;gt;:   mov    0x58(%rsp),%rax
+   0x000000000047f4e2 &amp;lt;+130&amp;gt;:   call   0x409820 &amp;lt;runtime.convT64&amp;gt;
+   0x000000000047f4e7 &amp;lt;+135&amp;gt;:   mov    %rax,0x70(%rsp)
+   0x000000000047f4ec &amp;lt;+140&amp;gt;:   mov    0x78(%rsp),%rcx
+   0x000000000047f4f1 &amp;lt;+145&amp;gt;:   test   %al,(%rcx)
+   0x000000000047f4f3 &amp;lt;+147&amp;gt;:   lea    0x7326(%rip),%rdx        # 0x486820
+   0x000000000047f4fa &amp;lt;+154&amp;gt;:   mov    %rdx,(%rcx)
+   0x000000000047f4fd &amp;lt;+157&amp;gt;:   lea    0x8(%rcx),%rdi
+   0x000000000047f501 &amp;lt;+161&amp;gt;:   cmpl   $0x0,0xd1c08(%rip)        # 0x551110 &amp;lt;runtime.writeBarrier&amp;gt;
+   0x000000000047f508 &amp;lt;+168&amp;gt;:   je     0x47f50c &amp;lt;main.main+172&amp;gt;
+   0x000000000047f50a &amp;lt;+170&amp;gt;:   jmp    0x47f512 &amp;lt;main.main+178&amp;gt;
+   0x000000000047f50c &amp;lt;+172&amp;gt;:   mov    %rax,0x8(%rcx)
+   0x000000000047f510 &amp;lt;+176&amp;gt;:   jmp    0x47f519 &amp;lt;main.main+185&amp;gt;
+   0x000000000047f512 &amp;lt;+178&amp;gt;:   call   0x45a940 &amp;lt;runtime.gcWriteBarrier&amp;gt;
+   0x000000000047f517 &amp;lt;+183&amp;gt;:   jmp    0x47f519 &amp;lt;main.main+185&amp;gt;
+   0x000000000047f519 &amp;lt;+185&amp;gt;:   mov    0x78(%rsp),%rdx
+   0x000000000047f51e &amp;lt;+190&amp;gt;:   test   %al,(%rdx)
+   0x000000000047f520 &amp;lt;+192&amp;gt;:   jmp    0x47f522 &amp;lt;main.main+194&amp;gt;
+   0x000000000047f522 &amp;lt;+194&amp;gt;:   mov    %rdx,0xd0(%rsp)
+   0x000000000047f52a &amp;lt;+202&amp;gt;:   movq   $0x1,0xd8(%rsp)
+   0x000000000047f536 &amp;lt;+214&amp;gt;:   movq   $0x1,0xe0(%rsp)
+   0x000000000047f542 &amp;lt;+226&amp;gt;:   movq   $0x0,0x40(%rsp)
+   0x000000000047f54b &amp;lt;+235&amp;gt;:   movups %xmm15,0x90(%rsp)
+   0x000000000047f554 &amp;lt;+244&amp;gt;:   movq   $0x0,0x68(%rsp)
+   0x000000000047f55d &amp;lt;+253&amp;gt;:   movups %xmm15,0xc0(%rsp)
+   0x000000000047f566 &amp;lt;+262&amp;gt;:   movups %xmm15,0xb0(%rsp)
+   0x000000000047f56f &amp;lt;+271&amp;gt;:   mov    0x80(%rsp),%rcx
+   0x000000000047f577 &amp;lt;+279&amp;gt;:   mov    0xd0(%rsp),%rsi
+   0x000000000047f57f &amp;lt;+287&amp;gt;:   mov    0xd8(%rsp),%r8
+   0x000000000047f587 &amp;lt;+295&amp;gt;:   mov    0x88(%rsp),%rdi
+   0x000000000047f58f &amp;lt;+303&amp;gt;:   mov    0xe0(%rsp),%r9
+   0x000000000047f597 &amp;lt;+311&amp;gt;:   mov    0xa29f2(%rip),%rbx        # 0x521f90 &amp;lt;os.Stdout&amp;gt;
+   0x000000000047f59e &amp;lt;+318&amp;gt;:   lea    0x34cb3(%rip),%rax        # 0x4b4258 &amp;lt;go.itab.*os.File,io.Writer&amp;gt;
+   0x000000000047f5a5 &amp;lt;+325&amp;gt;:   call   0x478ca0 &amp;lt;fmt.Fprintf&amp;gt;
+   0x000000000047f5aa &amp;lt;+330&amp;gt;:   mov    %rax,0x60(%rsp)
+   0x000000000047f5af &amp;lt;+335&amp;gt;:   mov    %rbx,0xb0(%rsp)
+   0x000000000047f5b7 &amp;lt;+343&amp;gt;:   mov    %rcx,0xb8(%rsp)
+   0x000000000047f5bf &amp;lt;+351&amp;gt;:   mov    0x60(%rsp),%rdx
+   0x000000000047f5c4 &amp;lt;+356&amp;gt;:   mov    %rdx,0x68(%rsp)
+   0x000000000047f5c9 &amp;lt;+361&amp;gt;:   mov    0xb0(%rsp),%rdx
+   0x000000000047f5d1 &amp;lt;+369&amp;gt;:   mov    0xb8(%rsp),%r10
+   0x000000000047f5d9 &amp;lt;+377&amp;gt;:   mov    %rdx,0xc0(%rsp)
+   0x000000000047f5e1 &amp;lt;+385&amp;gt;:   mov    %r10,0xc8(%rsp)
+   0x000000000047f5e9 &amp;lt;+393&amp;gt;:   mov    0x68(%rsp),%rdx
+   0x000000000047f5ee &amp;lt;+398&amp;gt;:   mov    %rdx,0x40(%rsp)
+   0x000000000047f5f3 &amp;lt;+403&amp;gt;:   mov    0xc0(%rsp),%rdx
+   0x000000000047f5fb &amp;lt;+411&amp;gt;:   mov    0xc8(%rsp),%r10
+   0x000000000047f603 &amp;lt;+419&amp;gt;:   mov    %rdx,0x90(%rsp)
+   0x000000000047f60b &amp;lt;+427&amp;gt;:   mov    %r10,0x98(%rsp)
+   0x000000000047f613 &amp;lt;+435&amp;gt;:   jmp    0x47f615 &amp;lt;main.main+437&amp;gt;
+   0x000000000047f615 &amp;lt;+437&amp;gt;:   mov    0xe8(%rsp),%rbp
+   0x000000000047f61d &amp;lt;+445&amp;gt;:   add    $0xf0,%rsp
+   0x000000000047f624 &amp;lt;+452&amp;gt;:   ret
+   0x000000000047f625 &amp;lt;+453&amp;gt;:   call   0x458980 &amp;lt;runtime.morestack_noctxt&amp;gt;
+   0x000000000047f62a &amp;lt;+458&amp;gt;:   jmp    0x47f460 &amp;lt;main.main&amp;gt;&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;...굉장히 쓸데없이 길게 코드가 나오는 걸 볼 수 있다.
+일단 sum 함수 자체가 사라졌고(대충 &lt;code&gt;mov    $0x2, %eax&lt;/code&gt;로 최적화 당한 듯 하다),
+스택에 값을 엄청 넣었다 뺐다를 반복하고 있다.&lt;/p&gt;
+&lt;p&gt;다른 컴파일러들과 비교해서 &lt;a href=&quot;https://dr-knz.net/go-calling-convention-x86-64.html&quot;&gt;어떻게 다른지를 정리한 글&lt;/a&gt;을 찾았다.
+해당 글에 의하면, 인자와 반환값은 항상 스택에 들어가고, 따라서 memory-heavy 하다는 의견을 내고 있다.&lt;/p&gt;
+&lt;h2&gt;왜 이런 일이?&lt;/h2&gt;
+&lt;p&gt;Go는 llvm 기반이 아니다(!). 정확히는 gccgo와 golang-go 두 가지 컴파일러가 있는데, golang-go를 일반적으로 사용한다.
+이 컴파일러는 자체 런타임이 결합된 네이티브 머신 코드를 사용한다.
+그래서 다른 언어들과 차이가 날 수 밖에 없다.&lt;/p&gt;
+&lt;p&gt;따라서, Go로 컴파일 한다는 것은 리버싱을 효과적으로 방해할 수 있는 훌륭한 수단이 되어 버렸다.
+앞으로 분석당하기 싫은 프로그램을 만들고 싶다면 Go로 짜 보면 괜찮을지도 모르겠다.&lt;/p&gt;
+&lt;h2&gt;Reference&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://aaronbloomfield.github.io/pdr/book/x86-64bit-ccc-chapter.pdf&quot;&gt;The 64 bit x86 C Calling Convention&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://go.dev/doc/install/gccgo&quot;&gt;Setting up and using gccgo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://dr-knz.net/go-calling-convention-x86-64.html&quot;&gt;The Go low-level calling convention on x86-64&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[이 앱이 웹앱인지 아닌지 어떻게 알 수 있을까?]]></title><description><![CDATA[요즘 웹앱이 엄청나게 많이 늘고 있고, PWA도 많이는 안 쓰지만 사용하는 회사들이 그래도 좀 늘어나고 있는 추세다.
 가끔 이런 궁금증이 생긴다. 내가 사용하고 있는 이 앱이 웹앱일까? 웹앱이란 뭘까? 말 그대로 WebApp…]]></description><link>https://mingyu.kim/how-to-know-webapp/</link><guid isPermaLink="false">https://mingyu.kim/how-to-know-webapp/</guid><pubDate>Fri, 07 Jul 2023 01:50:21 GMT</pubDate><content:encoded>&lt;p&gt;요즘 웹앱이 엄청나게 많이 늘고 있고, PWA도 많이는 안 쓰지만 사용하는 회사들이 그래도 좀 늘어나고 있는 추세다.
 가끔 이런 궁금증이 생긴다. 내가 사용하고 있는 이 앱이 웹앱일까?&lt;/p&gt;
 &lt;h2&gt;웹앱이란 뭘까?&lt;/h2&gt;
@@ -202,7 +459,7 @@ Undergraduate in Computer Science in &lt;a href=&quot;https://www.unist.ac.kr/&q
 메인 페이지는 앱이지만 다른 부분은 웹이 매우 많은 부분을 차지하는 걸 볼 수 있다.
 다만 리액트 네이티브는 네이티브 컴포넌트를 쓰기 때문에 디버깅 화면에 수많은 컴포넌트들이 보일 것이다.&lt;/p&gt;
 &lt;p&gt;이런 식으로 내가 사용하고 있는 이 앱이 웹앱인지 찾아보는 재미가 쏠쏠하다.
-찾다보면 의외의 앱들이 웹앱인 걸 볼 수 있을지도 모른다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[aws s3 sdk와 Node.js의 충돌 문제]]></title><description><![CDATA[개발 중 발생했던 골치 아팠던 이슈 복기용으로 적는다. 발단 Node.js에서 aws sdk를 이용해 S3에 파일을 업로드 할 일이 생겼다.
+찾다보면 의외의 앱들이 웹앱인 걸 볼 수 있을지도 모른다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Node.js에서 aws s3 업로드를 하면 터진다? - aws sdk 이슈]]></title><description><![CDATA[개발 중 발생했던 골치 아팠던 이슈 복기용으로 적는다. 발단 Node.js에서 aws sdk를 이용해 S3에 파일을 업로드 할 일이 생겼다.
 적당히 개발 후 돌려보는데 Node.js단에서 자꾸 크래시가 나는 일이 계속되었다. Assertion…]]></description><link>https://mingyu.kim/aws-s3-node/</link><guid isPermaLink="false">https://mingyu.kim/aws-s3-node/</guid><pubDate>Fri, 30 Jun 2023 01:30:21 GMT</pubDate><content:encoded>&lt;p&gt;개발 중 발생했던 골치 아팠던 이슈 복기용으로 적는다.&lt;/p&gt;
 &lt;h2&gt;발단&lt;/h2&gt;
 &lt;p&gt;Node.js에서 aws sdk를 이용해 S3에 파일을 업로드 할 일이 생겼다.
