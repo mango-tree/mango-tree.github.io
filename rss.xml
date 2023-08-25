@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://mingyu.kim</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 11 Aug 2023 13:46:03 GMT</lastBuildDate><item><title><![CDATA[About]]></title><description><![CDATA[Profile Profile
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://mingyu.kim</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 25 Aug 2023 15:25:40 GMT</lastBuildDate><item><title><![CDATA[About]]></title><description><![CDATA[Profile Profile
 Undergraduate in Computer Science in UNIST UNIST School of Electrical & Computer Engineering (2013 ~) UNIST Computer…]]></description><link>https://mingyu.kim/about/</link><guid isPermaLink="false">https://mingyu.kim/about/</guid><content:encoded>&lt;h3&gt;Profile&lt;/h3&gt;
 &lt;p&gt;Profile
 Undergraduate in Computer Science in &lt;a href=&quot;https://www.unist.ac.kr/&quot;&gt;UNIST&lt;/a&gt;&lt;/p&gt;
@@ -19,7 +19,68 @@ Undergraduate in Computer Science in &lt;a href=&quot;https://www.unist.ac.kr/&q
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2015. 12. 화봉고 동아리 연계 - 진로 설계 게임 &quot;찾job&quot; 제작 &lt;a href=&quot;http://www.readingnews.kr/news/articleView.html?idxno=3109&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2014. 06. International Supercomputing Conference 14 Student Cluster Challenge (ISC 14) &lt;a href=&quot;https://news.unist.ac.kr/kor/20140624-01/&quot;&gt;Finalist&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2014. 04. Asia student Supercomputing Challenge 14 (ASC 14) &lt;a href=&quot;https://news.unist.ac.kr/kor/20140624-01/&quot;&gt;Finalist&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2013. 11. 화봉고 동아리 - 진로 탐색 애플리케이션 제작 &lt;a href=&quot;https://www.nocutnews.co.kr/news/1127142&quot;&gt;link&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Go로 짜면 리버싱이 어려운 이유]]></title><description><![CDATA[친구들과 잡담을 하던 도중, 이런 흥미로운 이야기를 들었다. go로 짜면 리버싱이 개어렵긴하더라. go…]]></description><link>https://mingyu.kim/golong-calling-convention/</link><guid isPermaLink="false">https://mingyu.kim/golong-calling-convention/</guid><pubDate>Sun, 06 Aug 2023 11:30:21 GMT</pubDate><content:encoded>&lt;p&gt;친구들과 잡담을 하던 도중, 이런 흥미로운 이야기를 들었다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2013. 11. 화봉고 동아리 - 진로 탐색 애플리케이션 제작 &lt;a href=&quot;https://www.nocutnews.co.kr/news/1127142&quot;&gt;link&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Dev mode에서 Vite는 너무 무겁다]]></title><description><![CDATA[요새 Vite를 사용하는 사람들이 늘고 있다.
+인기도 많고 평도 좋아서 나도 써봤는데,
+몇 가지 문제점을 발견해서 실제로 적용하는 데에 포기한 경험이 있다.
+관련된 내용 복기용으로 정리. Vite의 특징 Vite dev mode…]]></description><link>https://mingyu.kim/vite-dev-cons/</link><guid isPermaLink="false">https://mingyu.kim/vite-dev-cons/</guid><pubDate>Fri, 25 Aug 2023 01:50:21 GMT</pubDate><content:encoded>&lt;p&gt;요새 Vite를 사용하는 사람들이 늘고 있다.
+인기도 많고 평도 좋아서 나도 써봤는데,
+몇 가지 문제점을 발견해서 실제로 적용하는 데에 포기한 경험이 있다.
+관련된 내용 복기용으로 정리.&lt;/p&gt;
+&lt;h2&gt;Vite의 특징&lt;/h2&gt;
+&lt;p&gt;Vite dev mode로 들어가면 기존 webpack 등의 번들러에서 사용하던 것과는 다른 점을 알 수 있는데,
+Typescript 파일들을 그대로 import해서 사용한다. vue 파일들도 그대로 import한다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dd46c3a64d993c1ffd703e691ea48775/8ce22/files.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.89873417721519%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABx0lEQVR42kWS247bMAxE/f9f10WBFNhN0q5t2bpZV8uWlABTkGnQB8ICYR7NDDV8fhv8GWeEfCKVilwaVu1gXcIkFIS0+D0KbD4j5APjLKGMw00ozLEgxgJtIvLRkPaKYVMzNh/ReketDbV1OBcQU4bdHJwPmCaB/ngi5x2r1DiOA7PeoPKBWk54n3j+rA2DE58YZwFjNEIIeD6f0Pp1llLCWovL5YJSCoOmaUJKCVIppLPCpR05ZjweHa01DMlMMNah1cqN3jvD9n2H9wExJozjyOrO84TWhuEpRhytw8QdOwMfaK1jcOsds1jRW+Mm1bZtDKJhOl8uv/iCUg4sy4qcMzZrsdcGE0hhQn8rDPIFXNcVUiq2SJbfQO89brc7Qwj6zWpfwFQbFpdQUkZnhWTZCmhjoZWCEIIBlBENkXWq6/WGECJnSLkSOMcId5y4W48j7f8V0lK+rncsy8LqYowwxjCAhun84+ODHVCGtBTnHJyxkHvGz1Wi5cJbZmD8p5AUvYtyoy+pDTHyUghMCpVSiCkheI+zd2wxYtKeLdNCB6MEB00/U4OejSPbOXOWlOM8zwxhy0qxZbqUFljLgeu68fslhX8BaS33satQXr0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;files.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/dd46c3a64d993c1ffd703e691ea48775/f058b/files.png&quot;
+        srcset=&quot;/static/dd46c3a64d993c1ffd703e691ea48775/c26ae/files.png 158w,
+/static/dd46c3a64d993c1ffd703e691ea48775/6bdcf/files.png 315w,
+/static/dd46c3a64d993c1ffd703e691ea48775/f058b/files.png 630w,
+/static/dd46c3a64d993c1ffd703e691ea48775/8ce22/files.png 685w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;보이는가? &lt;code&gt;App.vue&lt;/code&gt;, &lt;code&gt;router.ts&lt;/code&gt; 등의 파일들을 그대로 서빙하는 걸 볼 수 있다.&lt;/p&gt;
+&lt;p&gt;물론 소스코드를 그대로 보내는 건 아니다. 브라우저는 Typescript를 읽을 수 없다.
+그래서 각 파일들의 내용들을 보면 vite가 알아서 잘 번들링 한 것을 볼 수 있다.
+그리고 파일이 변경이 되거나 해서 업데이트 할 일이 생기면 그 파일들만 슥슥 바뀌니 편하게 개발할 수 있다.&lt;/p&gt;
+&lt;p&gt;좋다. 꽤나 괜찮아 보이는 구조다. 그런데 문제는 여기서부터 발생한다.
+웹 페이지가 엄청 커져서 너무 많은 소스 코드 파일들이 있을 때.
+소스 코드들이 엄청 불어난 큰 프로젝트일 경우에는 그 소스 파일들을 전부 불러오게 된다.
+수천개의 파일들을 로드하게 될 수 있다는 뜻.&lt;/p&gt;
+&lt;h2&gt;localhost에서는 상관없지 않나요?&lt;/h2&gt;
+&lt;p&gt;그렇다. 어짜피 컴퓨터 내부니까 괜찮다. 몇천개던 몇만개던 큰 문제없이 로드가 된다.
+진짜 문제는 다른 기기에서 테스트로 구동할 때.&lt;/p&gt;
+&lt;p&gt;예를 들어 SPA인 꽤나 큰 웹 페이지를 아이패드에서 구동을 한다고 생각해보자.
+그러면 관련 소스 코드들을 전부 로드해야 하는데, 파일 몇만개씩으로 컴퓨터에서 아이패드로 보내야 한다.
+각각의 소스 파일 용량은 크지 않지만, 파일의 갯수가 너무 많기 때문에 쓰로틀링이 걸리게 되고,
+그래서 페이지를 로드할 때 엄청나게 오랜 시간이 걸리게 된다.
+그러면 10초~20초씩 기다려야 겨우 메인 페이지가 뜨게 되는 참사가 벌어지게 되는 것이다.&lt;/p&gt;
+&lt;h2&gt;해결법?&lt;/h2&gt;
+&lt;p&gt;Webpack 등 다른 번들러처럼 dev 모드에서 하나의 파일로 묶어서 서빙하도록 하는 방법은 찾지 못했다.
+Vite는 다른 툴들과 비교했을 때 생각보다 자유도가 높지 않은 느낌이었다.&lt;/p&gt;
+&lt;p&gt;다른 프로젝트에서 번들러를 Vite로 교체할 때 맞닥뜨리게 되는 큰 문제 중 하나라고 생각한다.&lt;/p&gt;
+&lt;p&gt;또는 프로젝트 안에서 dynamic import를 구현하거나 하는 방법으로 해결할 수는 있을 것 같다(시도는 안 해 봤지만).&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Go로 짜면 리버싱이 어려운 이유]]></title><description><![CDATA[친구들과 잡담을 하던 도중, 이런 흥미로운 이야기를 들었다. go로 짜면 리버싱이 개어렵긴하더라. go…]]></description><link>https://mingyu.kim/golong-calling-convention/</link><guid isPermaLink="false">https://mingyu.kim/golong-calling-convention/</guid><pubDate>Sun, 06 Aug 2023 11:30:21 GMT</pubDate><content:encoded>&lt;p&gt;친구들과 잡담을 하던 도중, 이런 흥미로운 이야기를 들었다.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;go로 짜면 리버싱이 개어렵긴하더라. go가 진짜 개악질인게 우리가 아는 표준 콜링컨벤션을 하나도 안 지킴. 레지스터를 지 맘대로 씀. 심지어 버전마다도 조금씩 다르다니까?&lt;/p&gt;
 &lt;/blockquote&gt;
