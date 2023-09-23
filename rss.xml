@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://mingyu.kim</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 25 Aug 2023 15:25:40 GMT</lastBuildDate><item><title><![CDATA[About]]></title><description><![CDATA[Profile Profile
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://mingyu.kim</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 23 Sep 2023 00:43:45 GMT</lastBuildDate><item><title><![CDATA[About]]></title><description><![CDATA[Profile Profile
 Undergraduate in Computer Science in UNIST UNIST School of Electrical & Computer Engineering (2013 ~) UNIST Computer…]]></description><link>https://mingyu.kim/about/</link><guid isPermaLink="false">https://mingyu.kim/about/</guid><content:encoded>&lt;h3&gt;Profile&lt;/h3&gt;
 &lt;p&gt;Profile
 Undergraduate in Computer Science in &lt;a href=&quot;https://www.unist.ac.kr/&quot;&gt;UNIST&lt;/a&gt;&lt;/p&gt;
@@ -19,7 +19,161 @@ Undergraduate in Computer Science in &lt;a href=&quot;https://www.unist.ac.kr/&q
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2015. 12. 화봉고 동아리 연계 - 진로 설계 게임 &quot;찾job&quot; 제작 &lt;a href=&quot;http://www.readingnews.kr/news/articleView.html?idxno=3109&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2014. 06. International Supercomputing Conference 14 Student Cluster Challenge (ISC 14) &lt;a href=&quot;https://news.unist.ac.kr/kor/20140624-01/&quot;&gt;Finalist&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2014. 04. Asia student Supercomputing Challenge 14 (ASC 14) &lt;a href=&quot;https://news.unist.ac.kr/kor/20140624-01/&quot;&gt;Finalist&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2013. 11. 화봉고 동아리 - 진로 탐색 애플리케이션 제작 &lt;a href=&quot;https://www.nocutnews.co.kr/news/1127142&quot;&gt;link&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Dev mode에서 Vite는 너무 무겁다]]></title><description><![CDATA[요새 Vite를 사용하는 사람들이 늘고 있다.
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2013. 11. 화봉고 동아리 - 진로 탐색 애플리케이션 제작 &lt;a href=&quot;https://www.nocutnews.co.kr/news/1127142&quot;&gt;link&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Elastic Beanstalk에서 Secret Manager 사용하기]]></title><description><![CDATA[Elastic Beanstalk? 우선 AWS 문서를 보자: Elastic Beanstalk를 사용하면 애플리케이션을 실행하는 인프라에 대해 자세히 알지 못해도 AWS 클라우드에서 애플리케이션을 신속하게 배포하고 관리할 수 있습니다. Elastic…]]></description><link>https://mingyu.kim/elasitcbeanstalk-acm/</link><guid isPermaLink="false">https://mingyu.kim/elasitcbeanstalk-acm/</guid><pubDate>Fri, 22 Sep 2023 09:23:21 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/daab41e4d8504251ad33bddaa5e21607/c1b63/logo-eb-asm.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsTAAALEwEAmpwYAAACPUlEQVR42jXL+0tTYRwH4NcdL2k6d3S6M5eZ66J4rRxaeFmppTODUspqdDFIZYUGLsxbKrOrVoYXTmhok5ToQtFNs2y1rAb5/+yc9/1+CH/o+f1hemg7X8sU3zPFSjq9V+i1Fc9t8CuYtmDcjJFk+EzUayRvAnk2ieZo7o7hjVF6naRVGZgesm/kwFbxdScFSulDDhaS4E/9n2UMJ1G/iTqiqEMWrUZ+kvFjBq1O0ioNjP+282CGCOyg9bMUOIAfDViuwTM7VBnjKRhNxrCMRyV0u5DGauneYd6Zy5vTtFqmVUmMB+1iVaH1E7RaREt5WDuHJRdWzmAuCxNpmC5Gj0QPimiylnwO0VMgvAX8Sr5WzbRKiYkvNhF0UKiRPmZi7TRC7Zi3YHYL3jZAzYLqwJAMtYYGd5HaRBNNvC1DdDv1o3GakzH6ZKVvxRSsoz/n8deLXx4ELmHWjldHoOZiai9umGiqhgay6bGbFrv41TzeVaHXx2kVjNG7dHpjxXIZPh/CzxaErmPZDf9uzBRiRMGkg7wG3NlDI04xWCx6S4TPxVvyNCfTnBKjlza8sGHRjKcmLGYhcBlzObi/GXeNuJlEAzJdi6W+baI/X/jKRV8p92TrbfladWS4jDEsWDGvwG/FrAUzClQFDxNxPwW3ZAwkUncCdcaTJ0ZciOAXE3W3UXcx3RWtHZTC+xnbOE8smE6FmooJM8aSMWremEMm6k0gbzy1x4nWWNEcy09F6sclvT5SqzKEyyPC+yL+Ab/RTjT6kGuAAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;logo-eb-asm.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/daab41e4d8504251ad33bddaa5e21607/c1b63/logo-eb-asm.png&quot;
+        srcset=&quot;/static/daab41e4d8504251ad33bddaa5e21607/5a46d/logo-eb-asm.png 300w,
+/static/daab41e4d8504251ad33bddaa5e21607/0a47e/logo-eb-asm.png 600w,
+/static/daab41e4d8504251ad33bddaa5e21607/c1b63/logo-eb-asm.png 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Elastic Beanstalk?&lt;/h2&gt;
+&lt;p&gt;우선 &lt;a href=&quot;https://docs.aws.amazon.com/ko_kr/elasticbeanstalk/latest/dg/Welcome.html&quot;&gt;AWS 문서&lt;/a&gt;를 보자:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Elastic Beanstalk를 사용하면 애플리케이션을 실행하는 인프라에 대해 자세히 알지 못해도 AWS 클라우드에서 애플리케이션을 신속하게 배포하고 관리할 수 있습니다. Elastic Beanstalk를 사용하면 선택 또는 제어에 대한 제한 없이 관리 복잡성을 줄일 수 있습니다. 애플리케이션을 업로드하기만 하면 Elastic Beanstalk에서 용량 프로비저닝, 로드 밸런싱, 조정, 애플리케이션 상태 모니터링에 대한 세부 정보를 자동으로 처리합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;위에서 말한 것 처럼, 적당히 세팅만 해 주면 AWS쪽에서 웹 서비스에서 필요한 기능들을 알아서 관리해 주기 때문에 처음 웹 서비스를 만들거나 MVP를 만들 때 사용하기 매우 편하다.
+Heroku 같은 서비스보다는 더 많은 부분을 컨트롤할 수 있고, ECS나 EKS처럼 컨테이너를 사용하는 서비스보다는 훨씬 관리해 주는 게 많은 서비스다.
+위에 말한 두 서비스의 적당한 절충안을 원하는 사람이라면 좋아할만한 서비스라고 생각한다.&lt;/p&gt;
+&lt;p&gt;나는 개인적으로 Elastic Beanstalk(이하 EB)을 사용하는 걸 좋아한다.
+간단한 웹 서비스를 배포하는 데에 편리하고 적당히 중요한 기능들 다 있어서,
+생각보다 더 쓸만하고 사용하면서 치명적인 단점을 발견한 적은 딱히 없었다.&lt;/p&gt;
+&lt;p&gt;그러던 어느날,
+그동안 EB를 쓰면서 ASM(AWS Secrets Manager)을 사용할 일이 없었는데,
+마침 사용하게 될 일이 생겨서 설정법을 찾아보던 도중 중요한 사실을 하나 깨달았다.&lt;/p&gt;
+&lt;h2&gt;Elastic Beanstalk과 ASM을 연결하는 기능은 없다&lt;/h2&gt;
+&lt;p&gt;그렇다. 같은 AWS 서비스임에도 불구하고 EB에서 ASM에 있는 시크릿 키를 받아와 사용할 수 있는 방법이 딱히 &lt;strong&gt;없다!&lt;/strong&gt;
+EB 외부에서 값을 넣는 방법이 몇 가지 있는데, GUI에서 할 수 있는 방법은 Enviornment 값을 넣는 것이 전부이다.&lt;/p&gt;
+&lt;p&gt;문서를 뒤져봐도 &lt;a href=&quot;https://docs.aws.amazon.com/ko_kr/secretsmanager/latest/userguide/integrating_AEB.html&quot;&gt;개인 리포지토리를 호스팅하는 온라인 레지스트리를 사용하여 인증&lt;/a&gt; 하는 방법에 대해서만 이야기할 뿐, EB env안에 ASM 값을 넣는 방법은 나오지 않았고,
+내 혈압도 같이 올라갔다.&lt;/p&gt;
+&lt;h2&gt;그래도 넣어봅시다.&lt;/h2&gt;
+&lt;p&gt;stack overflow를 뒤져보면서 얻은 결론은 &quot;awscli로 커맨드 받아서 직접 넣기&quot; 였다.
+awscli를 사용하는 거야 쉽다. 이런 식으로 ASM에서 secret key를 받아올 수 있다:&lt;/p&gt;
+&lt;deckgo-highlight-code   &gt;
+          &lt;code slot=&quot;code&quot;&gt;aws secretsmanager get-secret-value --secret-id ${AWS_SECRET_ID} | jq &amp;quot;.SecretString | fromjson | to_entries[] | [.key,.value] | join(\&amp;quot;=\&amp;quot;)&amp;quot; &lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;이렇게 하면 json 형태로 받아온 secret key를 .env에서 사용하는 &lt;code&gt;AAA=BBB&lt;/code&gt; 형태로 가져올 수 있고,
+파일로 저장하면 된다.
+다만 받아온 키를 어디에 넣어야 하는지가 문제인데,
+여러가지 방법을 써 본 결과 docker-compose를 이용해 값을 가져오는게 제일 괜찮은 방법이었다.&lt;/p&gt;
+&lt;h2&gt;Dockerfile 직접 넣기보다 docker-compose.yml를 사용하자&lt;/h2&gt;
+&lt;p&gt;이전에 나는 주로 Dockerfile을 직접 넣어서 빌드를 하는 방식을 주로 사용했다.
+소스 코드와 Dockerfile을 넣으면 EB에서 알아서 docker build를 하고 배포를 하는데,
+몇 가지 불편한 점이 있다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;인스턴스 스펙이 낮으면 빌드 시 램 부족으로 터질 수 있다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;EB에서는 docker build도 해당 인스턴스로 하기 때문에,
+Frontend 배포 할 때 npm build 등으로 큰 소스들을 빌드하다 보면 OOM이 발생하는 경우가 생각보다 많다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;secret key 넣는 과정에 애로사항이 생긴다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dockerfile만을 사용할 경우 &lt;code&gt;/var/app/current/.env&lt;/code&gt; 값에 secret key를 넣어야 하는데,
+EB에서 env 값을 바꿀 떄 &lt;code&gt;.env&lt;/code&gt; 파일을 수정하기 때문에 값이 덮어씌워질 일이 생긴다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;그럼 어떻게 하는 게 좋을까? 쉽다. docker-compose도 지원하기 때문에,
+CD 단계에서 docker build를 하고, ECR(Elastic Container Registry)에 docker 이미지를 올려둔 뒤 가져오면 된다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;여기서 잠깐, 왜 &lt;code&gt;/var/app/current/.env&lt;/code&gt; 일까?&lt;/p&gt;
+&lt;p&gt;그걸 알기 위해선 EB가 어떤 구조로 돌아가는지 알 필요가 있다.
+EB는 ELB + EC2 + ASG 등을 AWS에서 미리 만들어 둔 CloudFormation 템플릿을 이용해서 배포를 하는 시스템이다.
+그래서 EB 자체는 사용료가 부가되지 않지만, EB에서 배포하면서 만들어지는 다른 서비스들에서 비용이 부과가 된다.&lt;/p&gt;
+&lt;p&gt;EB에서 생성한 EC2 안으로 들어가 보면,
+소스를 받고 가공을 하는 동안은 &lt;code&gt;/var/app/staging/&lt;/code&gt;에서 작업을 하고,
+그 후 실행할 땐 &lt;code&gt;/var/app/current/&lt;/code&gt;에서 돌아간다는 것을 알 수 있다.
+그러니 빌드 전에 secret key를 해당 디렉토리 안에 넣어서 돌아가게 할 수 있는 것이다.&lt;/p&gt;
+&lt;h2&gt;.platform/ script 사용하기&lt;/h2&gt;
+&lt;p&gt;EB에서는 코드 배포 전/후에 스크립트를 따로 돌릴 수 있는 방법들을 제공하고 있다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 566px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 207.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;eb_steps.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/9f4bfac4c06c090bea350551e36083f3/6fe44/eb_steps.png&quot;
+        srcset=&quot;/static/9f4bfac4c06c090bea350551e36083f3/5a46d/eb_steps.png 300w,
+/static/9f4bfac4c06c090bea350551e36083f3/6fe44/eb_steps.png 566w&quot;
+        sizes=&quot;(max-width: 566px) 100vw, 566px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;
+(출처: &lt;a href=&quot;https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/platforms-linux-extend.html&quot;&gt;https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/platforms-linux-extend.html&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;위 사진과 같이 EB는 배포 시 총 3가지 step을 진행하는데, 중간 중간에 스크립트를 실행할 수 있다.
+&lt;code&gt;.platform/&lt;/code&gt; 디렉토리 안에 넣으면 해당 스크립트를 실행할 수 있는데,
+우리는 prebuild 단계에서 secret key를 만들어 넣을 예정이다.&lt;/p&gt;
+&lt;p&gt;다음과 같은 위치에 파일 두 개를 만들어야 한다.&lt;/p&gt;
+&lt;deckgo-highlight-code   &gt;
+          &lt;code slot=&quot;code&quot;&gt;.platform/hooks/prebuild/get_secret_key.sh
+.platform/confighooks/prebuild/get_secret_key.sh&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;confighooks는 무엇인가? 배포 뿐만 아니라 인스턴스 구성을 바꿀 때(env 값 변경 등)에도 스크립트를 돌릴 수 있다.
+confighooks/ 디렉토리에 넣으면 실행 가능하다.&lt;/p&gt;
+&lt;p&gt;그럼 스크립트 안에는 어떤 값을 넣어야 하는가?
+실행하는 EB 위치에 .secret 파일을 넣어주면 된다.&lt;/p&gt;
+&lt;deckgo-highlight-code   &gt;
+          &lt;code slot=&quot;code&quot;&gt;#!/bin/bash
+
+$( echo &amp;quot;$(/opt/elasticbeanstalk/bin/get-config environment)&amp;quot; | jq -r &amp;#39;keys[] as $k | &amp;quot;export \($k)=\(.[$k])&amp;quot;&amp;#39; ) # load ElasticBeanstalk env
+
+aws secretsmanager get-secret-value --secret-id ${AWS_SECRET_ID} | jq &amp;quot;.SecretString | fromjson | to_entries[] | [.key,.value] | join(\&amp;quot;=\&amp;quot;)&amp;quot; -r &amp;gt; /var/app/staging/.secret
+
+aws secretsmanager get-secret-value --secret-id ${AWS_SECRET_ID} | jq &amp;quot;.SecretString | fromjson | to_entries[] | [.key,.value] | join(\&amp;quot;=\&amp;quot;)&amp;quot; -r &amp;gt; /var/app/current/.secret&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;이 스크립트를 실행하게 되면 &lt;code&gt;/var/app/staging/.secret&lt;/code&gt;, &lt;code&gt;/var/app/current/.secret&lt;/code&gt; 두 곳에 &lt;code&gt;.secret&lt;/code&gt; 파일을 만들게 된다.
+두 곳 모두 만들어야 한다. 그렇지 않으면 배포 시 에러가 발생한다.&lt;/p&gt;
+&lt;p&gt;그리고 docker-compose에는 다음과 같이 .secret 파일을 읽도록 설정하면 끝.&lt;/p&gt;
+&lt;deckgo-highlight-code   &gt;
+          &lt;code slot=&quot;code&quot;&gt;version: &amp;#39;3.1&amp;#39;
+
+services:
+  app:
+    image: {docker image} # ECR에 올린 도커 이미지
+    env_file:
+      - .env # Elastic Beanstalk에서 Environment 값을 넣으면 들어가는 파일
+      - .secret # 아까 만들었던 ASM으로 로드한 secret key
+    ... # 나머지 기타등등 설정
+&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;이렇게 하면 EB + ECR + ASM 조합으로 애플리케이션을 간단하게 배포할 수 있다.&lt;/p&gt;
+&lt;h2&gt;Reference&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/single-container-docker-configuration.html&quot;&gt;https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/single-container-docker-configuration.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/platforms-linux-extend.html&quot;&gt;https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/platforms-linux-extend.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/35788499/what-is-the-difference-between-commands-and-container-commands-configuration-key&quot;&gt;https://stackoverflow.com/questions/35788499/what-is-the-difference-between-commands-and-container-commands-configuration-key&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Dev mode에서 Vite는 너무 무겁다]]></title><description><![CDATA[요새 Vite를 사용하는 사람들이 늘고 있다.
 인기도 많고 평도 좋아서 나도 써봤는데,
 몇 가지 문제점을 발견해서 실제로 적용하는 데에 포기한 경험이 있다.
 관련된 내용 복기용으로 정리. Vite의 특징 Vite dev mode…]]></description><link>https://mingyu.kim/vite-dev-cons/</link><guid isPermaLink="false">https://mingyu.kim/vite-dev-cons/</guid><pubDate>Fri, 25 Aug 2023 01:50:21 GMT</pubDate><content:encoded>&lt;p&gt;요새 Vite를 사용하는 사람들이 늘고 있다.
@@ -31,7 +185,7 @@ Undergraduate in Computer Science in &lt;a href=&quot;https://www.unist.ac.kr/&q
 Typescript 파일들을 그대로 import해서 사용한다. vue 파일들도 그대로 import한다.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 685px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -42,18 +196,17 @@ Typescript 파일들을 그대로 import해서 사용한다. vue 파일들도 �
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 51.89873417721519%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABx0lEQVR42kWS247bMAxE/f9f10WBFNhN0q5t2bpZV8uWlABTkGnQB8ICYR7NDDV8fhv8GWeEfCKVilwaVu1gXcIkFIS0+D0KbD4j5APjLKGMw00ozLEgxgJtIvLRkPaKYVMzNh/ReketDbV1OBcQU4bdHJwPmCaB/ngi5x2r1DiOA7PeoPKBWk54n3j+rA2DE58YZwFjNEIIeD6f0Pp1llLCWovL5YJSCoOmaUJKCVIppLPCpR05ZjweHa01DMlMMNah1cqN3jvD9n2H9wExJozjyOrO84TWhuEpRhytw8QdOwMfaK1jcOsds1jRW+Mm1bZtDKJhOl8uv/iCUg4sy4qcMzZrsdcGE0hhQn8rDPIFXNcVUiq2SJbfQO89brc7Qwj6zWpfwFQbFpdQUkZnhWTZCmhjoZWCEIIBlBENkXWq6/WGECJnSLkSOMcId5y4W48j7f8V0lK+rncsy8LqYowwxjCAhun84+ODHVCGtBTnHJyxkHvGz1Wi5cJbZmD8p5AUvYtyoy+pDTHyUghMCpVSiCkheI+zd2wxYtKeLdNCB6MEB00/U4OejSPbOXOWlOM8zwxhy0qxZbqUFljLgeu68fslhX8BaS33satQXr0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 51.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABx0lEQVR42kWS247bMAxE/f9f10WBFNhN0q5t2bpZV8uWlABTkGnQB8ICYR7NDDV8fhv8GWeEfCKVilwaVu1gXcIkFIS0+D0KbD4j5APjLKGMw00ozLEgxgJtIvLRkPaKYVMzNh/ReketDbV1OBcQU4bdHJwPmCaB/ngi5x2r1DiOA7PeoPKBWk54n3j+rA2DE58YZwFjNEIIeD6f0Pp1llLCWovL5YJSCoOmaUJKCVIppLPCpR05ZjweHa01DMlMMNah1cqN3jvD9n2H9wExJozjyOrO84TWhuEpRhytw8QdOwMfaK1jcOsds1jRW+Mm1bZtDKJhOl8uv/iCUg4sy4qcMzZrsdcGE0hhQn8rDPIFXNcVUiq2SJbfQO89brc7Qwj6zWpfwFQbFpdQUkZnhWTZCmhjoZWCEIIBlBENkXWq6/WGECJnSLkSOMcId5y4W48j7f8V0lK+rncsy8LqYowwxjCAhun84+ODHVCGtBTnHJyxkHvGz1Wi5cJbZmD8p5AUvYtyoy+pDTHyUghMCpVSiCkheI+zd2wxYtKeLdNCB6MEB00/U4OejSPbOXOWlOM8zwxhy0qxZbqUFljLgeu68fslhX8BaS33satQXr0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;files.png&quot;
         title=&quot;&quot;
-        src=&quot;/static/dd46c3a64d993c1ffd703e691ea48775/f058b/files.png&quot;
-        srcset=&quot;/static/dd46c3a64d993c1ffd703e691ea48775/c26ae/files.png 158w,
-/static/dd46c3a64d993c1ffd703e691ea48775/6bdcf/files.png 315w,
-/static/dd46c3a64d993c1ffd703e691ea48775/f058b/files.png 630w,
+        src=&quot;/static/dd46c3a64d993c1ffd703e691ea48775/8ce22/files.png&quot;
+        srcset=&quot;/static/dd46c3a64d993c1ffd703e691ea48775/5a46d/files.png 300w,
+/static/dd46c3a64d993c1ffd703e691ea48775/0a47e/files.png 600w,
 /static/dd46c3a64d993c1ffd703e691ea48775/8ce22/files.png 685w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        sizes=&quot;(max-width: 685px) 100vw, 685px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
@@ -88,24 +241,22 @@ Vite는 다른 툴들과 비교했을 때 생각보다 자유도가 높지 않�
 &lt;h2&gt;Calling convention이란?&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 53.16455696202532%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACJUlEQVR42nWT3WvTUBjG+4/6N3gvIt54NUG8EwSHqMgUvZm0rKKIYNtNpHNsa7t+bqZfJ81JTj5O0iTtT3Kcdcp84CXk5Jzfm/fJk1K9XqdWq1Eul8314OCARqNBtVrl8PCQ67Rer6+tQqVkuWSZJKRxTKw1aZqayvOc1WplNhX3y+WSLMvM+v9UQEvtk2NOj4/pHB0xn81Qvo9SyjwsQFovkVIynU4JgoAoipjP5wZQNEnSDK31pnlpOraYjC3GYwsh5ijl4XneJewNQfCKPE+p1xtUKmUWi4VpKhc2s+oLRL1iXqSAGuCgN6Tb7jHonzOZCmzbRUqfNM0IgocodZss0+zvf2V3dxchhDmoPBexfYfFzhatVovRaPQL2Gt/4qhZZTDcx7KaTCZNPO8MrSO63Zv0ejdI05DxeEK/3zM+FuP/uLggevsA/90jXM/b+Fhy5AmO00bKFlK28f02YdQ1/vj+fVzvFkkSms22LRgOhwboOAuSD8+JPr9mLoRZS+KY0mzqIoTCkRHOIsRxIqIoJ89XaP0Yre+R54kBxrGm3+8jbBsdRfjVp6iPOwwGAzqdDnEBbHfqnHW/ICanSDlEyj6ed27isV5nrFbyr5wV8oMAz3WZbN/FerllPkjhuRl5ONrj/GIPKWr4QROlvqHUd/I8+zdlG3AYRgRhiHr/DLfyhPwyMiaHliUQtksQFJ4lmypGvgq5Gt7fytewMpP8+VN+ApgCODpMfSPuAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 53.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACJUlEQVR42nWT3WvTUBjG+4/6N3gvIt54NUG8EwSHqMgUvZm0rKKIYNtNpHNsa7t+bqZfJ81JTj5O0iTtT3Kcdcp84CXk5Jzfm/fJk1K9XqdWq1Eul8314OCARqNBtVrl8PCQ67Rer6+tQqVkuWSZJKRxTKw1aZqayvOc1WplNhX3y+WSLMvM+v9UQEvtk2NOj4/pHB0xn81Qvo9SyjwsQFovkVIynU4JgoAoipjP5wZQNEnSDK31pnlpOraYjC3GYwsh5ijl4XneJewNQfCKPE+p1xtUKmUWi4VpKhc2s+oLRL1iXqSAGuCgN6Tb7jHonzOZCmzbRUqfNM0IgocodZss0+zvf2V3dxchhDmoPBexfYfFzhatVovRaPQL2Gt/4qhZZTDcx7KaTCZNPO8MrSO63Zv0ejdI05DxeEK/3zM+FuP/uLggevsA/90jXM/b+Fhy5AmO00bKFlK28f02YdQ1/vj+fVzvFkkSms22LRgOhwboOAuSD8+JPr9mLoRZS+KY0mzqIoTCkRHOIsRxIqIoJ89XaP0Yre+R54kBxrGm3+8jbBsdRfjVp6iPOwwGAzqdDnEBbHfqnHW/ICanSDlEyj6ed27isV5nrFbyr5wV8oMAz3WZbN/FerllPkjhuRl5ONrj/GIPKWr4QROlvqHUd/I8+zdlG3AYRgRhiHr/DLfyhPwyMiaHliUQtksQFJ4lmypGvgq5Gt7fytewMpP8+VN+ApgCODpMfSPuAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;calling_convention.png&quot;
         title=&quot;&quot;
-        src=&quot;/static/7e5de6104d5b24d87669ba922dc54931/f058b/calling_convention.png&quot;
-        srcset=&quot;/static/7e5de6104d5b24d87669ba922dc54931/c26ae/calling_convention.png 158w,
-/static/7e5de6104d5b24d87669ba922dc54931/6bdcf/calling_convention.png 315w,
-/static/7e5de6104d5b24d87669ba922dc54931/f058b/calling_convention.png 630w,
-/static/7e5de6104d5b24d87669ba922dc54931/40601/calling_convention.png 945w,
-/static/7e5de6104d5b24d87669ba922dc54931/78612/calling_convention.png 1260w,
+        src=&quot;/static/7e5de6104d5b24d87669ba922dc54931/c1b63/calling_convention.png&quot;
+        srcset=&quot;/static/7e5de6104d5b24d87669ba922dc54931/5a46d/calling_convention.png 300w,
+/static/7e5de6104d5b24d87669ba922dc54931/0a47e/calling_convention.png 600w,
+/static/7e5de6104d5b24d87669ba922dc54931/c1b63/calling_convention.png 1200w,
 /static/7e5de6104d5b24d87669ba922dc54931/d5eae/calling_convention.png 1407w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
@@ -351,7 +502,7 @@ Dump of assembler code for function main.main:
 그러면 다음과 같이 빨간 줄 파란 줄이 죽죽 뜨기 시작한다.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1080px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -362,19 +513,17 @@ Dump of assembler code for function main.main:
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 244.30379746835445%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAxABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIBAwX/xAAXAQEAAwAAAAAAAAAAAAAAAAAAAQID/9oADAMBAAIQAxAAAAHxcubAKjrNWNFRUpwGjTUJf//EAB0QAAICAQUAAAAAAAAAAAAAAAARAQIhEBIiMDH/2gAIAQEAAQUCRkmthaSclktuYi3vT//EABcRAAMBAAAAAAAAAAAAAAAAAAAQESD/2gAIAQMBAT8BxCP/xAAWEQEBAQAAAAAAAAAAAAAAAAAhACD/2gAIAQIBAT8BI3//xAAZEAACAwEAAAAAAAAAAAAAAAAAMRARITD/2gAIAQEABj8C2NGMdzrFCoXH/8QAIRAAAgMAAQMFAAAAAAAAAAAAAAERITFRECCRQWGBodH/2gAIAQEAAT8hlFPsSXGKRijH5LCQ6i5gumQP2IsxQSrHkbK/QSIYq0RSs/kdPjpUY/I9pR2//9oADAMBAAIAAwAAABCD302L7/z/xAAZEQACAwEAAAAAAAAAAAAAAAARUQAQICH/2gAIAQMBAT8Q68EoSv8A/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAEREGH/2gAIAQIBAT8Qpvexke//xAAhEAEAAgICAgIDAAAAAAAAAAABABEhMUFREHFhkYHB8f/aAAgBAQABPxBrCNaSv6gyCDE9hCZMjzKUcWtdoh5PqKoXQwfuAADoYUgK2Vb3NdMLKDjGviEjNgzjculRbhuopXsBM5rf5hdnG3pCqJ6Oan1Brtms8IOgdEyfzx14/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 244.33333333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAxABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIBAwX/xAAXAQEAAwAAAAAAAAAAAAAAAAAAAQID/9oADAMBAAIQAxAAAAHxcubAKjrNWNFRUpwGjTUJf//EAB0QAAICAQUAAAAAAAAAAAAAAAARAQIhEBIiMDH/2gAIAQEAAQUCRkmthaSclktuYi3vT//EABcRAAMBAAAAAAAAAAAAAAAAAAAQESD/2gAIAQMBAT8BxCP/xAAWEQEBAQAAAAAAAAAAAAAAAAAhACD/2gAIAQIBAT8BI3//xAAZEAACAwEAAAAAAAAAAAAAAAAAMRARITD/2gAIAQEABj8C2NGMdzrFCoXH/8QAIRAAAgMAAQMFAAAAAAAAAAAAAAERITFRECCRQWGBodH/2gAIAQEAAT8hlFPsSXGKRijH5LCQ6i5gumQP2IsxQSrHkbK/QSIYq0RSs/kdPjpUY/I9pR2//9oADAMBAAIAAwAAABCD302L7/z/xAAZEQACAwEAAAAAAAAAAAAAAAARUQAQICH/2gAIAQMBAT8Q68EoSv8A/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAEREGH/2gAIAQIBAT8Qpvexke//xAAhEAEAAgICAgIDAAAAAAAAAAABABEhMUFREHFhkYHB8f/aAAgBAQABPxBrCNaSv6gyCDE9hCZMjzKUcWtdoh5PqKoXQwfuAADoYUgK2Vb3NdMLKDjGviEjNgzjculRbhuopXsBM5rf5hdnG3pCqJ6Oan1Brtms8IOgdEyfzx14/9k=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;settings.jpg&quot;
         title=&quot;&quot;
-        src=&quot;/static/7c87c4db3961878f22b84ab2d6fbbcf6/828fb/settings.jpg&quot;
-        srcset=&quot;/static/7c87c4db3961878f22b84ab2d6fbbcf6/ff44c/settings.jpg 158w,
-/static/7c87c4db3961878f22b84ab2d6fbbcf6/a6688/settings.jpg 315w,
-/static/7c87c4db3961878f22b84ab2d6fbbcf6/828fb/settings.jpg 630w,
-/static/7c87c4db3961878f22b84ab2d6fbbcf6/0ede0/settings.jpg 945w,
+        src=&quot;/static/7c87c4db3961878f22b84ab2d6fbbcf6/47311/settings.jpg&quot;
+        srcset=&quot;/static/7c87c4db3961878f22b84ab2d6fbbcf6/f93b5/settings.jpg 300w,
+/static/7c87c4db3961878f22b84ab2d6fbbcf6/b4294/settings.jpg 600w,
 /static/7c87c4db3961878f22b84ab2d6fbbcf6/47311/settings.jpg 1080w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        sizes=&quot;(max-width: 1080px) 100vw, 1080px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
@@ -386,7 +535,7 @@ Dump of assembler code for function main.main:
 이 때, PWA(Progressive Web App: 순수 웹으로 만드는 애플리케이션)를 들어가 보면?&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1080px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -397,19 +546,17 @@ Dump of assembler code for function main.main:
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 244.30379746835445%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAxABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQP/2gAMAwEAAhADEAAAAfIdrHF0LbzqVkrOs1VHOGmuhX//xAAaEAABBQEAAAAAAAAAAAAAAAAAARARIEEh/9oACAEBAAEFAjrYKYLeSa//xAAVEQEBAAAAAAAAAAAAAAAAAAAgEf/aAAgBAwEBPwEQf//EABcRAAMBAAAAAAAAAAAAAAAAAAAQESD/2gAIAQIBAT8BxCP/xAAUEAEAAAAAAAAAAAAAAAAAAABA/9oACAEBAAY/Ai//xAAeEAABBQACAwAAAAAAAAAAAAAAARARITFRYYGx8P/aAAgBAQABPyGFUTucSlsnLNMw0yx032lHkpvo0TKC6yYf/9oADAMBAAIAAwAAABCvLoIw3/z/xAAZEQABBQAAAAAAAAAAAAAAAAARAAEQIFH/2gAIAQMBAT8QNCxB5//EABkRAAMAAwAAAAAAAAAAAAAAAAAQEQEhUf/aAAgBAgEBPxDZcuiuP//EACAQAQEAAwABBAMAAAAAAAAAAAERACExgRBhceGRobH/2gAIAQEAAT8QRRGHC/WAaIvtiqUINt7+ssHLirQidyrrnTsxqLJita8YBrR+MU6fCY/GPOmLXDGv2zTNEeYqFwQJ/M7enLP/2Q==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 244.33333333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAxABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQP/2gAMAwEAAhADEAAAAfIdrHF0LbzqVkrOs1VHOGmuhX//xAAaEAABBQEAAAAAAAAAAAAAAAAAARARIEEh/9oACAEBAAEFAjrYKYLeSa//xAAVEQEBAAAAAAAAAAAAAAAAAAAgEf/aAAgBAwEBPwEQf//EABcRAAMBAAAAAAAAAAAAAAAAAAAQESD/2gAIAQIBAT8BxCP/xAAUEAEAAAAAAAAAAAAAAAAAAABA/9oACAEBAAY/Ai//xAAeEAABBQACAwAAAAAAAAAAAAAAARARITFRYYGx8P/aAAgBAQABPyGFUTucSlsnLNMw0yx032lHkpvo0TKC6yYf/9oADAMBAAIAAwAAABCvLoIw3/z/xAAZEQABBQAAAAAAAAAAAAAAAAARAAEQIFH/2gAIAQMBAT8QNCxB5//EABkRAAMAAwAAAAAAAAAAAAAAAAAQEQEhUf/aAAgBAgEBPxDZcuiuP//EACAQAQEAAwABBAMAAAAAAAAAAAERACExgRBhceGRobH/2gAIAQEAAT8QRRGHC/WAaIvtiqUINt7+ssHLirQidyrrnTsxqLJita8YBrR+MU6fCY/GPOmLXDGv2zTNEeYqFwQJ/M7enLP/2Q==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;lichess.jpg&quot;
         title=&quot;&quot;
-        src=&quot;/static/73083f2046b59e7c3e57842ff26b03bc/828fb/lichess.jpg&quot;
-        srcset=&quot;/static/73083f2046b59e7c3e57842ff26b03bc/ff44c/lichess.jpg 158w,
-/static/73083f2046b59e7c3e57842ff26b03bc/a6688/lichess.jpg 315w,
-/static/73083f2046b59e7c3e57842ff26b03bc/828fb/lichess.jpg 630w,
-/static/73083f2046b59e7c3e57842ff26b03bc/0ede0/lichess.jpg 945w,
+        src=&quot;/static/73083f2046b59e7c3e57842ff26b03bc/47311/lichess.jpg&quot;
+        srcset=&quot;/static/73083f2046b59e7c3e57842ff26b03bc/f93b5/lichess.jpg 300w,
+/static/73083f2046b59e7c3e57842ff26b03bc/b4294/lichess.jpg 600w,
 /static/73083f2046b59e7c3e57842ff26b03bc/47311/lichess.jpg 1080w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        sizes=&quot;(max-width: 1080px) 100vw, 1080px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
@@ -421,7 +568,7 @@ Dump of assembler code for function main.main:
 &lt;p&gt;다른 앱도 확인해 보자. 토스는 어떨까?
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1080px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -432,19 +579,17 @@ Dump of assembler code for function main.main:
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 244.30379746835445%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAxABQDASIAAhEBAxEB/8QAGQABAQEBAQEAAAAAAAAAAAAAAAMBAgQF/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAAB+RvHpHBi7pSHBnRh6UlTmYCtNDYB/8QAHBAAAQUAAwAAAAAAAAAAAAAAAQADEBFBAhMg/9oACAEBAAEFAqsAERrzPUggOCIbMZGas8//xAAXEQEBAQEAAAAAAAAAAAAAAAABABAx/9oACAEDAQE/AYJI5g7/AP/EABgRAAIDAAAAAAAAAAAAAAAAABARICFh/9oACAECAQE/AXaDyX//xAAdEAABAwUBAAAAAAAAAAAAAAABABAxAhEgISIz/9oACAEBAAY/AsB1e7dVEL0qWlDwHjL/xAAfEAACAgIBBQAAAAAAAAAAAAABEQAhMUEQIFFhccH/2gAIAQEAAT8hdn2Frxu4biaTXvUphDhYeBMgRYYhABLMQ1gvfAjYjE72eVJtuK5fbo//2gAMAwEAAgADAAAAENQLAUQPfv/EABoRAAMBAAMAAAAAAAAAAAAAAAABETEQUWH/2gAIAQMBAT8Q9ENUq9MiPoguf//EABgRAQEBAQEAAAAAAAAAAAAAAAEAEUEQ/9oACAECAQE/EEgXYNLJxEisOHv/xAAfEAEAAgICAwEBAAAAAAAAAAABABEhMUFxEIGxUcH/2gAIAQEAAT8Qwi0FBoV6mgEuAM+4sW6orUwhVrVvcqIyA1iT6T6S72FxZKC5FWGiBTW4Uq5bLRgc/s9s0lC3Um9dkq9zeuIbe+NRvtAVP7wdYjiadWH8jRaw78fnj//Z&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 244.33333333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAxABQDASIAAhEBAxEB/8QAGQABAQEBAQEAAAAAAAAAAAAAAAMBAgQF/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAAB+RvHpHBi7pSHBnRh6UlTmYCtNDYB/8QAHBAAAQUAAwAAAAAAAAAAAAAAAQADEBFBAhMg/9oACAEBAAEFAqsAERrzPUggOCIbMZGas8//xAAXEQEBAQEAAAAAAAAAAAAAAAABABAx/9oACAEDAQE/AYJI5g7/AP/EABgRAAIDAAAAAAAAAAAAAAAAABARICFh/9oACAECAQE/AXaDyX//xAAdEAABAwUBAAAAAAAAAAAAAAABABAxAhEgISIz/9oACAEBAAY/AsB1e7dVEL0qWlDwHjL/xAAfEAACAgIBBQAAAAAAAAAAAAABEQAhMUEQIFFhccH/2gAIAQEAAT8hdn2Frxu4biaTXvUphDhYeBMgRYYhABLMQ1gvfAjYjE72eVJtuK5fbo//2gAMAwEAAgADAAAAENQLAUQPfv/EABoRAAMBAAMAAAAAAAAAAAAAAAABETEQUWH/2gAIAQMBAT8Q9ENUq9MiPoguf//EABgRAQEBAQEAAAAAAAAAAAAAAAEAEUEQ/9oACAECAQE/EEgXYNLJxEisOHv/xAAfEAEAAgICAwEBAAAAAAAAAAABABEhMUFxEIGxUcH/2gAIAQEAAT8Qwi0FBoV6mgEuAM+4sW6orUwhVrVvcqIyA1iT6T6S72FxZKC5FWGiBTW4Uq5bLRgc/s9s0lC3Um9dkq9zeuIbe+NRvtAVP7wdYjiadWH8jRaw78fnj//Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;toss_main.jpg&quot;
         title=&quot;&quot;
-        src=&quot;/static/76e859556fba71cce628e4d6ba3bc65b/828fb/toss_main.jpg&quot;
-        srcset=&quot;/static/76e859556fba71cce628e4d6ba3bc65b/ff44c/toss_main.jpg 158w,
-/static/76e859556fba71cce628e4d6ba3bc65b/a6688/toss_main.jpg 315w,
-/static/76e859556fba71cce628e4d6ba3bc65b/828fb/toss_main.jpg 630w,
-/static/76e859556fba71cce628e4d6ba3bc65b/0ede0/toss_main.jpg 945w,
+        src=&quot;/static/76e859556fba71cce628e4d6ba3bc65b/47311/toss_main.jpg&quot;
+        srcset=&quot;/static/76e859556fba71cce628e4d6ba3bc65b/f93b5/toss_main.jpg 300w,
+/static/76e859556fba71cce628e4d6ba3bc65b/b4294/toss_main.jpg 600w,
 /static/76e859556fba71cce628e4d6ba3bc65b/47311/toss_main.jpg 1080w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        sizes=&quot;(max-width: 1080px) 100vw, 1080px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
@@ -455,7 +600,7 @@ Dump of assembler code for function main.main:
 하지만 토스페이나 토스증권을 보면...&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1080px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -466,19 +611,17 @@ Dump of assembler code for function main.main:
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 244.30379746835445%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAxABQDASIAAhEBAxEB/8QAGQABAQEBAQEAAAAAAAAAAAAAAAIBAwQF/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAIDAf/aAAwDAQACEAMQAAAB+RN4SwVddNI8ikWm9OajtjTUD//EABsQAAMBAQADAAAAAAAAAAAAAAECEQAQICFB/9oACAEBAAEFAvl119HlOdCnAqQhDmgPZpp4f//EABcRAAMBAAAAAAAAAAAAAAAAAAAQERL/2gAIAQMBAT8BWlCP/8QAFhEBAQEAAAAAAAAAAAAAAAAAEBES/9oACAECAQE/ATDH/8QAHhAAAQQBBQAAAAAAAAAAAAAAAAEQETFBAiEiMDP/2gAIAQEABj8CtHSjDpOW31HpJxWSun//xAAgEAADAAEDBQEAAAAAAAAAAAAAAREhMUFRECBhgaHR/9oACAEBAAE/IX+YTIbMjNp8ZETevoMkoaYYXo6ri90Rq8ciwwckUW5/SYuxIew+Den0fY//2gAMAwEAAgADAAAAEG/+TMfPfv/EABoRAAIDAQEAAAAAAAAAAAAAAAARARAhUeH/2gAIAQMBAT8QdTrwjYYw3L//xAAaEQADAAMBAAAAAAAAAAAAAAAAAREQIUGR/9oACAECAQE/ECi056hqOEZWf//EACAQAQACAQQCAwAAAAAAAAAAAAEAEUEQITFhUZFxsfD/2gAIAQEAAT8QC2Wrc339TPNZI4IpRT3Bg4aBsVt7uYEQr7UQU0I9kKg7VUZPQsdaLrU+BnFuUeBOOD9pYYjgeYXYDRpazFKkpgqHA9MMASIUT8ruJeXtdPGn/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 244.33333333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAxABQDASIAAhEBAxEB/8QAGQABAQEBAQEAAAAAAAAAAAAAAAIBAwQF/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAIDAf/aAAwDAQACEAMQAAAB+RN4SwVddNI8ikWm9OajtjTUD//EABsQAAMBAQADAAAAAAAAAAAAAAECEQAQICFB/9oACAEBAAEFAvl119HlOdCnAqQhDmgPZpp4f//EABcRAAMBAAAAAAAAAAAAAAAAAAAQERL/2gAIAQMBAT8BWlCP/8QAFhEBAQEAAAAAAAAAAAAAAAAAEBES/9oACAECAQE/ATDH/8QAHhAAAQQBBQAAAAAAAAAAAAAAAAEQETFBAiEiMDP/2gAIAQEABj8CtHSjDpOW31HpJxWSun//xAAgEAADAAEDBQEAAAAAAAAAAAAAAREhMUFRECBhgaHR/9oACAEBAAE/IX+YTIbMjNp8ZETevoMkoaYYXo6ri90Rq8ciwwckUW5/SYuxIew+Den0fY//2gAMAwEAAgADAAAAEG/+TMfPfv/EABoRAAIDAQEAAAAAAAAAAAAAAAARARAhUeH/2gAIAQMBAT8QdTrwjYYw3L//xAAaEQADAAMBAAAAAAAAAAAAAAAAAREQIUGR/9oACAECAQE/ECi056hqOEZWf//EACAQAQACAQQCAwAAAAAAAAAAAAEAEUEQITFhUZFxsfD/2gAIAQEAAT8QC2Wrc339TPNZI4IpRT3Bg4aBsVt7uYEQr7UQU0I9kKg7VUZPQsdaLrU+BnFuUeBOOD9pYYjgeYXYDRpazFKkpgqHA9MMASIUT8ruJeXtdPGn/9k=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;toss_pay.jpg&quot;
         title=&quot;&quot;
-        src=&quot;/static/67477c7bcccac219303b91fa8dd3a050/828fb/toss_pay.jpg&quot;
-        srcset=&quot;/static/67477c7bcccac219303b91fa8dd3a050/ff44c/toss_pay.jpg 158w,
-/static/67477c7bcccac219303b91fa8dd3a050/a6688/toss_pay.jpg 315w,
-/static/67477c7bcccac219303b91fa8dd3a050/828fb/toss_pay.jpg 630w,
-/static/67477c7bcccac219303b91fa8dd3a050/0ede0/toss_pay.jpg 945w,
+        src=&quot;/static/67477c7bcccac219303b91fa8dd3a050/47311/toss_pay.jpg&quot;
+        srcset=&quot;/static/67477c7bcccac219303b91fa8dd3a050/f93b5/toss_pay.jpg 300w,
+/static/67477c7bcccac219303b91fa8dd3a050/b4294/toss_pay.jpg 600w,
 /static/67477c7bcccac219303b91fa8dd3a050/47311/toss_pay.jpg 1080w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        sizes=&quot;(max-width: 1080px) 100vw, 1080px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
@@ -486,7 +629,7 @@ Dump of assembler code for function main.main:
   &lt;/a&gt;
     &lt;/span&gt; &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1080px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -497,19 +640,17 @@ Dump of assembler code for function main.main:
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 244.30379746835445%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAxABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAECAwQF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAED/9oADAMBAAIQAxAAAAHyIvqc6FW0zqgSzFrW5pFxpqB//8QAHBAAAwACAwEAAAAAAAAAAAAAAAERAhAgITFB/9oACAEBAAEFAvlKIyQ/Ux50ZOtTTJqcP//EABcRAAMBAAAAAAAAAAAAAAAAAAAQESD/2gAIAQMBAT8BxCP/xAAXEQADAQAAAAAAAAAAAAAAAAAAEBEg/9oACAECAQE/AcQj/8QAGxAAAQQDAAAAAAAAAAAAAAAAAQIQETEgITD/2gAIAQEABj8CsYCA+kw19P/EAB8QAAICAQQDAAAAAAAAAAAAAAABESExECBBoVFxgf/aAAgBAQABPyGJ6QmXI2FbhIpowrvOlRzQpegWZyr4MsdEoXqcijx2Uehqct4ra//aAAwDAQACAAMAAAAQ/N5DgA9+/8QAGREBAAIDAAAAAAAAAAAAAAAAARARAEFR/9oACAEDAQE/EIQW4Voy3J//xAAXEQEBAQEAAAAAAAAAAAAAAAABEQAQ/9oACAECAQE/ENXChOVq7//EACAQAQACAgICAwEAAAAAAAAAAAEAESFRMUFhcRCBsaH/2gAIAQEAAT8QVa4smd/k2IvIMVzDQWpC80+Vtz8IhgbEgQanK1uLJx7mFZxbYhdFhfa1BalHyNxNqoaNj1FSm7vCDoDHTcOLnj+9Si5mQAy69eYq8F/fxr4//9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 244.33333333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAxABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAECAwQF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAED/9oADAMBAAIQAxAAAAHyIvqc6FW0zqgSzFrW5pFxpqB//8QAHBAAAwACAwEAAAAAAAAAAAAAAAERAhAgITFB/9oACAEBAAEFAvlKIyQ/Ux50ZOtTTJqcP//EABcRAAMBAAAAAAAAAAAAAAAAAAAQESD/2gAIAQMBAT8BxCP/xAAXEQADAQAAAAAAAAAAAAAAAAAAEBEg/9oACAECAQE/AcQj/8QAGxAAAQQDAAAAAAAAAAAAAAAAAQIQETEgITD/2gAIAQEABj8CsYCA+kw19P/EAB8QAAICAQQDAAAAAAAAAAAAAAABESExECBBoVFxgf/aAAgBAQABPyGJ6QmXI2FbhIpowrvOlRzQpegWZyr4MsdEoXqcijx2Uehqct4ra//aAAwDAQACAAMAAAAQ/N5DgA9+/8QAGREBAAIDAAAAAAAAAAAAAAAAARARAEFR/9oACAEDAQE/EIQW4Voy3J//xAAXEQEBAQEAAAAAAAAAAAAAAAABEQAQ/9oACAECAQE/ENXChOVq7//EACAQAQACAgICAwEAAAAAAAAAAAEAESFRMUFhcRCBsaH/2gAIAQEAAT8QVa4smd/k2IvIMVzDQWpC80+Vtz8IhgbEgQanK1uLJx7mFZxbYhdFhfa1BalHyNxNqoaNj1FSm7vCDoDHTcOLnj+9Si5mQAy69eYq8F/fxr4//9k=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;toss_stock.jpg&quot;
         title=&quot;&quot;
-        src=&quot;/static/230c115e6ef54273a0978db2b2788331/828fb/toss_stock.jpg&quot;
-        srcset=&quot;/static/230c115e6ef54273a0978db2b2788331/ff44c/toss_stock.jpg 158w,
-/static/230c115e6ef54273a0978db2b2788331/a6688/toss_stock.jpg 315w,
-/static/230c115e6ef54273a0978db2b2788331/828fb/toss_stock.jpg 630w,
-/static/230c115e6ef54273a0978db2b2788331/0ede0/toss_stock.jpg 945w,
+        src=&quot;/static/230c115e6ef54273a0978db2b2788331/47311/toss_stock.jpg&quot;
+        srcset=&quot;/static/230c115e6ef54273a0978db2b2788331/f93b5/toss_stock.jpg 300w,
+/static/230c115e6ef54273a0978db2b2788331/b4294/toss_stock.jpg 600w,
 /static/230c115e6ef54273a0978db2b2788331/47311/toss_stock.jpg 1080w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        sizes=&quot;(max-width: 1080px) 100vw, 1080px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
@@ -568,7 +709,7 @@ Opened Issue만 보면 머리가 지끈거리기 시작하면서 어지러워진
 널리 알려진 UI기 때문에 여러 다양한 Color picker 라이브러리들과 예제들을 볼 수 있다.
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 845px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -579,18 +720,17 @@ Opened Issue만 보면 머리가 지끈거리기 시작하면서 어지러워진
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 83.54430379746836%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAEIElEQVR42n2RfUzUdRzHf7VqunQ92Nqov6y2RpZrztUibS7XZsutTFL/YMjWzLmZNmWoHEXBkvN4OB7uiYfjhHuA4+BQBAQHKA9ygICoQId33AHHg3IPgHBQUb7a71ia2fpu772/n32/n/f3/f5+hLTSPP4PqSW5/1nLLVoyLAWkWwpIteQjs+STas5DOGNQITWokJk0IT5jUK+wUf2gWeS/97ISDTkWHRevt6K5UcOJPgP7+hRsupnEgeo0hMTcNI7LfuCEPBmJIgWJQkpcRhKnsk8/IvgIF6tIzEjh64yT7JAf5u2MaFanfca+gngE8ZLoSnSaatIgM6of1KLrfzoUIcZMVKfy/pYI3vpgM29+uIn1295hbcTrRCV+iyDVK0kqzCRZlxXin4tyOB2CghS98jF3YuSsskIaGxpprcskt+Msp5Ut1KVUUHzOgCA3F6AoL0JZUYTKWkxayLEKmVHzcCAlD4ci/m1ulYk/uY+4gstLBIJBlpZ+pdbWhFBcW059axOXu6/SYGtBXWVEWqImvTT/sYmniw5NGjTnDMzMzRKYnWHa6yW4GGR+YQFLUw3CGZM6FE2mV5Ou15BjyCfTuBJRPJP+CylGFVKjGrlZi7xMi7pST5alkMwyLenmfISKK7V0uPspd7ahcV4iwVWB7JaVHHMhlzvbaO/por27k47uLjp7rtHe3k7T1WbabnTRc7OP1u4OWrpttPV0or1QilB1pZ6ytoucatbyZbOMsJYj7O7KINdchN3tpM/nomq6F/V0M4l3q9k9p0dlK8WpsqKrr8BhH2LY4WTE5cZUV4mgqyzhQOxRdh6LIeLkHp4/to2v8k6SZzWEXi+93kByr5mY6xq29Up5ZvAQB8uN5HxexHN7N2Dr7MLpcHD7tmNFMEur5I3wV1j37npeCA/nqVdf5Isj0RTWlGE5byX5bDaH9VJ26eOJ0H/HS8ZIPi7Ukiy3ozJl0dt3E5fLhdvlwlhrRbhQU0H9JRlJTTp+ktVREJdNVrESzXkTilwV0bGH2CX5hq2SKDYkRLL2+FbeMyaSPzXCzIiHwSE7DocD17ALfU05QmtfF/wG/P4Hy/fnmV9ewu0Zx1Bv5cfkJD7a+QkRe3awce92Xtu3hVWfbmS7JpKyubOM/uJhwD6A2+1mbHSU8oZqhDvOcabsTUxN2Oi2N+C+5iJwe5l7C/fYHxPDE6ueZk3YOp58eQ1C2LMIqwWiDm7G71Qw5LzD4OAtnE5nSHR0bAzBM+GlxzNCv70Hm83GxPgEAX+AmZkZdDodsbGxSL5P4JQknvgECUfj4jApM5m82ojd5Wag/xZDQ0MMDw/j8XgQAgE/c6JAYJbZ2Vn8fj8+nxefzxeqFxcXCS4ECQZXsDA/z7TPz/hdL5OTE0xNTYUwOTmJ1+vlLy+74XcMyNgmAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 83.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAEIElEQVR42n2RfUzUdRzHf7VqunQ92Nqov6y2RpZrztUibS7XZsutTFL/YMjWzLmZNmWoHEXBkvN4OB7uiYfjhHuA4+BQBAQHKA9ygICoQId33AHHg3IPgHBQUb7a71ia2fpu772/n32/n/f3/f5+hLTSPP4PqSW5/1nLLVoyLAWkWwpIteQjs+STas5DOGNQITWokJk0IT5jUK+wUf2gWeS/97ISDTkWHRevt6K5UcOJPgP7+hRsupnEgeo0hMTcNI7LfuCEPBmJIgWJQkpcRhKnsk8/IvgIF6tIzEjh64yT7JAf5u2MaFanfca+gngE8ZLoSnSaatIgM6of1KLrfzoUIcZMVKfy/pYI3vpgM29+uIn1295hbcTrRCV+iyDVK0kqzCRZlxXin4tyOB2CghS98jF3YuSsskIaGxpprcskt+Msp5Ut1KVUUHzOgCA3F6AoL0JZUYTKWkxayLEKmVHzcCAlD4ci/m1ulYk/uY+4gstLBIJBlpZ+pdbWhFBcW059axOXu6/SYGtBXWVEWqImvTT/sYmniw5NGjTnDMzMzRKYnWHa6yW4GGR+YQFLUw3CGZM6FE2mV5Ou15BjyCfTuBJRPJP+CylGFVKjGrlZi7xMi7pST5alkMwyLenmfISKK7V0uPspd7ahcV4iwVWB7JaVHHMhlzvbaO/por27k47uLjp7rtHe3k7T1WbabnTRc7OP1u4OWrpttPV0or1QilB1pZ6ytoucatbyZbOMsJYj7O7KINdchN3tpM/nomq6F/V0M4l3q9k9p0dlK8WpsqKrr8BhH2LY4WTE5cZUV4mgqyzhQOxRdh6LIeLkHp4/to2v8k6SZzWEXi+93kByr5mY6xq29Up5ZvAQB8uN5HxexHN7N2Dr7MLpcHD7tmNFMEur5I3wV1j37npeCA/nqVdf5Isj0RTWlGE5byX5bDaH9VJ26eOJ0H/HS8ZIPi7Ukiy3ozJl0dt3E5fLhdvlwlhrRbhQU0H9JRlJTTp+ktVREJdNVrESzXkTilwV0bGH2CX5hq2SKDYkRLL2+FbeMyaSPzXCzIiHwSE7DocD17ALfU05QmtfF/wG/P4Hy/fnmV9ewu0Zx1Bv5cfkJD7a+QkRe3awce92Xtu3hVWfbmS7JpKyubOM/uJhwD6A2+1mbHSU8oZqhDvOcabsTUxN2Oi2N+C+5iJwe5l7C/fYHxPDE6ueZk3YOp58eQ1C2LMIqwWiDm7G71Qw5LzD4OAtnE5nSHR0bAzBM+GlxzNCv70Hm83GxPgEAX+AmZkZdDodsbGxSL5P4JQknvgECUfj4jApM5m82ojd5Wag/xZDQ0MMDw/j8XgQAgE/c6JAYJbZ2Vn8fj8+nxefzxeqFxcXCS4ECQZXsDA/z7TPz/hdL5OTE0xNTYUwOTmJ1+vlLy+74XcMyNgmAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;picker.png&quot;
         title=&quot;&quot;
-        src=&quot;/static/33a6c1f9f8fa0df92e09ffa482459346/f058b/picker.png&quot;
-        srcset=&quot;/static/33a6c1f9f8fa0df92e09ffa482459346/c26ae/picker.png 158w,
-/static/33a6c1f9f8fa0df92e09ffa482459346/6bdcf/picker.png 315w,
-/static/33a6c1f9f8fa0df92e09ffa482459346/f058b/picker.png 630w,
+        src=&quot;/static/33a6c1f9f8fa0df92e09ffa482459346/8bd7c/picker.png&quot;
+        srcset=&quot;/static/33a6c1f9f8fa0df92e09ffa482459346/5a46d/picker.png 300w,
+/static/33a6c1f9f8fa0df92e09ffa482459346/0a47e/picker.png 600w,
 /static/33a6c1f9f8fa0df92e09ffa482459346/8bd7c/picker.png 845w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        sizes=&quot;(max-width: 845px) 100vw, 845px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
@@ -614,15 +754,14 @@ Opened Issue만 보면 머리가 지끈거리기 시작하면서 어지러워진
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 119.62025316455697%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAFM0lEQVR42o2VW2hUVxSGd0U0mppRczHOJDFiVAxOVTQyJCheY0QcI8UIBvOiHC1WabTqi0N8EOvlQUSO+KBIIojIKMRYbKiXVse0trFRqGKcqE0yZrxMZjKXM5dz5sxXTi5qig9d8LH3Wvvs/+y9WawlQqEQPV4vb96+xev10tfXh2GpVOojuv7/SKUQnc+f0/pdLe279/D4+72429oGBBluqc/EPmfipdvN7/X1tDU08Mf58zx/+BBdUVADAVS/H9XnQ333Dt68Qe/pQfV4ULu7UTs7UV+9Qn3xArWjA/XZM5KKgvD19hIMBAh1dxN68oTw3buEm5oIX7xI6MwZwsePE3I4+K22lvatW4lu2ECoooJQWRlhq5VwYSHh7GxCQhC7fRvR1dVF+6NHdLS04G5uxn31Ku4LF3CfPo372DE66upw19bSuG0bd6ureWW383zZMtwLF+IuLsZdUEBHdjbtQhA0BNvb2/mluRnXtWu4Ll7EdfYsrpMncR0+jOvAAe7V1uKSJFqqq7lfWcm98nJcZWW45s7FNWMGLosFV2YmvwqBzxBsa2vjUkMDV86dw3nqFM6jR3EePIhz3z6cO3fi3LIF56ZNOCsrca5ahXPRIpwLFuAsLsY5dSrO3FyuTJjAJSHoMQRbWlo4cewYp48cQa6rQ963D3nXLmRJQq6pQa6qQl67FnnlSuRFi5BLSpCtVuTp05Hz8pCzsjhtMnFCCDoNwZs3b7J/927q9uzBsWMHjq1bcWzejKOqCse6dTgqKnAsXYqjtBTH/Pk4rFYcM2bgmDIFR24ujgkTqBs3jv1C0GEINjU1UVNdzfaaGqSNG5HWr0daswapvBxpyRKksjKkkhKkOXOQiouRioqQpkxBmjwZKTMTKSOD7enp1AjBU0Pw8uXLlC9fTuXq1axbvhz74sXYS0uxL1yIfd487FYr9lmzsBcVYS8sxJ6Xh33SJOyZmdhNJuxjx1I5ZgzlQvDYEKyvr2fO7NmUlpRgmzsXm9WKrbgY28yZ2IqKsE2diq2gAJvFgi03F1t2NraJE7GZTNjS07GlpVGalsZXQtB65w5ClmVMGRnkm82Yc3IwT5yIefz4ATIyMH85DnN6OuYxYzCPTsM8ahTmkSMxjxiB+QuBWQjyhcAkBPdv3RoQHG8ykZ+fj8VsJr+wkPxp08ibPBnLpElYcnMHRoOcnEGysWQbZGHJyqIgJ4fxo0dz/949hM/nIx6PE4/FUBIJfK2teJuuEwmFiCSTKIkYUVUhoSmoCQU1qqAqMdSoSkzRUKIaSkIjEo0Si8UQiqIQ7Ovj+o0baP4A3h3f8nr91wRv3SF59BCsb8BfnuTgClixFyo6oZyfsVPFVVbCPyvgUBW886OSQkQiEV57PHhevyaVSNBz+Ac8278h8vcTtMdt6D8+RWnUeNCYovF+iqZgikY6uZ78iQ6uoQcbSf3ZTCoSJaFpiKGCaljSqHmqStznQwPUwdiAaQMkVdAHQ4mPU6NWJhIJRDAYRNd1kskkwT4/D/9q462vl6Sm9dP3/h2tDx7i7wsRT2hoeooXXS958uwZekpD0wzVZH+1/iBoOJqmoUTCeLq7+9uAqqqomkZMieDp9hAxiq6q9v/EH/Dz/r2vf4/BUMsYJmiccGgchq6jpwZ6xqfxoVvpg71kmOCn1tnVRTiifPD1ZJxXnV3DvvG+8fK+t7d//ul+4wYiEAj0588Q0WhsmG9gZMLQPB6LY6SagZG/xvhhLR5HGMfuf69BjDf51P9cbOjt/rtmXP9fPJeneHZH/qgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 119.6%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAFM0lEQVR42o2VW2hUVxSGd0U0mppRczHOJDFiVAxOVTQyJCheY0QcI8UIBvOiHC1WabTqi0N8EOvlQUSO+KBIIojIKMRYbKiXVse0trFRqGKcqE0yZrxMZjKXM5dz5sxXTi5qig9d8LH3Wvvs/+y9WawlQqEQPV4vb96+xev10tfXh2GpVOojuv7/SKUQnc+f0/pdLe279/D4+72429oGBBluqc/EPmfipdvN7/X1tDU08Mf58zx/+BBdUVADAVS/H9XnQ333Dt68Qe/pQfV4ULu7UTs7UV+9Qn3xArWjA/XZM5KKgvD19hIMBAh1dxN68oTw3buEm5oIX7xI6MwZwsePE3I4+K22lvatW4lu2ECoooJQWRlhq5VwYSHh7GxCQhC7fRvR1dVF+6NHdLS04G5uxn31Ku4LF3CfPo372DE66upw19bSuG0bd6ureWW383zZMtwLF+IuLsZdUEBHdjbtQhA0BNvb2/mluRnXtWu4Ll7EdfYsrpMncR0+jOvAAe7V1uKSJFqqq7lfWcm98nJcZWW45s7FNWMGLosFV2YmvwqBzxBsa2vjUkMDV86dw3nqFM6jR3EePIhz3z6cO3fi3LIF56ZNOCsrca5ahXPRIpwLFuAsLsY5dSrO3FyuTJjAJSHoMQRbWlo4cewYp48cQa6rQ963D3nXLmRJQq6pQa6qQl67FnnlSuRFi5BLSpCtVuTp05Hz8pCzsjhtMnFCCDoNwZs3b7J/927q9uzBsWMHjq1bcWzejKOqCse6dTgqKnAsXYqjtBTH/Pk4rFYcM2bgmDIFR24ujgkTqBs3jv1C0GEINjU1UVNdzfaaGqSNG5HWr0daswapvBxpyRKksjKkkhKkOXOQiouRioqQpkxBmjwZKTMTKSOD7enp1AjBU0Pw8uXLlC9fTuXq1axbvhz74sXYS0uxL1yIfd487FYr9lmzsBcVYS8sxJ6Xh33SJOyZmdhNJuxjx1I5ZgzlQvDYEKyvr2fO7NmUlpRgmzsXm9WKrbgY28yZ2IqKsE2diq2gAJvFgi03F1t2NraJE7GZTNjS07GlpVGalsZXQtB65w5ClmVMGRnkm82Yc3IwT5yIefz4ATIyMH85DnN6OuYxYzCPTsM8ahTmkSMxjxiB+QuBWQjyhcAkBPdv3RoQHG8ykZ+fj8VsJr+wkPxp08ibPBnLpElYcnMHRoOcnEGysWQbZGHJyqIgJ4fxo0dz/949hM/nIx6PE4/FUBIJfK2teJuuEwmFiCSTKIkYUVUhoSmoCQU1qqAqMdSoSkzRUKIaSkIjEo0Si8UQiqIQ7Ovj+o0baP4A3h3f8nr91wRv3SF59BCsb8BfnuTgClixFyo6oZyfsVPFVVbCPyvgUBW886OSQkQiEV57PHhevyaVSNBz+Ac8278h8vcTtMdt6D8+RWnUeNCYovF+iqZgikY6uZ78iQ6uoQcbSf3ZTCoSJaFpiKGCaljSqHmqStznQwPUwdiAaQMkVdAHQ4mPU6NWJhIJRDAYRNd1kskkwT4/D/9q462vl6Sm9dP3/h2tDx7i7wsRT2hoeooXXS958uwZekpD0wzVZH+1/iBoOJqmoUTCeLq7+9uAqqqomkZMieDp9hAxiq6q9v/EH/Dz/r2vf4/BUMsYJmiccGgchq6jpwZ6xqfxoVvpg71kmOCn1tnVRTiifPD1ZJxXnV3DvvG+8fK+t7d//ul+4wYiEAj0588Q0WhsmG9gZMLQPB6LY6SagZG/xvhhLR5HGMfuf69BjDf51P9cbOjt/rtmXP9fPJeneHZH/qgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;input_color_picker.png&quot;
         title=&quot;&quot;
         src=&quot;/static/57541aead5f41949f826ac66ae8f8348/63868/input_color_picker.png&quot;
-        srcset=&quot;/static/57541aead5f41949f826ac66ae8f8348/c26ae/input_color_picker.png 158w,
-/static/57541aead5f41949f826ac66ae8f8348/63868/input_color_picker.png 250w&quot;
+        srcset=&quot;/static/57541aead5f41949f826ac66ae8f8348/63868/input_color_picker.png 250w&quot;
         sizes=&quot;(max-width: 250px) 100vw, 250px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -687,7 +826,7 @@ Shopify는 온라인 이커머스 플랫폼으로,
 쇼핑몰을 간단하게 만들 수 있도록 도와주는 일을 주로 하고 있다.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -704,13 +843,11 @@ Shopify는 온라인 이커머스 플랫폼으로,
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;shopify_logo.png&quot;
         title=&quot;&quot;
-        src=&quot;/static/1a28242ce5be02f2f6a3070e75f0d136/f058b/shopify_logo.png&quot;
-        srcset=&quot;/static/1a28242ce5be02f2f6a3070e75f0d136/c26ae/shopify_logo.png 158w,
-/static/1a28242ce5be02f2f6a3070e75f0d136/6bdcf/shopify_logo.png 315w,
-/static/1a28242ce5be02f2f6a3070e75f0d136/f058b/shopify_logo.png 630w,
-/static/1a28242ce5be02f2f6a3070e75f0d136/40601/shopify_logo.png 945w,
+        src=&quot;/static/1a28242ce5be02f2f6a3070e75f0d136/c1b63/shopify_logo.png&quot;
+        srcset=&quot;/static/1a28242ce5be02f2f6a3070e75f0d136/5a46d/shopify_logo.png 300w,
+/static/1a28242ce5be02f2f6a3070e75f0d136/0a47e/shopify_logo.png 600w,
 /static/1a28242ce5be02f2f6a3070e75f0d136/c1b63/shopify_logo.png 1200w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
@@ -722,7 +859,7 @@ Shopify는 온라인 이커머스 플랫폼으로,
 이게 무엇인고 하니, 유저가 운영하는 쇼핑몰의 백엔드 로직을 커스터마이징 할 수 있는 기능이다.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -733,20 +870,18 @@ Shopify는 온라인 이커머스 플랫폼으로,
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 73.41772151898735%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAAChUlEQVR42lVUXW/TQBD0/39FSCD+AM+0LyBUIYTahyKBogKlidImrRs39tn3sffhc5JBu05Kamm19vlubmd27grvCde/f2K3AxqloFSLmHr4kBAi54g+D5J5bMwRISYJHxPqukbbKnSdRlGWD3j97hX40cZiuVxivV7DWEKtNIgISimEEGApQHUai8UCq9UKddMK6HxZ4ez8CuQDCmMMptMZ+j7LzvzddR2s89CW4L1H27bwIcD5CNVq2ZSjelpL1fPFAy4uJ7KmyDmjzxnDMDzTYRq0z44CtHEymRfzODPhMWbBVRnnYSjCkkcRY8TN1QTb7RY+9iBZlOTd+QAiD+cIIUT55g28D4gxCbD1EZ4M2tUNYt6gUE2D92/eYjMMoNALrUNwNU3T4O72FtoYqM5CtR2qqhKd207D+YSn6gGzX+cCXrDo5eNKNAzpqMKQpCLrCI4I1rmRmh2rDTFKg3jT+7LC1Z+ZyFBsNlvp8Ha7Q0xZrMLAHKwhd5a4YgovxjmP/wL6vMGw2SL2GUXwhMnlV/S9h4/5iHKSiqx10mXWsuPm0Ggf6XhnxTZ39yVOP50h9QMKtsXpyQfEQAgp77XjyqIAGGMxn8/Fj43q0Gr7HGyh2A8oH0tcnH+R98IHj1VVIefhWcNRv9EGTKnTWjJT5+4fB8vEcjgXRM8C+2e3e6mhgLJF2C57YF4gOsYxGJALUZbwt1zLES1i7/H9+rM0hfaVjZQDtHXiQTkpewMf5ggDHwXwrmrw8cdfJG4KBYNvkxPwiRnN/N+HDKC1kcO/rms5iseAh42nszlubqYoHysUiR3fOgHkLh0oM31/uFFClAuCqR+scwi+mRo2+1MNYx3+AdykehrWVJuNAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 73.33333333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAAChUlEQVR42lVUXW/TQBD0/39FSCD+AM+0LyBUIYTahyKBogKlidImrRs39tn3sffhc5JBu05Kamm19vlubmd27grvCde/f2K3AxqloFSLmHr4kBAi54g+D5J5bMwRISYJHxPqukbbKnSdRlGWD3j97hX40cZiuVxivV7DWEKtNIgISimEEGApQHUai8UCq9UKddMK6HxZ4ez8CuQDCmMMptMZ+j7LzvzddR2s89CW4L1H27bwIcD5CNVq2ZSjelpL1fPFAy4uJ7KmyDmjzxnDMDzTYRq0z44CtHEymRfzODPhMWbBVRnnYSjCkkcRY8TN1QTb7RY+9iBZlOTd+QAiD+cIIUT55g28D4gxCbD1EZ4M2tUNYt6gUE2D92/eYjMMoNALrUNwNU3T4O72FtoYqM5CtR2qqhKd207D+YSn6gGzX+cCXrDo5eNKNAzpqMKQpCLrCI4I1rmRmh2rDTFKg3jT+7LC1Z+ZyFBsNlvp8Ha7Q0xZrMLAHKwhd5a4YgovxjmP/wL6vMGw2SL2GUXwhMnlV/S9h4/5iHKSiqx10mXWsuPm0Ggf6XhnxTZ39yVOP50h9QMKtsXpyQfEQAgp77XjyqIAGGMxn8/Fj43q0Gr7HGyh2A8oH0tcnH+R98IHj1VVIefhWcNRv9EGTKnTWjJT5+4fB8vEcjgXRM8C+2e3e6mhgLJF2C57YF4gOsYxGJALUZbwt1zLES1i7/H9+rM0hfaVjZQDtHXiQTkpewMf5ggDHwXwrmrw8cdfJG4KBYNvkxPwiRnN/N+HDKC1kcO/rms5iseAh42nszlubqYoHysUiR3fOgHkLh0oM31/uFFClAuCqR+scwi+mRo2+1MNYx3+AdykehrWVJuNAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;shopify_functions.png&quot;
         title=&quot;&quot;
-        src=&quot;/static/de367b4d2fa3d6004bc838ee4f611434/f058b/shopify_functions.png&quot;
-        srcset=&quot;/static/de367b4d2fa3d6004bc838ee4f611434/c26ae/shopify_functions.png 158w,
-/static/de367b4d2fa3d6004bc838ee4f611434/6bdcf/shopify_functions.png 315w,
-/static/de367b4d2fa3d6004bc838ee4f611434/f058b/shopify_functions.png 630w,
-/static/de367b4d2fa3d6004bc838ee4f611434/40601/shopify_functions.png 945w,
-/static/de367b4d2fa3d6004bc838ee4f611434/78612/shopify_functions.png 1260w,
+        src=&quot;/static/de367b4d2fa3d6004bc838ee4f611434/c1b63/shopify_functions.png&quot;
+        srcset=&quot;/static/de367b4d2fa3d6004bc838ee4f611434/5a46d/shopify_functions.png 300w,
+/static/de367b4d2fa3d6004bc838ee4f611434/0a47e/shopify_functions.png 600w,
+/static/de367b4d2fa3d6004bc838ee4f611434/c1b63/shopify_functions.png 1200w,
 /static/de367b4d2fa3d6004bc838ee4f611434/c4842/shopify_functions.png 1634w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
@@ -769,7 +904,7 @@ C로 구현한 JS 엔진이다. ES2020 까지 지원한다.
 C이기 때문에 WASM 위에 올라간다!&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 768px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -780,18 +915,17 @@ C이기 때문에 WASM 위에 올라간다!&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 25.316455696202528%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAFABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAIDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAHcrKJAf//EABYQAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAQABBQJJUR2//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAEC/9oACAECAQE/Acq//8QAFxABAQEBAAAAAAAAAAAAAAAAAAERMf/aAAgBAQAGPwLqTVf/xAAZEAADAQEBAAAAAAAAAAAAAAAAAREhMUH/2gAIAQEAAT8hZJQj2H2ofp44f//aAAwDAQACAAMAAAAQh9//xAAVEQEBAAAAAAAAAAAAAAAAAAABAP/aAAgBAwEBPxABZv/EABcRAAMBAAAAAAAAAAAAAAAAAAABIRH/2gAIAQIBAT8Qp0TGf//EABoQAQADAAMAAAAAAAAAAAAAAAEAESFRYXH/2gAIAQEAAT8QZUXeXC+qasXYxzYrwn//2Q==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 25.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAFABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAIDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAHcrKJAf//EABYQAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAQABBQJJUR2//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAEC/9oACAECAQE/Acq//8QAFxABAQEBAAAAAAAAAAAAAAAAAAERMf/aAAgBAQAGPwLqTVf/xAAZEAADAQEBAAAAAAAAAAAAAAAAAREhMUH/2gAIAQEAAT8hZJQj2H2ofp44f//aAAwDAQACAAMAAAAQh9//xAAVEQEBAAAAAAAAAAAAAAAAAAABAP/aAAgBAwEBPxABZv/EABcRAAMBAAAAAAAAAAAAAAAAAAABIRH/2gAIAQIBAT8Qp0TGf//EABoQAQADAAMAAAAAAAAAAAAAAAEAESFRYXH/2gAIAQEAAT8QZUXeXC+qasXYxzYrwn//2Q==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;javy_dynamic.jpg&quot;
         title=&quot;&quot;
-        src=&quot;/static/6f888a055caf756c59f233c758751da7/828fb/javy_dynamic.jpg&quot;
-        srcset=&quot;/static/6f888a055caf756c59f233c758751da7/ff44c/javy_dynamic.jpg 158w,
-/static/6f888a055caf756c59f233c758751da7/a6688/javy_dynamic.jpg 315w,
-/static/6f888a055caf756c59f233c758751da7/828fb/javy_dynamic.jpg 630w,
+        src=&quot;/static/6f888a055caf756c59f233c758751da7/212bf/javy_dynamic.jpg&quot;
+        srcset=&quot;/static/6f888a055caf756c59f233c758751da7/f93b5/javy_dynamic.jpg 300w,
+/static/6f888a055caf756c59f233c758751da7/b4294/javy_dynamic.jpg 600w,
 /static/6f888a055caf756c59f233c758751da7/212bf/javy_dynamic.jpg 768w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        sizes=&quot;(max-width: 768px) 100vw, 768px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
@@ -845,15 +979,14 @@ viewBox의 설정 없이 svg의 width와 height를 바꾸면 잘려 나오는 sv
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABRklEQVR42qVSy6qCUBQ91rwysKcpWdmDBjVoKg0iJ/pnJuJnGfQL0Vc0ydZl7YuSBbfBPbDY6+xz9mK/1G63Q7/fh2VZGI1GFdi2jU6ng/1+j+PxiG63K3+bzSam06mAfDAYoNfr4XA4QDFAKfUnHMfBer0WbhgG0jTF5XIRkNPHt9VqBWWaplxqtVppXzntcrkUNBoNXK9XvB/6Wq0WFosF1HA4LDPRNK3CizvF2JLT6SQC9/sdj8dDQM6TJIm0qRQssmHarutWfLPZDJvNBufzWYIp9Hw+BeQ8WZZhu91+CrJXkvp/Bb+VzInHcVyWnOe54KPkYij1el0EaF95IchWcEVut9vHUOjTdf23sna7/XVtOJCiDZxmFEXl2pDTxzfpved5mEwmEjCfzyugj6X6vo8wDDEej2UnucjFH3LG0x8EAX4AMEl0mhJ9SLoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 49.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABRklEQVR42qVSy6qCUBQ91rwysKcpWdmDBjVoKg0iJ/pnJuJnGfQL0Vc0ydZl7YuSBbfBPbDY6+xz9mK/1G63Q7/fh2VZGI1GFdi2jU6ng/1+j+PxiG63K3+bzSam06mAfDAYoNfr4XA4QDFAKfUnHMfBer0WbhgG0jTF5XIRkNPHt9VqBWWaplxqtVppXzntcrkUNBoNXK9XvB/6Wq0WFosF1HA4LDPRNK3CizvF2JLT6SQC9/sdj8dDQM6TJIm0qRQssmHarutWfLPZDJvNBufzWYIp9Hw+BeQ8WZZhu91+CrJXkvp/Bb+VzInHcVyWnOe54KPkYij1el0EaF95IchWcEVut9vHUOjTdf23sna7/XVtOJCiDZxmFEXl2pDTxzfpved5mEwmEjCfzyugj6X6vo8wDDEej2UnucjFH3LG0x8EAX4AMEl0mhJ9SLoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;viewbox.png&quot;
         title=&quot;&quot;
         src=&quot;/static/19e68979e524aceba096ffa497655364/dea13/viewbox.png&quot;
-        srcset=&quot;/static/19e68979e524aceba096ffa497655364/c26ae/viewbox.png 158w,
-/static/19e68979e524aceba096ffa497655364/6bdcf/viewbox.png 315w,
+        srcset=&quot;/static/19e68979e524aceba096ffa497655364/5a46d/viewbox.png 300w,
 /static/19e68979e524aceba096ffa497655364/dea13/viewbox.png 514w&quot;
         sizes=&quot;(max-width: 514px) 100vw, 514px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
@@ -885,7 +1018,7 @@ viewBox의 설정 없이 svg의 width와 height를 바꾸면 잘려 나오는 sv
 &lt;p&gt;물론 오픈소스기 때문에 사람들은 해당 레포에서 &lt;a href=&quot;https://github.com/svg/svgo/issues/1128&quot;&gt;의문을 제기하기 시작했다.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 924px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -896,18 +1029,17 @@ viewBox의 설정 없이 svg의 width와 height를 바꾸면 잘려 나오는 sv
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 58.86075949367089%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAA7DAAAOwwHHb6hkAAABjklEQVR42o2T226jMBCGef8X6BP0Wdqr3lRRtdrVbpImEAg0GJ89Nv/KQ8g6aivtSB9jPNiaw0/1+nOD119v6NoOdV1j/37AfrdH27Y4HmvstjvUdcOx7Z8t+r6HlApKa2Sb5/mO6uH5EQ9Pj6BAMNbCWgfvPZzzsM5Ba8N+TgkpJT60XoTrJVgBUDmKCIHgfIAPGWIoRqQ0I95ICzGB4uJX6EZEdZg0JqUxfIy4CIlRSPZCaihjF/QVU/hiXxsHyZV4VDlNYwya5oTTqUVTN+i6jnt1PvcY+gE9k9/PGIaB9/N7GRsvF66gyqV7ZyHECGsttNZw3t81fLVyXVrZV84wRUIk/+mj/6U8U21enlkG8tYbx97mIVGED/e4QBxbcZ64j5MyHKvq9x2XeRkFI8QEISSk0tDGsmwyKqM0N36daCZPOe8Z60AUl5KJPLSaWD4hhCue9bjinGOICN8Zl5wfwS8XLfos+oObXotDYH2muSD9gzM8/HA4/D5CKsmpL9M2PO28zn/IV1P/yv4CBbimEl2ApZwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 58.666666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAA7DAAAOwwHHb6hkAAABjklEQVR42o2T226jMBCGef8X6BP0Wdqr3lRRtdrVbpImEAg0GJ89Nv/KQ8g6aivtSB9jPNiaw0/1+nOD119v6NoOdV1j/37AfrdH27Y4HmvstjvUdcOx7Z8t+r6HlApKa2Sb5/mO6uH5EQ9Pj6BAMNbCWgfvPZzzsM5Ba8N+TgkpJT60XoTrJVgBUDmKCIHgfIAPGWIoRqQ0I95ICzGB4uJX6EZEdZg0JqUxfIy4CIlRSPZCaihjF/QVU/hiXxsHyZV4VDlNYwya5oTTqUVTN+i6jnt1PvcY+gE9k9/PGIaB9/N7GRsvF66gyqV7ZyHECGsttNZw3t81fLVyXVrZV84wRUIk/+mj/6U8U21enlkG8tYbx97mIVGED/e4QBxbcZ64j5MyHKvq9x2XeRkFI8QEISSk0tDGsmwyKqM0N36daCZPOe8Z60AUl5KJPLSaWD4hhCue9bjinGOICN8Zl5wfwS8XLfos+oObXotDYH2muSD9gzM8/HA4/D5CKsmpL9M2PO28zn/IV1P/yv4CBbimEl2ApZwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;benefit.png&quot;
         title=&quot;&quot;
-        src=&quot;/static/9e957225f54e5351105559d6c17fe92c/f058b/benefit.png&quot;
-        srcset=&quot;/static/9e957225f54e5351105559d6c17fe92c/c26ae/benefit.png 158w,
-/static/9e957225f54e5351105559d6c17fe92c/6bdcf/benefit.png 315w,
-/static/9e957225f54e5351105559d6c17fe92c/f058b/benefit.png 630w,
+        src=&quot;/static/9e957225f54e5351105559d6c17fe92c/9a1cf/benefit.png&quot;
+        srcset=&quot;/static/9e957225f54e5351105559d6c17fe92c/5a46d/benefit.png 300w,
+/static/9e957225f54e5351105559d6c17fe92c/0a47e/benefit.png 600w,
 /static/9e957225f54e5351105559d6c17fe92c/9a1cf/benefit.png 924w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        sizes=&quot;(max-width: 924px) 100vw, 924px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
@@ -922,7 +1054,7 @@ viewBox의 설정 없이 svg의 width와 height를 바꾸면 잘려 나오는 sv
 scalability 관련해서 문제가 생기는데, viewBox가 없는 svg인 경우 css로 해당 svg의 크기를 변경할 때 짤리는 현상이 발생한다.
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 872px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -933,18 +1065,17 @@ scalability 관련해서 문제가 생기는데, viewBox가 없는 svg인 경우
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 80.37974683544303%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACVUlEQVR42nVS207bQBD1P/Cz/Qh+gGcEL5WQeOeJ10olqopUAjghjbGT2Gs7e5v17vpUu3GMadqVjjKazByfmTNJ13UQQkArBSklOBfgnEOKQ7xv9xBSxBq+57FGDDXGdAiv7/sI3/dInPdgdYPNtgSXGoo6SG2gtIHUBKktFPkhNlBkPmqoA3UWZCy0sbDOI7HOoWk5KlaDCwGpaICGVB2kYhAyH2INESCH30kcelwgJCLUrEZTt2gaDa01jDEg0iDTg2gJrWcg7Q85olgTEOIAYwhhdWHsxBBht61Qlmvsdt/AWIOmaVBVDDVjqOsWjHGwGNdgFQNj9YBDLghq2z2cc0jCl3Y7BqUqKPUDSlE0SE0gBYeSKqoac1JCHaEUhJCw1iEJMv/33t/fkec5KiGQ5Tmenn7FfFD2PJ+DtS1KzrFcLpGmKYIfifcfhEQKRVFEeO/H/OL6GqooDififUR4PE2xurnBcDsIXFFhmN1aG8fYbrcRkXBQn93dQZflp5sLT67XKO7vxw/FOwx/VVUVZa9WqzjmZrOJhMdGRzSqnRJ6a6GPyo+HHRqD5X+jdy4WtvM5vn/5gt+3t4dG50bC9PISxWyGfjpyGDXLMiwWC7y8vESV6/UaztqDAY+P+Hp2hp/n56OqI2H+8IDi7Q122GkknJpy8obGcjaDEeJk5OCqqKrRwDgyGYN1liFdpHh9fR0VTk1Jr66gN5sPwoFgP5/j+eLisynBYaMlFBdxd2EFbrInoI87+te9TslHhdZ20GIPI9WnkY6u+WHZvj/FaZ3HH1n90hMRIPMUAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 80.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACVUlEQVR42nVS207bQBD1P/Cz/Qh+gGcEL5WQeOeJ10olqopUAjghjbGT2Gs7e5v17vpUu3GMadqVjjKazByfmTNJ13UQQkArBSklOBfgnEOKQ7xv9xBSxBq+57FGDDXGdAiv7/sI3/dInPdgdYPNtgSXGoo6SG2gtIHUBKktFPkhNlBkPmqoA3UWZCy0sbDOI7HOoWk5KlaDCwGpaICGVB2kYhAyH2INESCH30kcelwgJCLUrEZTt2gaDa01jDEg0iDTg2gJrWcg7Q85olgTEOIAYwhhdWHsxBBht61Qlmvsdt/AWIOmaVBVDDVjqOsWjHGwGNdgFQNj9YBDLghq2z2cc0jCl3Y7BqUqKPUDSlE0SE0gBYeSKqoac1JCHaEUhJCw1iEJMv/33t/fkec5KiGQ5Tmenn7FfFD2PJ+DtS1KzrFcLpGmKYIfifcfhEQKRVFEeO/H/OL6GqooDififUR4PE2xurnBcDsIXFFhmN1aG8fYbrcRkXBQn93dQZflp5sLT67XKO7vxw/FOwx/VVUVZa9WqzjmZrOJhMdGRzSqnRJ6a6GPyo+HHRqD5X+jdy4WtvM5vn/5gt+3t4dG50bC9PISxWyGfjpyGDXLMiwWC7y8vESV6/UaztqDAY+P+Hp2hp/n56OqI2H+8IDi7Q122GkknJpy8obGcjaDEeJk5OCqqKrRwDgyGYN1liFdpHh9fR0VTk1Jr66gN5sPwoFgP5/j+eLisynBYaMlFBdxd2EFbrInoI87+te9TslHhdZ20GIPI9WnkY6u+WHZvj/FaZ3HH1n90hMRIPMUAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;scale.png&quot;
         title=&quot;&quot;
-        src=&quot;/static/b1fc23ebeb5b5e7010cc9c13a0383204/f058b/scale.png&quot;
-        srcset=&quot;/static/b1fc23ebeb5b5e7010cc9c13a0383204/c26ae/scale.png 158w,
-/static/b1fc23ebeb5b5e7010cc9c13a0383204/6bdcf/scale.png 315w,
-/static/b1fc23ebeb5b5e7010cc9c13a0383204/f058b/scale.png 630w,
+        src=&quot;/static/b1fc23ebeb5b5e7010cc9c13a0383204/65654/scale.png&quot;
+        srcset=&quot;/static/b1fc23ebeb5b5e7010cc9c13a0383204/5a46d/scale.png 300w,
+/static/b1fc23ebeb5b5e7010cc9c13a0383204/0a47e/scale.png 600w,
 /static/b1fc23ebeb5b5e7010cc9c13a0383204/65654/scale.png 872w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        sizes=&quot;(max-width: 872px) 100vw, 872px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
@@ -954,7 +1085,7 @@ scalability 관련해서 문제가 생기는데, viewBox가 없는 svg인 경우
 &lt;p&gt;그렇기 때문에 사람들이 viewBox 제거를 끄자고 계속 주장하지만...&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 922px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -965,18 +1096,17 @@ scalability 관련해서 문제가 생기는데, viewBox가 없는 svg인 경우
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 22.151898734177216%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAnElEQVR42p2NS27DMAxEff97ddVdbxGRkiLFtUX9XmEZSLsugYcZkJjh9vX5gYoj7wev/bj1++AoRu0Da/2m9l//h9rGylxYbWytdUopPB5uoSI4d+EQEUIIqHpCiMQY8T4Q/L1TVbz3iCgpZfoYbABW6ypSFXJKK/iMT3LK69mFLbW3N7P37TxPWmvMOe/C3ht2vrCy89+ZwBiTH/sFNmEL9k5TAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 22.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAnElEQVR42p2NS27DMAxEff97ddVdbxGRkiLFtUX9XmEZSLsugYcZkJjh9vX5gYoj7wev/bj1++AoRu0Da/2m9l//h9rGylxYbWytdUopPB5uoSI4d+EQEUIIqHpCiMQY8T4Q/L1TVbz3iCgpZfoYbABW6ypSFXJKK/iMT3LK69mFLbW3N7P37TxPWmvMOe/C3ht2vrCy89+ZwBiTH/sFNmEL9k5TAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;minority.png&quot;
         title=&quot;&quot;
-        src=&quot;/static/6a2162bb9aeea108ba729494b3f8d862/f058b/minority.png&quot;
-        srcset=&quot;/static/6a2162bb9aeea108ba729494b3f8d862/c26ae/minority.png 158w,
-/static/6a2162bb9aeea108ba729494b3f8d862/6bdcf/minority.png 315w,
-/static/6a2162bb9aeea108ba729494b3f8d862/f058b/minority.png 630w,
+        src=&quot;/static/6a2162bb9aeea108ba729494b3f8d862/6da96/minority.png&quot;
+        srcset=&quot;/static/6a2162bb9aeea108ba729494b3f8d862/5a46d/minority.png 300w,
+/static/6a2162bb9aeea108ba729494b3f8d862/0a47e/minority.png 600w,
 /static/6a2162bb9aeea108ba729494b3f8d862/6da96/minority.png 922w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        sizes=&quot;(max-width: 922px) 100vw, 922px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
@@ -990,7 +1120,7 @@ scalability 관련해서 문제가 생기는데, viewBox가 없는 svg인 경우
 결국 포크를 해야 한다는 극단적인 주장까지 나오기도 했다.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 922px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1001,18 +1131,17 @@ scalability 관련해서 문제가 생기는데, viewBox가 없는 svg인 경우
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 93.0379746835443%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAEfklEQVR42q2U+0/TVxjGvzomSGGgXAYUpCukIFBwaK0i9FtA7git9+kQoyPiFi+4GVycmVG3BE1mpohTcXIZCDinwhzGaXTLjMY4ozOTH3SX7AcG4VJ6pRfgs9AS4h+wN3nyvO9zTj7JOSc5wh9P7mM0mhgYHMZotrplstjcbrHZsTvHsDtdUz6GwzU23bvn6czFqN2JwLiL0dFRDAYDBsMIhhHjtBuNRkwmMyaTiZHJeWgQw7DBnY9MrU/68LDBvc/lGkMAsFpt9P3bR19fv1v9ff309va6s8GBQQYGBujv62NocBCL2YzFYnHLarVO92azGafT5QE6HA53YDaZ3W4cMTJiMGAxW9xrTtc4TteE28fHxnC5XB45ndP9ZE1MTHiAk0ceGBrCaLEy6nBic9ixOhyMOhxY7ZP3OI7dBVbHONZROxabDbPNhtFqndYEnnIDu2/cQFy0iFKtlmJRpEDUUCKK5IsipaKIVtSgETXkT+WFosgKrRZdZiY6rRZ9ZibpKhWdXV0e4Jn6erwFAYUgECsIhAgC8ql50oVXJBMEgl+ZZwgCvlN97alTHmBbRwuCl4C332x8/f2ZJfFmdoAfEbIQAsLn4h8UjFQqRyaVEhH6JhGhoaQnJVKkzSIySY3P3EgkQVKaL3Z4gBfbWpnhJZCcEkd8vJxgqT+p6vnkaRazKlVGZEQ4iSnppCmVJMhjWLM4lU/zsigr1BGbIhISrsBvThTNre0e4NcNF1guqjlRVU7N2hwK0mJIVMrQqxKpW5dGliKCuIS3WapUkqKIQ5esRBUVjcQngEDfQILeCMZ7pg9NDc0e4JWr31K9KYf6bYU0b9WxM1+FLMSX8oXzOFyqJiFEQm5uAXs+qKIkNxelPJb5MjmRYTJC54Yhi4jG39ufpsYp4E+3uqjIieHgChW1a/Oo0WlIiQ7k46I0Gt7TkZMcQ1HRSqr37md35RbiouUUazK4fO44TSePs3mlHom3DxdbvvEAn967yfa8GA4XL6R2VS67xQUcqVjPnc8/pLt6EzsLF7GmZAXa9Ex0+dkkyRXoc7Q0HtzBpdM1lOaXuF+5rbXFA+x5fJ9972bwUaGCfctTaNhexqkKPYd0arZlpTJH8hrLRQ1pqmXEyxUkxCbwjm41R/ftoqX2M/bsqCQxPoG21jYP8FrnVZIVUvTpMmrK87h58H2WxUlJCfXlrbBAJD5eLFUvZOniNCKC57EkXUNhST7rN2azt3ozB/aXcuCTTTx89MQDfPbgF77ctZX95TpuHdnOXn0GPt5eLJGHIQ8PQhbqR1ZGGmpVOuoFqaQmJbMgKZ7ifC3btmykcusG2s8epfefvz3A3+/dpbGqkvaqdZwo06CMCnDfSZRkJgGzBMJeFyjI1rB2g54N6zIoW5/NjorVtNYd4853TXScP8mFLw7xZ89TD/Cvly942H2Fnrtd/NzVwYXzZ/nqdB2N9WdoqD9D67k6rndepvvH61y51k7n95e4ffsHXj7/jZ4nj3jx7FeeP37A8EA/wuQvMT7m5P+q/wABC+fVYKQiZgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 93%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAEfklEQVR42q2U+0/TVxjGvzomSGGgXAYUpCukIFBwaK0i9FtA7git9+kQoyPiFi+4GVycmVG3BE1mpohTcXIZCDinwhzGaXTLjMY4ozOTH3SX7AcG4VJ6pRfgs9AS4h+wN3nyvO9zTj7JOSc5wh9P7mM0mhgYHMZotrplstjcbrHZsTvHsDtdUz6GwzU23bvn6czFqN2JwLiL0dFRDAYDBsMIhhHjtBuNRkwmMyaTiZHJeWgQw7DBnY9MrU/68LDBvc/lGkMAsFpt9P3bR19fv1v9ff309va6s8GBQQYGBujv62NocBCL2YzFYnHLarVO92azGafT5QE6HA53YDaZ3W4cMTJiMGAxW9xrTtc4TteE28fHxnC5XB45ndP9ZE1MTHiAk0ceGBrCaLEy6nBic9ixOhyMOhxY7ZP3OI7dBVbHONZROxabDbPNhtFqndYEnnIDu2/cQFy0iFKtlmJRpEDUUCKK5IsipaKIVtSgETXkT+WFosgKrRZdZiY6rRZ9ZibpKhWdXV0e4Jn6erwFAYUgECsIhAgC8ql50oVXJBMEgl+ZZwgCvlN97alTHmBbRwuCl4C332x8/f2ZJfFmdoAfEbIQAsLn4h8UjFQqRyaVEhH6JhGhoaQnJVKkzSIySY3P3EgkQVKaL3Z4gBfbWpnhJZCcEkd8vJxgqT+p6vnkaRazKlVGZEQ4iSnppCmVJMhjWLM4lU/zsigr1BGbIhISrsBvThTNre0e4NcNF1guqjlRVU7N2hwK0mJIVMrQqxKpW5dGliKCuIS3WapUkqKIQ5esRBUVjcQngEDfQILeCMZ7pg9NDc0e4JWr31K9KYf6bYU0b9WxM1+FLMSX8oXzOFyqJiFEQm5uAXs+qKIkNxelPJb5MjmRYTJC54Yhi4jG39ufpsYp4E+3uqjIieHgChW1a/Oo0WlIiQ7k46I0Gt7TkZMcQ1HRSqr37md35RbiouUUazK4fO44TSePs3mlHom3DxdbvvEAn967yfa8GA4XL6R2VS67xQUcqVjPnc8/pLt6EzsLF7GmZAXa9Ex0+dkkyRXoc7Q0HtzBpdM1lOaXuF+5rbXFA+x5fJ9972bwUaGCfctTaNhexqkKPYd0arZlpTJH8hrLRQ1pqmXEyxUkxCbwjm41R/ftoqX2M/bsqCQxPoG21jYP8FrnVZIVUvTpMmrK87h58H2WxUlJCfXlrbBAJD5eLFUvZOniNCKC57EkXUNhST7rN2azt3ozB/aXcuCTTTx89MQDfPbgF77ctZX95TpuHdnOXn0GPt5eLJGHIQ8PQhbqR1ZGGmpVOuoFqaQmJbMgKZ7ifC3btmykcusG2s8epfefvz3A3+/dpbGqkvaqdZwo06CMCnDfSZRkJgGzBMJeFyjI1rB2g54N6zIoW5/NjorVtNYd4853TXScP8mFLw7xZ89TD/Cvly942H2Fnrtd/NzVwYXzZ/nqdB2N9WdoqD9D67k6rndepvvH61y51k7n95e4ffsHXj7/jZ4nj3jx7FeeP37A8EA/wuQvMT7m5P+q/wABC+fVYKQiZgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;cat.png&quot;
         title=&quot;&quot;
-        src=&quot;/static/7309de097040f5a91020fe1c5a9847e8/f058b/cat.png&quot;
-        srcset=&quot;/static/7309de097040f5a91020fe1c5a9847e8/c26ae/cat.png 158w,
-/static/7309de097040f5a91020fe1c5a9847e8/6bdcf/cat.png 315w,
-/static/7309de097040f5a91020fe1c5a9847e8/f058b/cat.png 630w,
+        src=&quot;/static/7309de097040f5a91020fe1c5a9847e8/6da96/cat.png&quot;
+        srcset=&quot;/static/7309de097040f5a91020fe1c5a9847e8/5a46d/cat.png 300w,
+/static/7309de097040f5a91020fe1c5a9847e8/0a47e/cat.png 600w,
 /static/7309de097040f5a91020fe1c5a9847e8/6da96/cat.png 922w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        sizes=&quot;(max-width: 922px) 100vw, 922px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
@@ -1023,7 +1152,7 @@ scalability 관련해서 문제가 생기는데, viewBox가 없는 svg인 경우
 &lt;p&gt;결국 지친 사람들은 다른 방법을 찾게 되는데, 더 이상 관리하고 있지 않는 해당 레포의 초기 메인테이너를 찾아가 컨택을 하기에 이르렀다.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 921px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1034,18 +1163,17 @@ scalability 관련해서 문제가 생기는데, viewBox가 없는 svg인 경우
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 37.9746835443038%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABBklEQVR42qWQ4W7DIAyE8/7v2QRoE8CAIdD0JjtLK23/NqRPPhtkc56su2PdAnxMiKkohRv2cWAfT+z9Q9vHb/pAoIyYGHsfmAozHo/1ZF2xbR7eB6ybh3UPhECaC5Qy0kXOIErIuSBEQoyEMZ6YjuMAEYEi6YOUEmKMCCHCh4BEZ55zRt87ej8ZYyiXlvN6vTBJYb4tcM7BuTucdbDWwhoLYwyWZVFtjcF8m5VlMZjnGcZYjXIvQ4+robN3tSw/ba2h1YZaq0bmqpqZ9U70xc9cG4rvy2opjFKK7kX2JFqorYFF5/KucWFUrroK6fGx3Bpo83gehxb+Cr7jNGTRXN8T/oNY/gKqfmyddRlwxQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 37.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABBklEQVR42qWQ4W7DIAyE8/7v2QRoE8CAIdD0JjtLK23/NqRPPhtkc56su2PdAnxMiKkohRv2cWAfT+z9Q9vHb/pAoIyYGHsfmAozHo/1ZF2xbR7eB6ybh3UPhECaC5Qy0kXOIErIuSBEQoyEMZ6YjuMAEYEi6YOUEmKMCCHCh4BEZ55zRt87ej8ZYyiXlvN6vTBJYb4tcM7BuTucdbDWwhoLYwyWZVFtjcF8m5VlMZjnGcZYjXIvQ4+robN3tSw/ba2h1YZaq0bmqpqZ9U70xc9cG4rvy2opjFKK7kX2JFqorYFF5/KucWFUrroK6fGx3Bpo83gehxb+Cr7jNGTRXN8T/oNY/gKqfmyddRlwxQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;original.png&quot;
         title=&quot;&quot;
-        src=&quot;/static/7bd813413da2115c6aaceed7a8757a47/f058b/original.png&quot;
-        srcset=&quot;/static/7bd813413da2115c6aaceed7a8757a47/c26ae/original.png 158w,
-/static/7bd813413da2115c6aaceed7a8757a47/6bdcf/original.png 315w,
-/static/7bd813413da2115c6aaceed7a8757a47/f058b/original.png 630w,
+        src=&quot;/static/7bd813413da2115c6aaceed7a8757a47/0f67e/original.png&quot;
+        srcset=&quot;/static/7bd813413da2115c6aaceed7a8757a47/5a46d/original.png 300w,
+/static/7bd813413da2115c6aaceed7a8757a47/0a47e/original.png 600w,
 /static/7bd813413da2115c6aaceed7a8757a47/0f67e/original.png 921w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        sizes=&quot;(max-width: 921px) 100vw, 921px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
@@ -1056,7 +1184,7 @@ scalability 관련해서 문제가 생기는데, viewBox가 없는 svg인 경우
 breaking change를 제대로 된 확인 없이 자신이 merge할 수는 없다고 하며 대신 viewBox 관련 이슈에 대한 내용을 README.md Troubleshooting 최상단에 올리는 PR을 merge하게 된다.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1173px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1067,19 +1195,17 @@ breaking change를 제대로 된 확인 없이 자신이 merge할 수는 없다�
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 20.253164556962027%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAq0lEQVR42m3Oyw6CMBCFYd7/wXStLgwtQZAqXkJEaJmqgd9IDWri4kvOnJnFRMYfOMmFyjuqm8MhwSCfPPF/uq/7QYhmjyULm6Bdier2JFKiu5L0dsD0p0nRH0chB995x3kUzR8rllYR1xvWdYq2W+JrRtwatC1IbI5qMpJXbgyqyVFthmo2Y6/bsE/FkN9Lop0/cpaaSiyVt9PrbvBvYe4GP/rsf9lecL3wBJVtMEya/JwkAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 20%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAq0lEQVR42m3Oyw6CMBCFYd7/wXStLgwtQZAqXkJEaJmqgd9IDWri4kvOnJnFRMYfOMmFyjuqm8MhwSCfPPF/uq/7QYhmjyULm6Bdier2JFKiu5L0dsD0p0nRH0chB995x3kUzR8rllYR1xvWdYq2W+JrRtwatC1IbI5qMpJXbgyqyVFthmo2Y6/bsE/FkN9Lop0/cpaaSiyVt9PrbvBvYe4GP/rsf9lecL3wBJVtMEya/JwkAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;readme.png&quot;
         title=&quot;&quot;
-        src=&quot;/static/76dc71d5c19e1da9644c44b7e1efffc3/f058b/readme.png&quot;
-        srcset=&quot;/static/76dc71d5c19e1da9644c44b7e1efffc3/c26ae/readme.png 158w,
-/static/76dc71d5c19e1da9644c44b7e1efffc3/6bdcf/readme.png 315w,
-/static/76dc71d5c19e1da9644c44b7e1efffc3/f058b/readme.png 630w,
-/static/76dc71d5c19e1da9644c44b7e1efffc3/40601/readme.png 945w,
+        src=&quot;/static/76dc71d5c19e1da9644c44b7e1efffc3/03914/readme.png&quot;
+        srcset=&quot;/static/76dc71d5c19e1da9644c44b7e1efffc3/5a46d/readme.png 300w,
+/static/76dc71d5c19e1da9644c44b7e1efffc3/0a47e/readme.png 600w,
 /static/76dc71d5c19e1da9644c44b7e1efffc3/03914/readme.png 1173w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        sizes=&quot;(max-width: 1173px) 100vw, 1173px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
@@ -1088,7 +1214,7 @@ breaking change를 제대로 된 확인 없이 자신이 merge할 수는 없다�
     &lt;/span&gt;
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 853px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1099,18 +1225,17 @@ breaking change를 제대로 된 확인 없이 자신이 merge할 수는 없다�
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 25.316455696202528%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAu0lEQVR42o2PyQ7CMAxE+/9/SYFWZG222m1oBsWgHriApZFHifM8GYwxGMcrpmnGZbwihIjvaq3hOH6oNZkbQgjwzgvIOSeKH9+Xdf88DvxTAlQPhXmacb/d0b3WBkYbaKXhrIW1Fikl5JxPpRg/vpxn+74LdPDOQSktaXqqDliWBUQMZsa2bdJpXd+ddxBXEG8golO11jew5CzfSjGBic403gf4JchwKUXuxVNF5oayEvrbXIok7Ys78AVpzIM0JeKPKQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 25.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAu0lEQVR42o2PyQ7CMAxE+/9/SYFWZG222m1oBsWgHriApZFHifM8GYwxGMcrpmnGZbwihIjvaq3hOH6oNZkbQgjwzgvIOSeKH9+Xdf88DvxTAlQPhXmacb/d0b3WBkYbaKXhrIW1Fikl5JxPpRg/vpxn+74LdPDOQSktaXqqDliWBUQMZsa2bdJpXd+ddxBXEG8golO11jew5CzfSjGBic403gf4JchwKUXuxVNF5oayEvrbXIok7Ys78AVpzIM0JeKPKQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;troubleshooting.png&quot;
         title=&quot;&quot;
-        src=&quot;/static/48e3d62319d5d8c24092cfe1c3535c39/f058b/troubleshooting.png&quot;
-        srcset=&quot;/static/48e3d62319d5d8c24092cfe1c3535c39/c26ae/troubleshooting.png 158w,
-/static/48e3d62319d5d8c24092cfe1c3535c39/6bdcf/troubleshooting.png 315w,
-/static/48e3d62319d5d8c24092cfe1c3535c39/f058b/troubleshooting.png 630w,
+        src=&quot;/static/48e3d62319d5d8c24092cfe1c3535c39/66caf/troubleshooting.png&quot;
+        srcset=&quot;/static/48e3d62319d5d8c24092cfe1c3535c39/5a46d/troubleshooting.png 300w,
+/static/48e3d62319d5d8c24092cfe1c3535c39/0a47e/troubleshooting.png 600w,
 /static/48e3d62319d5d8c24092cfe1c3535c39/66caf/troubleshooting.png 853w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        sizes=&quot;(max-width: 853px) 100vw, 853px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
@@ -1197,15 +1322,14 @@ chunk split(라이브러리 등을 다른 파일로 분리해서 배포하는 �
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 116.45569620253164%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAIAAACEf/j0AAAACXBIWXMAAA7DAAAOwwHHb6hkAAACQklEQVR42o2U646bMBCF9w02BHs8Q4yBEBwwFxuyCZCLWnUr9fKrUlWp7/8kFURVpWqTzfz/dI5nzvETEcVxfOiH0hSe5yESPjxPiChluNlsTFkWeU70H0zvwEEQbDZp23bOOgAQQlwx4gwB7vBPiELKUGc6yzJTlq+vr+k6ASEIGGsGEWcI/Bb/NEtQFEXGmK7r0jQV0yBxBrr2Pvwk5iPdhpEoVmFZFNY6Oc9qtUIKaPnsD1+4eSG2fJOfYIG0JtjGcveyPwzDeDp1ziEhsSXo2h++0vIZKbi5sFCpvCiNKWAeIWBWXjB3Yu2FfO+mMhKtVViZom7qKIrWaRrHMQoQYeR9+j1j4u03EyKgiJDrOHRd1+12+763dUNsydoLN929hTHwG32w5lA1dV3XOsu8xYJzfnX0zp0FinW0qfLG2sZaV1VVprMkSR5KGBGpSOV57qwzxjjn+mEwpnww21Mx6qo6jietM8YY53za9oPKcZxUVa21llIiin/dAHg326iU2uZ5KFcAf09CRNxn7QXSYqrHrWwLIaSUmd6Ox2NZGs75rEwIDNLC+/jrHnwVStbrummstUEQgAAxRXbO9uEza473EkYUqFCaIndtq5QKgmAuxuQcssofv92E5+xRSpAn4W6/Pwz98XzeufZaDJ5bv/9C/uJuMaJI54UpimsrYCo0kb9Yjt/5tiHu37FNUSgrY8qqXK1WSikZKuKMb+3y8oOYd+8zmGwHYNKoH8Z+HI/nc+fcdKp6EImev6G37/wHwNKbeyXESbQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 116.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAIAAACEf/j0AAAACXBIWXMAAA7DAAAOwwHHb6hkAAACQklEQVR42o2U646bMBCF9w02BHs8Q4yBEBwwFxuyCZCLWnUr9fKrUlWp7/8kFURVpWqTzfz/dI5nzvETEcVxfOiH0hSe5yESPjxPiChluNlsTFkWeU70H0zvwEEQbDZp23bOOgAQQlwx4gwB7vBPiELKUGc6yzJTlq+vr+k6ASEIGGsGEWcI/Bb/NEtQFEXGmK7r0jQV0yBxBrr2Pvwk5iPdhpEoVmFZFNY6Oc9qtUIKaPnsD1+4eSG2fJOfYIG0JtjGcveyPwzDeDp1ziEhsSXo2h++0vIZKbi5sFCpvCiNKWAeIWBWXjB3Yu2FfO+mMhKtVViZom7qKIrWaRrHMQoQYeR9+j1j4u03EyKgiJDrOHRd1+12+763dUNsydoLN929hTHwG32w5lA1dV3XOsu8xYJzfnX0zp0FinW0qfLG2sZaV1VVprMkSR5KGBGpSOV57qwzxjjn+mEwpnww21Mx6qo6jietM8YY53za9oPKcZxUVa21llIiin/dAHg326iU2uZ5KFcAf09CRNxn7QXSYqrHrWwLIaSUmd6Ox2NZGs75rEwIDNLC+/jrHnwVStbrummstUEQgAAxRXbO9uEza473EkYUqFCaIndtq5QKgmAuxuQcssofv92E5+xRSpAn4W6/Pwz98XzeufZaDJ5bv/9C/uJuMaJI54UpimsrYCo0kb9Yjt/5tiHu37FNUSgrY8qqXK1WSikZKuKMb+3y8oOYd+8zmGwHYNKoH8Z+HI/nc+fcdKp6EImev6G37/wHwNKbeyXESbQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;structure.png&quot;
         title=&quot;&quot;
         src=&quot;/static/dbe8c221f8d6d8a4bd15e1cdefc855d5/e45a9/structure.png&quot;
-        srcset=&quot;/static/dbe8c221f8d6d8a4bd15e1cdefc855d5/c26ae/structure.png 158w,
-/static/dbe8c221f8d6d8a4bd15e1cdefc855d5/6bdcf/structure.png 315w,
+        srcset=&quot;/static/dbe8c221f8d6d8a4bd15e1cdefc855d5/5a46d/structure.png 300w,
 /static/dbe8c221f8d6d8a4bd15e1cdefc855d5/e45a9/structure.png 364w&quot;
         sizes=&quot;(max-width: 364px) 100vw, 364px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
@@ -1463,15 +1587,14 @@ this.dispose = function () {
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 123.41772151898734%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAYAAAAxFw7TAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACGUlEQVR42qVU2XLiMBD0hwTQLcvG+HY2sAkJmDXXxuQols3//0dvWQae9iXiYcrSaKqlnum2J/wAwoSQ4QTCjMG1sXsbl7U2/bkfQgRdjW9r7bkfQnY5qUApgSfDGDrOoZMSpniAmmTQaQk/u4eKUuikgI4L+MW0X6dlX5MU9lzFua2VYQShfHiMc4gohxgnGA6HoITYm/ov7dd2P/pPnl5zjFIwxuEJzhDHMaqfc8ye5lBB2FPq6Hw7fHiaEZRG4Nd6g6+vvzDGB+luZMwpPEkJslBjs9uhfX2FUvIK2FP6XniSERRjje3+N3a7LYLA3PjCjnKgsFzWOBxalGWB4XB0G2BulKV8Op1wX5V22s6AqqNsJFZNg/f3N2RZitFodO3htwE1p5jqEep6ic/jES/P8yug0wsFowjoAGk8QVXkiKLIipU5TNhOmTIOPk5BTQQaxCBc9Ldx7hTWKZM4wcNzjeliBdUZXWmrepewTikMx7pp8Pl2QJFn5ylTd2GnRmK5qtG2B1RVedtQOtnkgcJ6s8Of49ECXnToJBtrvc7Lmx32+z1ms+ltL7w4ZVmv8PH5gbpegJAbKXdebpo1Doc3rOr6xh5yih+aYLFYoG1bbLdbCMGd+nemTBGx3inz+RMenx4hpXAH7JxCgwmIDjEgDIO7Oyf9XXVonZJkqF4aJNXD2SXG3SndzyGUDFmWIYrGII5UL5T/AcW71ifM7fUJAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 123.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAYAAAAxFw7TAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACGUlEQVR42qVU2XLiMBD0hwTQLcvG+HY2sAkJmDXXxuQols3//0dvWQae9iXiYcrSaKqlnum2J/wAwoSQ4QTCjMG1sXsbl7U2/bkfQgRdjW9r7bkfQnY5qUApgSfDGDrOoZMSpniAmmTQaQk/u4eKUuikgI4L+MW0X6dlX5MU9lzFua2VYQShfHiMc4gohxgnGA6HoITYm/ov7dd2P/pPnl5zjFIwxuEJzhDHMaqfc8ye5lBB2FPq6Hw7fHiaEZRG4Nd6g6+vvzDGB+luZMwpPEkJslBjs9uhfX2FUvIK2FP6XniSERRjje3+N3a7LYLA3PjCjnKgsFzWOBxalGWB4XB0G2BulKV8Op1wX5V22s6AqqNsJFZNg/f3N2RZitFodO3htwE1p5jqEep6ic/jES/P8yug0wsFowjoAGk8QVXkiKLIipU5TNhOmTIOPk5BTQQaxCBc9Ldx7hTWKZM4wcNzjeliBdUZXWmrepewTikMx7pp8Pl2QJFn5ylTd2GnRmK5qtG2B1RVedtQOtnkgcJ6s8Of49ECXnToJBtrvc7Lmx32+z1ms+ltL7w4ZVmv8PH5gbpegJAbKXdebpo1Doc3rOr6xh5yih+aYLFYoG1bbLdbCMGd+nemTBGx3inz+RMenx4hpXAH7JxCgwmIDjEgDIO7Oyf9XXVonZJkqF4aJNXD2SXG3SndzyGUDFmWIYrGII5UL5T/AcW71ifM7fUJAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;spector.png&quot;
         title=&quot;&quot;
         src=&quot;/static/03a1f09b9defd398d5c9e9e18c275989/b23ad/spector.png&quot;
-        srcset=&quot;/static/03a1f09b9defd398d5c9e9e18c275989/c26ae/spector.png 158w,
-/static/03a1f09b9defd398d5c9e9e18c275989/6bdcf/spector.png 315w,
+        srcset=&quot;/static/03a1f09b9defd398d5c9e9e18c275989/5a46d/spector.png 300w,
 /static/03a1f09b9defd398d5c9e9e18c275989/b23ad/spector.png 519w&quot;
         sizes=&quot;(max-width: 519px) 100vw, 519px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
@@ -1485,7 +1608,7 @@ this.dispose = function () {
 chrome expector에서 메모리 누수가 발생하는 것으로 보이지 않았다.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1496,20 +1619,19 @@ chrome expector에서 메모리 누수가 발생하는 것으로 보이지 않�
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 41.139240506329116%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABR0lEQVR42m2SW08CMRSE+f//wgffTYw3RNEXA0SiYAIoGgV2uS1sF9ql7fYypiULC2GS5qRt+mV65pSkMlBKwVoLJ1eLKz9zklIijglWlCGhKUiSIooZ4hUFoQxLkqCEgoqQY7gTFwL94Rg/QYhw9IfBYohwOcB0EmI2ixCROUonHZk1rCEHYKcNF7hp9nH12kOtVsd1p45K5wWNZguN91+0g2DrsAgz+huSn0PyM+iscQDkXODpY4T7ToByb4Jqd4q79hSPX2NUPkd47BaA20qhZNmDtHpDJm9h9HDnVAiB+SIGZQyMUWz4BkJwcM79ndsfAI2JoOQDtGpBqzaUfIbW/fzj/tFkFoEka1CW+ha4vrJ044MiK3rs0HpIJi6QiUvv0FqGPCchpE/6WO6dMQbG2H3Ke6iEympQsroLpjg2UmYnJyDXPyDAZ9B7rwiZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 41%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABR0lEQVR42m2SW08CMRSE+f//wgffTYw3RNEXA0SiYAIoGgV2uS1sF9ql7fYypiULC2GS5qRt+mV65pSkMlBKwVoLJ1eLKz9zklIijglWlCGhKUiSIooZ4hUFoQxLkqCEgoqQY7gTFwL94Rg/QYhw9IfBYohwOcB0EmI2ixCROUonHZk1rCEHYKcNF7hp9nH12kOtVsd1p45K5wWNZguN91+0g2DrsAgz+huSn0PyM+iscQDkXODpY4T7ToByb4Jqd4q79hSPX2NUPkd47BaA20qhZNmDtHpDJm9h9HDnVAiB+SIGZQyMUWz4BkJwcM79ndsfAI2JoOQDtGpBqzaUfIbW/fzj/tFkFoEka1CW+ha4vrJ044MiK3rs0HpIJi6QiUvv0FqGPCchpE/6WO6dMQbG2H3Ke6iEympQsroLpjg2UmYnJyDXPyDAZ9B7rwiZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;no_dispose_material.png&quot;
         title=&quot;&quot;
-        src=&quot;/static/68b5ee69bbcb588e0215ebecdefdf4ba/f058b/no_dispose_material_.png&quot;
-        srcset=&quot;/static/68b5ee69bbcb588e0215ebecdefdf4ba/c26ae/no_dispose_material_.png 158w,
-/static/68b5ee69bbcb588e0215ebecdefdf4ba/6bdcf/no_dispose_material_.png 315w,
-/static/68b5ee69bbcb588e0215ebecdefdf4ba/f058b/no_dispose_material_.png 630w,
-/static/68b5ee69bbcb588e0215ebecdefdf4ba/40601/no_dispose_material_.png 945w,
-/static/68b5ee69bbcb588e0215ebecdefdf4ba/78612/no_dispose_material_.png 1260w,
+        src=&quot;/static/68b5ee69bbcb588e0215ebecdefdf4ba/c1b63/no_dispose_material_.png&quot;
+        srcset=&quot;/static/68b5ee69bbcb588e0215ebecdefdf4ba/5a46d/no_dispose_material_.png 300w,
+/static/68b5ee69bbcb588e0215ebecdefdf4ba/0a47e/no_dispose_material_.png 600w,
+/static/68b5ee69bbcb588e0215ebecdefdf4ba/c1b63/no_dispose_material_.png 1200w,
+/static/68b5ee69bbcb588e0215ebecdefdf4ba/d61c2/no_dispose_material_.png 1800w,
 /static/68b5ee69bbcb588e0215ebecdefdf4ba/29114/no_dispose_material_.png 1920w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
@@ -1518,7 +1640,7 @@ chrome expector에서 메모리 누수가 발생하는 것으로 보이지 않�
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1529,20 +1651,19 @@ chrome expector에서 메모리 누수가 발생하는 것으로 보이지 않�
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 44.30379746835443%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABOUlEQVR42nWSC2uDMBzE/f5fq4ONsYJbO2i3UfAVtGoexkcSG2+k1j5se/AnIZBfjst5yhxgjIHTMAx3M507aa1RFgWEqMCrGoxJZHmFggqUvEJeMng4aX55/oCTUgq7OMWOEERJgLCMENMIaZ4gzffYsxTeIyfHMzvcQCfg8ucXH5stkvUKfvAFP/CxWX1jvUzw+ZeNDq8vWRdBIWFyCduZm4cc0A9DvEUhFkGMxY7gNSB4CWK8kxh+mlyA09rzFqas0bMGPW0w9BZTCJ1SCEmBPeUgNEPZlKgURWMYGsMhNZ0BezuCRItedMe91f05U/cpJM1AGUctG7StQttqSNmBixqUyQcOxehwcjnYi0MH7Dp1jshOq7U4nOb+lw92BBbymOe8NsbouzZcy3tWmXl1JqCbZ5118w8iDbvG/fy5GQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 44.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABOUlEQVR42nWSC2uDMBzE/f5fq4ONsYJbO2i3UfAVtGoexkcSG2+k1j5se/AnIZBfjst5yhxgjIHTMAx3M507aa1RFgWEqMCrGoxJZHmFggqUvEJeMng4aX55/oCTUgq7OMWOEERJgLCMENMIaZ4gzffYsxTeIyfHMzvcQCfg8ucXH5stkvUKfvAFP/CxWX1jvUzw+ZeNDq8vWRdBIWFyCduZm4cc0A9DvEUhFkGMxY7gNSB4CWK8kxh+mlyA09rzFqas0bMGPW0w9BZTCJ1SCEmBPeUgNEPZlKgURWMYGsMhNZ0BezuCRItedMe91f05U/cpJM1AGUctG7StQttqSNmBixqUyQcOxehwcjnYi0MH7Dp1jshOq7U4nOb+lw92BBbymOe8NsbouzZcy3tWmXl1JqCbZ5118w8iDbvG/fy5GQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;no_dispose.png&quot;
         title=&quot;&quot;
-        src=&quot;/static/a6b0bdea2b4fa6d18b3856335f541c3a/f058b/no_dispose.png&quot;
-        srcset=&quot;/static/a6b0bdea2b4fa6d18b3856335f541c3a/c26ae/no_dispose.png 158w,
-/static/a6b0bdea2b4fa6d18b3856335f541c3a/6bdcf/no_dispose.png 315w,
-/static/a6b0bdea2b4fa6d18b3856335f541c3a/f058b/no_dispose.png 630w,
-/static/a6b0bdea2b4fa6d18b3856335f541c3a/40601/no_dispose.png 945w,
-/static/a6b0bdea2b4fa6d18b3856335f541c3a/78612/no_dispose.png 1260w,
+        src=&quot;/static/a6b0bdea2b4fa6d18b3856335f541c3a/c1b63/no_dispose.png&quot;
+        srcset=&quot;/static/a6b0bdea2b4fa6d18b3856335f541c3a/5a46d/no_dispose.png 300w,
+/static/a6b0bdea2b4fa6d18b3856335f541c3a/0a47e/no_dispose.png 600w,
+/static/a6b0bdea2b4fa6d18b3856335f541c3a/c1b63/no_dispose.png 1200w,
+/static/a6b0bdea2b4fa6d18b3856335f541c3a/d61c2/no_dispose.png 1800w,
 /static/a6b0bdea2b4fa6d18b3856335f541c3a/29114/no_dispose.png 1920w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
@@ -1563,15 +1684,14 @@ chrome expector에서 메모리 누수가 발생하는 것으로 보이지 않�
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 124.0506329113924%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAYAAAAxFw7TAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABr0lEQVR42q1VyXajMBDkQyZBS2sBJEAotvEyp7nM//9QzWsZj5OXl4vwoWg2lVrq6lJjQoJfVrjlBH+4woQZLh3g8wo3Zbh0hJ0yfL7ApVP5147LFtP2bQX5HkprNOQ8TBdA3fCE759xg+kjyA93uO4ZH2NcB20sGqUUXD6XTPgFz6I0fYr06Vn/8F1DEUGTQUNKIsceYV6gyEBbV4hr0ZBscRws5jmhfX+HkhJyBxotBXJvMU4T2rYFb8EeNEa2OEeHOS3/CXmmakItJVavMMYAKcQuskLIF7IWxMWwbstQ1O8hExRxsrjTsWiKy19dZSMF1rHD5fYbUuldkimEjyqv6wohxC7JlCWTFDgEh/PlUghfIBuBc7C43m67K3yXDbeeaZHnCXwvtyxryRvJg/0A6e6OwhV+kNW1npIYU0Y43eDmD5g+gC2tWFMFyh4eesIYI9q3X1BqZ6ewbD6G771cLZuS4eAwTvNrzIF1eA0WKS2v0SEb6kgC3trNXNUuk20knwdxgY4Z2vXFaXZlyGfKFCOuf/4iHVcosiDf1cuGdei0RAgDvPdfOqVmyf8AwgjGvhUsiLsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 124%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAYAAAAxFw7TAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABr0lEQVR42q1VyXajMBDkQyZBS2sBJEAotvEyp7nM//9QzWsZj5OXl4vwoWg2lVrq6lJjQoJfVrjlBH+4woQZLh3g8wo3Zbh0hJ0yfL7ApVP5147LFtP2bQX5HkprNOQ8TBdA3fCE759xg+kjyA93uO4ZH2NcB20sGqUUXD6XTPgFz6I0fYr06Vn/8F1DEUGTQUNKIsceYV6gyEBbV4hr0ZBscRws5jmhfX+HkhJyBxotBXJvMU4T2rYFb8EeNEa2OEeHOS3/CXmmakItJVavMMYAKcQuskLIF7IWxMWwbstQ1O8hExRxsrjTsWiKy19dZSMF1rHD5fYbUuldkimEjyqv6wohxC7JlCWTFDgEh/PlUghfIBuBc7C43m67K3yXDbeeaZHnCXwvtyxryRvJg/0A6e6OwhV+kNW1npIYU0Y43eDmD5g+gC2tWFMFyh4eesIYI9q3X1BqZ6ewbD6G771cLZuS4eAwTvNrzIF1eA0WKS2v0SEb6kgC3trNXNUuk20knwdxgY4Z2vXFaXZlyGfKFCOuf/4iHVcosiDf1cuGdei0RAgDvPdfOqVmyf8AwgjGvhUsiLsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;spector_no_dispose_material.png&quot;
         title=&quot;&quot;
         src=&quot;/static/0a5e920cb16b9a538b5c017806731dc7/69902/spector_no_dispose_material.png&quot;
-        srcset=&quot;/static/0a5e920cb16b9a538b5c017806731dc7/c26ae/spector_no_dispose_material.png 158w,
-/static/0a5e920cb16b9a538b5c017806731dc7/6bdcf/spector_no_dispose_material.png 315w,
+        srcset=&quot;/static/0a5e920cb16b9a538b5c017806731dc7/5a46d/spector_no_dispose_material.png 300w,
 /static/0a5e920cb16b9a538b5c017806731dc7/69902/spector_no_dispose_material.png 520w&quot;
         sizes=&quot;(max-width: 520px) 100vw, 520px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
@@ -1600,15 +1720,14 @@ It’s Based on the source code of Shattered Pixel Dungeon&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 177.8481012658228%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 177.99999999999997%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAkCAIAAAAGkY33AAAACXBIWXMAAAsTAAALEwEAmpwYAAAHZ0lEQVR42lVVWW8b1xm93GeGw+GQnCFnJTnkLJx9OENqFyVZC7VS+2JJtizJkiUrlre4SeQ2ciLDRmunttO0iBPHrovERVugbZAAaYCiQB+KPvatb33rfyiKPrigFBvIffoe7rk43znnfh+oj/VRDNnWVZmcH2PYrM/nQ5CoZlpFSQ4GQ8FgSFJUVTdgOOoDvlxeMGwHTyRpJl1t9YDtmo6naYY8MNJHpmm/LwDDiFxSc0Ih2DyhfKEoygoEIz6fn2b5km7EsHiKTMglEeB4EgCAIFFF09MUDQCIRKCiJPPZfCAQDASC2bwgFMVIBAIAZChGVjUEQQEAiUQK0DQbj+MUzWqWlcsXkkmColnHqyolPYEnyDStlDTTLjNsliAzkqw6rsfnhJNrAMfxbEFduninUCyOLe1NrN64cPB4592ne4e/nF0/WNp579LRs/07L964/cXw4v6Zqz+59sEfdt97rjq1BI4DBIZykrV58JTNJKfP3Fja+2D97Sey7px/66PdWy9WLt3fvfV87+jXNx5+2zt5wbBat995lmbEUBjGE0lAkmReVLcPX5x98PX6p38b37o9sXLIcez02ltLe4+m1m+tXXmw9aPP9+9+3TVzWR1fXfjFV/EEgSAwzXLAcj3Ltlp6p/qe/3v4Hy/d6ctb++t7BzsrGyu1/iGvrdbSNXhqdGZjb9NoXKp989/+v//HHjxtGJrtVUFOKIbDEZri3bt/bf3jS6Ry/uajCx9/c//u47ffvXflnbtvXDvcPvrZDy7enEXczY4nL7s+/x9bHokEgCDKIJUim/ZEiZFn/5z//UvArl29d2714vzewcb1o+2DO3sHP92/9fDNs5dHQXbi9GcvB2/+K0KIAIBkigTJFAEAgMPh/utHpz/7ilX0xd0Jr1adOzu5cWnh3JXFpa3Jtd35sdkeXyRWGLpuju2gGH4MJgCZpiAYQuH45Jn+yw+W127MruxOL+9MLW01FrcnTl+cmlsfndsYnTk30ljuX9kZae0ysRgOQRCZpgBFsVE0hseJgblTc1cmZq9MzO6MTm/Wp87Xp7bqk2cHpi8MDy12NzaHZi6Oze+Oux1WIkFGUZSiOZA6ph2NYk67WR2wWuvljrrb1mu39zstNbNvpr1t2HXa1Wqn0VYvdwy7oipEUew72onkCTgma2qayvh8vggcESSR47k4jqZInOX5nCDAMBwM+CiGEhUFRWPNbCcJoBmWomol3ShXqobpCKIslTTL9XTLkRRVUlSr7LrVFqlk0FnFsB3Hq6i6qaiaZlqgpBs0wyqqZjpupaW6MD8xOV6fagxPNoazeSEnFNxKJS9pwwPmJ7erpm1aZU9SSjTDaaYNSJICAMTjuGpYckk5uzw11NOp56WBnk4EgQOBYJrhN3auPnl04S8f4YKQVU0bw+IAgHSGOvYaABSNyapWFMX1tbnV5cnB3q7BU90QBCMwtNyTe/r4w2+//PHvDkEuyymaEYu9EuwkJCdgpaTs7axunJs7vTA+NzsaCoWxWPRogv703uFvv/jhl0cgm2W/B6YZDovjZJrSDEuU5LbWSn9/z8xso7WtJY4nkymiTS8szc4sL070eqmcIGimRaYpDMMZhgckmfH7/BiG66aVydBQBJZExau0MlwuHA6HQmFOkPsG6+2dNTQWp2hONUwsjvv9fpLMgEQydewzKqtaoVCodTmdNWd+cbS3pwUAEAoFPT3XYuSLGYhNBHiekVU9Gn01w3L5AkGSHJ8tGVZfd8fo+28uffLx0KP7izsLOIbzhdzNM8M/35h5em3lcL6/rauiGjbHZwmSzOULwHY91TAdr6JZzmi931o9t/PwSXX/cGx9WSspVqVytCb96cOZPz9ZfLQtd9YqhuNZrquZluNVActlm6alqZJhdXe29C1tjO3e6du81ViYCgd8/nD0aiP1m7cyv7qGHS3GC2LRdNwU0XSXy+ZA8iTbaKykGyzH1WpefWx4cXm+pWr5gM/nD7U7XKObGywnrFyIotmSbqAnHyP5yudoNKaZFkGkSZJsjI/29HRzzaEfCAaCXE60vI6W9p5kiiDTmWNw7NjnFMhkaASJJpOEZlosn8WweIZiSrpZECUUxVAUK0qy7Tg0ReFxnOVzqmEmUySCRDMU09wgEQg+AfPZPATBsVhc0XShKCFRNBpFi5IiykosFocgmM/lm+AkEYlATfBr2qph0jR7vKtgUVGzeSHQPMFcoViQ5AjU3FUUw5Y0/TvayRQgyLTf78ewuGZaDMsHAgEEicqqli8UQ6FwOBwWipIol5AoGggEGI5XDQPDmgkjyDSwyq5pO5ZTdryK5Xqm7ZjHtX1cG7Zju57jVUyn/Lq2nLJuWobtAFEuxfFEvijarlfS9EQyxXJZq+zqlkWkM+kMbRw/R7NcIkWohml7Hs3wiiqOTdUBQaQBALEYpps2w/LNniFY0fR8oeD3N5sWRElS1AgEAwAYjtdMC0FiDJc5NdT9WjD0tWBQBJZL3xOsKMkQBPt8PopmDNsuu65hGCMjI/8Hj9SN2SPzN5kAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;main.png&quot;
         title=&quot;&quot;
         src=&quot;/static/4afa26901e026cb7fd07a5f7bca53a3d/29f4e/main.png&quot;
-        srcset=&quot;/static/4afa26901e026cb7fd07a5f7bca53a3d/c26ae/main.png 158w,
-/static/4afa26901e026cb7fd07a5f7bca53a3d/6bdcf/main.png 315w,
+        srcset=&quot;/static/4afa26901e026cb7fd07a5f7bca53a3d/5a46d/main.png 300w,
 /static/4afa26901e026cb7fd07a5f7bca53a3d/29f4e/main.png 506w&quot;
         sizes=&quot;(max-width: 506px) 100vw, 506px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
@@ -1630,15 +1749,14 @@ It’s Based on the source code of Shattered Pixel Dungeon&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 177.8481012658228%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 177.99999999999997%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;about.png&quot;
         title=&quot;&quot;
         src=&quot;/static/b535e09216e86fba85b72cda7dfb5430/29f4e/about.png&quot;
-        srcset=&quot;/static/b535e09216e86fba85b72cda7dfb5430/c26ae/about.png 158w,
-/static/b535e09216e86fba85b72cda7dfb5430/6bdcf/about.png 315w,
+        srcset=&quot;/static/b535e09216e86fba85b72cda7dfb5430/5a46d/about.png 300w,
 /static/b535e09216e86fba85b72cda7dfb5430/29f4e/about.png 506w&quot;
         sizes=&quot;(max-width: 506px) 100vw, 506px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
