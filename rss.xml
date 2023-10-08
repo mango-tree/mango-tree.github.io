@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://mingyu.kim</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 23 Sep 2023 00:47:13 GMT</lastBuildDate><item><title><![CDATA[About]]></title><description><![CDATA[Profile Profile
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://mingyu.kim</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 08 Oct 2023 07:17:34 GMT</lastBuildDate><item><title><![CDATA[About]]></title><description><![CDATA[Profile Profile
 Undergraduate in Computer Science in UNIST UNIST School of Electrical & Computer Engineering (2013 ~) UNIST Computer…]]></description><link>https://mingyu.kim/about/</link><guid isPermaLink="false">https://mingyu.kim/about/</guid><content:encoded>&lt;h3&gt;Profile&lt;/h3&gt;
 &lt;p&gt;Profile
 Undergraduate in Computer Science in &lt;a href=&quot;https://www.unist.ac.kr/&quot;&gt;UNIST&lt;/a&gt;&lt;/p&gt;
@@ -19,7 +19,66 @@ Undergraduate in Computer Science in &lt;a href=&quot;https://www.unist.ac.kr/&q
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2015. 12. 화봉고 동아리 연계 - 진로 설계 게임 &quot;찾job&quot; 제작 &lt;a href=&quot;http://www.readingnews.kr/news/articleView.html?idxno=3109&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2014. 06. International Supercomputing Conference 14 Student Cluster Challenge (ISC 14) &lt;a href=&quot;https://news.unist.ac.kr/kor/20140624-01/&quot;&gt;Finalist&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2014. 04. Asia student Supercomputing Challenge 14 (ASC 14) &lt;a href=&quot;https://news.unist.ac.kr/kor/20140624-01/&quot;&gt;Finalist&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2013. 11. 화봉고 동아리 - 진로 탐색 애플리케이션 제작 &lt;a href=&quot;https://www.nocutnews.co.kr/news/1127142&quot;&gt;link&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Elastic Beanstalk에서 Secret Manager 사용하기]]></title><description><![CDATA[Elastic Beanstalk? 우선 AWS 문서를 보자: Elastic Beanstalk를 사용하면 애플리케이션을 실행하는 인프라에 대해 자세히 알지 못해도 AWS 클라우드에서 애플리케이션을 신속하게 배포하고 관리할 수 있습니다. Elastic…]]></description><link>https://mingyu.kim/elasitcbeanstalk-asm/</link><guid isPermaLink="false">https://mingyu.kim/elasitcbeanstalk-asm/</guid><pubDate>Fri, 22 Sep 2023 09:23:21 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2013. 11. 화봉고 동아리 - 진로 탐색 애플리케이션 제작 &lt;a href=&quot;https://www.nocutnews.co.kr/news/1127142&quot;&gt;link&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Better Uptime! - 더 나은 On-call을 위하여]]></title><description><![CDATA[서비스가 제대로 돌고 있는지 확인하는 방법은 여러 가지가 있다.
+DataDog…]]></description><link>https://mingyu.kim/better-uptime/</link><guid isPermaLink="false">https://mingyu.kim/better-uptime/</guid><pubDate>Sun, 08 Oct 2023 01:25:21 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1024px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d41d8cd98f00b204e9800998ecf8427e/2bef9/better-uptime.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA30lEQVR42mMQklAjGzFQU7OguKqwpLqwpLoImERD+DQLiKvwi6pwC8pz8stxCchxCcjzCivyCClwC8hx8styCcjxCCoIiquiaxaWVOcVVvQOiLWy93FyC/INjPENinH3CTeycHFwDfDyiwwIiXf3DjO39RST0YLrh2oWkVLn4JONiElPSMmzsvdOSssPDk+MistwdA308AnPyCmNisuIjM0ICI2XUtAVEFPB4mxeYSVuQQUeIQUOPpAjOflluQUVeIUVuQTkOPhlIYJYnA1HmIEkDBYUkQIhtDBjGLB4BgDn5UyGLmJm3wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;better-uptime.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/d41d8cd98f00b204e9800998ecf8427e/2bef9/better-uptime.png&quot;
+        srcset=&quot;/static/d41d8cd98f00b204e9800998ecf8427e/5a46d/better-uptime.png 300w,
+/static/d41d8cd98f00b204e9800998ecf8427e/0a47e/better-uptime.png 600w,
+/static/d41d8cd98f00b204e9800998ecf8427e/2bef9/better-uptime.png 1024w&quot;
+        sizes=&quot;(max-width: 1024px) 100vw, 1024px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;서비스가 제대로 돌고 있는지 확인하는 방법은 여러 가지가 있다.
+DataDog 같은 모니터링 서비스들은 왠만하면 다 알림 기능을 제공하고 있고,
+보통 슬랙 / 이메일 등으로 알람이 온다.&lt;/p&gt;
+&lt;p&gt;하지만 단순 알람만으로는 부족하다고 느껴질 때가 있다.
+다들 자고 있는데 서버가 터지면? 회사 슬랙이나 이메일만으로는 대응하기 매우 어렵다.
+그래서 서비스가 장애났을 때 전화를 걸어주는 서비스가 있는지 찾아보았다.&lt;/p&gt;
+&lt;h2&gt;AWS Incident Manager&lt;/h2&gt;
+&lt;p&gt;AWS CloudWatch 또는 Eventbridge에서 문제가 발생했을 때,
+Incident Manager를 통해 자동으로 대응할 수 있다.
+전화번호를 등록하면 전화도 받을 수 있다.&lt;/p&gt;
+&lt;p&gt;다만, 처음 세팅하는 과정이 복잡해서 번거롭고, AWS 의존적이라는 단점이 존재한다.
+원래 AWS를 사용하고 있어서 AWS 의존적이라는 건 큰 문제가 되지 않았으나,
+처음 만져보니 감이 잘 안 잡혀서 작업하다 열심히 헤매던 도중, 새 서비스를 사용하기로 했다.&lt;/p&gt;
+&lt;h2&gt;Better Uptime&lt;/h2&gt;
+&lt;p&gt;이번에 찾은 서비스는 Better Stack이란 회사에서 제공하는 &lt;a href=&quot;https://betterstack.com/uptime&quot;&gt;Better Uptime&lt;/a&gt;이라는 서비스이다.
+Better Stack은 2021년에 창업한 신생 회사인데, &lt;a href=&quot;https://betterstack.com/press/series-a/&quot;&gt;22년 7월 경 $18.6M 시리즈A 투자를 받았다&lt;/a&gt;(부럽다).
+DataDog 대항마 느낌으로 푸시를 받고 있는 듯 하다.&lt;/p&gt;
+&lt;p&gt;Better Uptime은 서비스가 제대로 작동 중인지 모니터링 할 수 있는 서비스이다.
+모니터링할 URL을 넣어주면 끝. 아주 간단하게 사용할 수 있다.&lt;/p&gt;
+&lt;p&gt;그리고 모니터링 하는 서비스에 이상이 생기면 알람을 해 주는데,
+이 때 &lt;strong&gt;전화&lt;/strong&gt; / SMS / Email / 앱 noti 중에서 어떤 걸로 보내줄 지 고를 수 있다.
+그렇다. 국제전화로 알람을 받을 수 있다!
+프로필에 전화번호 등록을 해 놓으면 간단하게 받을 수 있다.
+다른 On-call 서비스처럼 스케줄링 등의 서비스도 당연히 지원한다.
+간단하게 모니터링 서비스를 붙이고 싶을 때 꽤나 괜찮은 도구라고 생각한다.
+스타트업에서 사용하기 딱 좋은 서비스인듯.&lt;/p&gt;
+&lt;h2&gt;Reference&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://aws.amazon.com/ko/about-aws/whats-new/2021/05/introducing-incident-manager-aws-systems-manager/&quot;&gt;https://aws.amazon.com/ko/about-aws/whats-new/2021/05/introducing-incident-manager-aws-systems-manager/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://betterstack.com/press/series-a/&quot;&gt;https://betterstack.com/press/series-a/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Elastic Beanstalk에서 Secret Manager 사용하기]]></title><description><![CDATA[Elastic Beanstalk? 우선 AWS 문서를 보자: Elastic Beanstalk를 사용하면 애플리케이션을 실행하는 인프라에 대해 자세히 알지 못해도 AWS 클라우드에서 애플리케이션을 신속하게 배포하고 관리할 수 있습니다. Elastic…]]></description><link>https://mingyu.kim/elasitcbeanstalk-asm/</link><guid isPermaLink="false">https://mingyu.kim/elasitcbeanstalk-asm/</guid><pubDate>Fri, 22 Sep 2023 09:23:21 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
     &gt;
