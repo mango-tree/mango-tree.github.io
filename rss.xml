@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://mingyu.kim</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 08 Oct 2023 07:20:11 GMT</lastBuildDate><item><title><![CDATA[About]]></title><description><![CDATA[Profile Profile
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://mingyu.kim</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 10 Nov 2023 01:26:11 GMT</lastBuildDate><item><title><![CDATA[About]]></title><description><![CDATA[Profile Profile
 Undergraduate in Computer Science in UNIST UNIST School of Electrical & Computer Engineering (2013 ~) UNIST Computer…]]></description><link>https://mingyu.kim/about/</link><guid isPermaLink="false">https://mingyu.kim/about/</guid><content:encoded>&lt;h3&gt;Profile&lt;/h3&gt;
 &lt;p&gt;Profile
 Undergraduate in Computer Science in &lt;a href=&quot;https://www.unist.ac.kr/&quot;&gt;UNIST&lt;/a&gt;&lt;/p&gt;
@@ -19,7 +19,119 @@ Undergraduate in Computer Science in &lt;a href=&quot;https://www.unist.ac.kr/&q
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2015. 12. 화봉고 동아리 연계 - 진로 설계 게임 &quot;찾job&quot; 제작 &lt;a href=&quot;http://www.readingnews.kr/news/articleView.html?idxno=3109&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2014. 06. International Supercomputing Conference 14 Student Cluster Challenge (ISC 14) &lt;a href=&quot;https://news.unist.ac.kr/kor/20140624-01/&quot;&gt;Finalist&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2014. 04. Asia student Supercomputing Challenge 14 (ASC 14) &lt;a href=&quot;https://news.unist.ac.kr/kor/20140624-01/&quot;&gt;Finalist&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2013. 11. 화봉고 동아리 - 진로 탐색 애플리케이션 제작 &lt;a href=&quot;https://www.nocutnews.co.kr/news/1127142&quot;&gt;link&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Better Uptime! - 더 나은 On-call을 위하여]]></title><description><![CDATA[서비스가 제대로 돌고 있는지 확인하는 방법은 여러 가지가 있다.
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;2013. 11. 화봉고 동아리 - 진로 탐색 애플리케이션 제작 &lt;a href=&quot;https://www.nocutnews.co.kr/news/1127142&quot;&gt;link&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Prisma는 process.env를 강제로 덮어씌운다.]]></title><description><![CDATA[사건의 발단 prisma 작업을 하고 있을 때의 일이다.
+ prisma 코드만 따로 패키징을 해서 돌려보는데, 자꾸 env 관련 문제가 생겼다.
+env에 넣어둔 값을 찾을 수 없다며 오류를 내게 된 것이다. 난 분명 env…]]></description><link>https://mingyu.kim/prisma-overwrite-env/</link><guid isPermaLink="false">https://mingyu.kim/prisma-overwrite-env/</guid><pubDate>Thu, 09 Nov 2023 01:50:21 GMT</pubDate><content:encoded>&lt;h2&gt;사건의 발단&lt;/h2&gt;
+&lt;p&gt;prisma 작업을 하고 있을 때의 일이다.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 480px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1ef5b96fc29db37dad3af03ba1cef692/e85cb/slack.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 23.666666666666668%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA40lEQVR42p2Qy26DMBBF+f//6KKbfksUqQ+JigRCYmODH4BNCQ6nglUXVRcdaTSaq9Hcq5O9vR4xxtA0DdM0EWNkXVf+W9nL8xOfec7xcKCuSlQj8dbSe0erFUPfM4XAFAPWmF23ptvv2rZFCLGH6bqOeZ7J0pKQZkCanpNwlNJyUZZKGs43RXnTFHWzz/x8pRLbLnkvamrR7CbbM+ccKSWyLaYxHqE8Sp9QRiOvFUprRDcgOo+LCz7e8dOCDXfC/MDGhfQLmWzTUhz5GkYeoWCJGnf5IFhB3w/EcfiD2Lrz/tnfrS9/FacpmFMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;slack&quot;
+        title=&quot;&quot;
+        src=&quot;/static/1ef5b96fc29db37dad3af03ba1cef692/e85cb/slack.png&quot;
+        srcset=&quot;/static/1ef5b96fc29db37dad3af03ba1cef692/5a46d/slack.png 300w,
+/static/1ef5b96fc29db37dad3af03ba1cef692/e85cb/slack.png 480w&quot;
+        sizes=&quot;(max-width: 480px) 100vw, 480px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;prisma 코드만 따로 패키징을 해서 돌려보는데, 자꾸 env 관련 문제가 생겼다.
+env에 넣어둔 값을 찾을 수 없다며 오류를 내게 된 것이다. 난 분명 env 파일을 넣어 뒀는데?&lt;/p&gt;
+&lt;h2&gt;무슨 일이 일어나고 있나요?&lt;/h2&gt;
+&lt;p&gt;그래서 .env 파일을 이곳저곳에 넣어보다가,
+process.env가 Prisma가 있는 패키지에서 가져오는 env만 자꾸 가져온다는 사실을 알게 되었다.&lt;/p&gt;
+&lt;p&gt;그렇다. prisma를 가져올 때면 해당 패키지 path에 있는 .env 파일을 가져와서 process.env에 넣어버린다.
+만약 .env 파일이 없다면? process.env에는 &lt;strong&gt;아무 값도 없게 된다!&lt;/strong&gt;
+전에는 패키지 안에 Prisma가 있었기 때문에 상관 없었지만, 분리하면서 문제가 생기게 된 것이다.&lt;/p&gt;
+&lt;p&gt;관련해서 &lt;a href=&quot;https://github.com/prisma/prisma/issues/15620&quot;&gt;깃헙 이슈&lt;/a&gt;도 &lt;a href=&quot;https://github.com/prisma/prisma/issues/16890&quot;&gt;몇 개&lt;/a&gt; 있었다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/70fb240c88a5e0b5475df016b3b8ed9b/afa26/issue1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 49.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABmklEQVR42m2S227UMBiE8/4vxA2XvUCCSgguQKWrFgmxOTh2HMdnez8Up7usEJFGYzvRZOYfd0oohvPI73PPJGaklAgxM887JFItjZVUKKUQk2jvh3FimmaUWnCb5dvwzPfxRPf+6wOPT19YF8OiV2KMeO8JIbR1SpmU0g3H2cHXNfXC0/TCs3il+/TzM6/zL3Iq+BAaYkzEJpC5XC7/gMb3z/2+G04nttUilWZzHusDIWZyqaRciKkQr5zyHSe8s0A9RGlG6UqtaK3p+x5jTItrN4sxG947gvc4a/HOtTEEH97iJvrJsqyJkhPZ99Ti6XZ1ax3LsrQCRrkhpGYWos3U+IJxB/zu/m0kdlv4+OEdP14k0Vv8/ECN0yG4t9efe4ZxZBgFUiqmaWrtLtqgV3OwXtuZtZZSEjXpW9wrN8E98u7wiGpuLea94b3Ja6MxNYc5Z0qpWBdvJV1qadwEow9sxrK50D4Ku9B9IXdIueLDLhybkf3ntf69BU3QW4cQknnWiHlhVhq9eVxI/4X1kZTzUVIIlFJugn8AjUgFv+aA+JAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;issue1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/70fb240c88a5e0b5475df016b3b8ed9b/c1b63/issue1.png&quot;
+        srcset=&quot;/static/70fb240c88a5e0b5475df016b3b8ed9b/5a46d/issue1.png 300w,
+/static/70fb240c88a5e0b5475df016b3b8ed9b/0a47e/issue1.png 600w,
+/static/70fb240c88a5e0b5475df016b3b8ed9b/c1b63/issue1.png 1200w,
+/static/70fb240c88a5e0b5475df016b3b8ed9b/afa26/issue1.png 1258w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+(마법적으로 .env를 덮어쓴다. 와!)&lt;/p&gt;
+&lt;p&gt;그렇다. Opened issue다.
+이 이슈 외에도 많은 사람들이 이의를 제기했고,
+시간이 많이 지났음에도 진전된 사항이 없다.
+Prisma쪽에서는 해당 이슈를 고칠 생각이 없는 건가?&lt;/p&gt;
+&lt;p&gt;그렇다!&lt;/p&gt;
+&lt;h2&gt;왜???&lt;/h2&gt;
+&lt;p&gt;위의 이슈도 1년 간 열려있는 걸 보면 고칠 생각이 없다는 걸 알 수 있는데,
+&lt;a href=&quot;https://www.prisma.io/docs/guides/development-environment/environment-variables/managing-env-files-and-setting-variables&quot;&gt;다음 글&lt;/a&gt;을 보면 Prisma 팀의 확고한 의지를 알 수 있다.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 707px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABo0lEQVR42p2SW28TMRCF9///GoTErQkkNKFpK0CAxAPQNtBssvdLdnd8W9sHedIkzzDSpzNjW8ezno1G62BGC2sdnPOwznMd8oAHeC2cc96fzhzD+3MeIqrqBj9+PSBJc8TbBOs/MYqqwS7JsIkT/LxbI80K7NKc6+0uxf36EUmaQSl1Mj0aR3leYPZ+icWHazx7/hIX0xk+fv6Cq9Utbm4/4WI65/xyucJsvsTl4grTt3O8eDXB12/f2cQ5dzKNuq7H6voGk8k7vH4zwWy+ABHhfyMSesT9JsdDnOPuMcPvbYay7bGXFnsxoiXDlP1BhZAgEsxAxHXQUHOHJDWSqkdaD0iqAUXTI05LxMUeeUvolWPzmiw6aaG05reTUrGZUppVPr1nBHgYrSCIIIVANxD6gSBogJKC945opdjsiA7mUkCrQ9fGGERhNuGGtm1RNweaQN2gKCumrGrkRclaBOW1CnlZY1N0TGjCWhs6BDqhsasFNiUhqzsk5R570jBacxfh5rMa1oDSBmQ8SLvzUPiTrYfQjjektiBpMLp/HO/Tb/MXNRn8xKfmWR4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;prisma&quot;
+        title=&quot;&quot;
+        src=&quot;/static/2ac62272ab5c058f6d449e12c425a529/394f7/prisma.png&quot;
+        srcset=&quot;/static/2ac62272ab5c058f6d449e12c425a529/5a46d/prisma.png 300w,
+/static/2ac62272ab5c058f6d449e12c425a529/0a47e/prisma.png 600w,
+/static/2ac62272ab5c058f6d449e12c425a529/394f7/prisma.png 707w&quot;
+        sizes=&quot;(max-width: 707px) 100vw, 707px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;
+정말 놀라운 점은, 문서에 &quot;.env 파일을 사용하지 말 것&quot; 이라고 당당히 붙여놓았다는 점이다.&lt;/p&gt;
+&lt;p&gt;따라서, 결국 prisma는 .env 관련 설정들을 제공할 생각이 없고, 우리는 다른 방법을 생각해야 한다.&lt;/p&gt;
+&lt;h2&gt;어떻게 해결하지?&lt;/h2&gt;
+&lt;p&gt;사실 해결책은 어이없을 정도로 간단한데, &lt;code&gt;dotenv-cli&lt;/code&gt; 등의 패키지로 env를 넣으면 된다.&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;bash&quot;  &gt;
+          &lt;code slot=&quot;code&quot;&gt;dotenv -e .env -- pnpm dev&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;이러면 .env 파일을 읽는 것이 아닌, system environment로 nodejs에 들어가게 되기 때문이다.&lt;/p&gt;
+&lt;p&gt;아니면 Prisma import 뒤에 dotenv 등으로 로드하면 되는데, 이건 코드 중간에 집어넣어야 하므로 별로인 것 같아 패스.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Better Uptime! - 더 나은 On-call을 위하여]]></title><description><![CDATA[서비스가 제대로 돌고 있는지 확인하는 방법은 여러 가지가 있다.
 DataDog…]]></description><link>https://mingyu.kim/better-uptime/</link><guid isPermaLink="false">https://mingyu.kim/better-uptime/</guid><pubDate>Sun, 08 Oct 2023 01:25:21 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1024px; &quot;
